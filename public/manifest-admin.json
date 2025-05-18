@@ -1,0 +1,12 @@
+{
+  "name": "École La Tour Eiffel – Admin",
+  "short_name": "AdminETL",
+  "start_url": "/adminETL",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    { "src": "/lok.png", "type": "image/png", "sizes": "192x192" },
+    { "src": "/lok.png", "type": "image/png", "sizes": "512x512" }
+  ]
+}

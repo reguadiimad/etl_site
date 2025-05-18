@@ -1,0 +1,68 @@
+{
+    "contact_us": {
+      "ar": "اتصل بنا",
+      "fr": "Contactez-nous",
+      "en": "Contact us"
+    },
+    "title": {
+      "ar": "لديك فكرة؟ او سؤال؟ <span class='text-blue-500 font-bold'>نحن دائما موجودين </span>",
+      "fr": "Une idée ? Une question ? <span class='text-blue-500 font-bold'>On est toujours là</span>",
+      "en": "Got an idea? A question? <span class='text-blue-500 font-bold'>We're always here</span>"
+    },
+    "intro": {
+      "ar": "نحن دائمًا سعداء بالتحدث معكم حول مستقبل أطفالكم. في <span class='font-semibold'>برج إيفل</span>، كل زيارة، مكالمة أو رسالة هي فرصة لبناء مستقبل واعد سويًا.",
+      "fr": "Nous sommes toujours ravis d’échanger avec vous à propos de l’avenir de vos enfants. À <span class='font-semibold'>La Tour Eiffel</span>, Chaque visite, appel ou message est une opportunité précieuse de construire un avenir prometteur ensemble",
+      "en": "We're always happy to talk to you about your children's future. At <span class='font-semibold'>La Tour Eiffel</span>, every visit, call or message is a valuable opportunity to build a promising future together."
+    },
+    "address": {
+      "ar": "حي الحدائق، عمارة شالة، حي الولاء – سيدي مومن، الدار البيضاء، المغرب، 20402",
+      "fr": "Lotissement Al Hadika, Imm. Chellah, Hay Al Walaa – Sidi Moumen, Casablanca, Morocco, 20402",
+      "en": "Lotissement Al Hadika, Imm. Chellah, Hay Al Walaa – Sidi Moumen, Casablanca, Morocco, 20402"
+    },
+    "phone": {
+      "ar": "05 22 70 58 58 / 06 61 05 89 77",
+      "fr": "05 22 70 58 58 / 06 61 05 89 77",
+      "en": "05 22 70 58 58 / 06 61 05 89 77"
+    },
+    "email": {
+      "ar": "ecoleslatoureiffel@gmail.com",
+      "fr": "ecoleslatoureiffel@gmail.com",
+      "en": "ecoleslatoureiffel@gmail.com"
+    },
+    "quick_response": {
+      "ar": "ردود سريعة",
+      "fr": "Réponses rapides",
+      "en": "Quick responses"
+    },
+    "quick_response_note": {
+      "ar": "احصل على رد في بضع دقائق.",
+      "fr": "Obtenez une réponse en quelques minutes.",
+      "en": "Get a response within minutes."
+    },
+    "support": {
+      "ar": "دعم 8 ساعات",
+      "fr": "Support 8h",
+      "en": "8h Support"
+    },
+    "support_note": {
+      "ar": "متوفر كل يوم من 9 صباحًا إلى 5 مساءً.",
+      "fr": "Disponible tous les jours de 9h à 17h.",
+      "en": "Available daily from 9AM to 5PM."
+    },
+    "solution": {
+      "ar": "حلول مثالية",
+      "fr": "Solution idéales",
+      "en": "Ideal solutions "
+    },
+    "solution_note": {
+      "ar": "حلول تتناسب مع احتياجاتكم.",
+      "fr": "Des solutions adaptées à vos besoins.",
+      "en": "Solutions tailored to your needs."
+    },
+    "find_us": {
+      "ar": "اعثر علينا على الخريطة",
+      "fr": "Trouver nous sur Votre Map",
+      "en": "Find us on your Map"
+    }
+  }
+  

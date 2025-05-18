@@ -1,0 +1,55 @@
+{
+    "step": {
+      "label": {
+        "fr": "Étape",
+        "en": "Step",
+        "ar": "المرحلة"
+      }
+    },
+    "titles": [
+      {
+        "fr": "Le Responsable",
+        "en": "The Guardian",
+        "ar": "ولي الأمر"
+      },
+      {
+        "fr": "Élève",
+        "en": "Student",
+        "ar": "التلميذ"
+      },
+      {
+        "fr": "Conditions",
+        "en": "Conditions",
+        "ar": "الشروط"
+      },
+      {
+        "fr": "Envois",
+        "en": "Submission",
+        "ar": "الإرسال"
+      }
+    ],
+    "previousButtons": [
+      {
+        "fr": "Responsable",
+        "en": "Guardian",
+        "ar": "ولي الأمر"
+      },
+      {
+        "fr": "Élève",
+        "en": "Student",
+        "ar": "التلميذ"
+      },
+      {
+        "fr": "Conditions",
+        "en": "Conditions",
+        "ar": "الشروط"
+      }
+    ],
+   "description": {
+  "fr": "Veuillez renseigner toutes les informations personnelles du responsable de l’élève et de l’élève lui-même en français. Vous devez également accepter les conditions générales avant d'envoyer votre inscription.",
+  "en": "Please fill in all the personal information of the student's guardian and the student himself in French. You must also accept the terms and conditions before submitting your registration.",
+  "ar": "يرجى ملء جميع المعلومات الشخصية لولي أمر التلميذ وللتلميذ نفسه باللغة الفرنسية. يجب أيضًا قبول الشروط والأحكام قبل إرسال تسجيلك."
+}
+
+  }
+  

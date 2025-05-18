@@ -1,0 +1,95 @@
+{
+  "title": {
+    "fr": "La Maternelle",
+    "en": "Kindergarten",
+    "ar": "رياض الأطفال"
+  },
+  "subtitle": {
+    "fr": "Un environnement d’apprentissage idéal pour les tout-petits",
+    "en": "An ideal learning environment for young children",
+    "ar": "بيئة تعليمية مثالية تساهم في تنمية وتطوير الأطفال الصغار"
+  },
+  "description": {
+    "fr": "Découvrez une maternelle où chaque enfant grandit, apprend et s’épanouit dans un cadre bienveillant et stimulant",
+    "en": "Discover a kindergarten where each child grows, learns, and thrives in a caring and stimulating environment",
+    "ar": "اكتشف روضة أطفال متميزة حيث ينمو كل طفل ويتعلم في بيئة مليئة بالرعاية والاهتمام، تساعده على التطور والازدهار بشكل طبيعي"
+  },
+  "explication": {
+    "fr": "La maternelle est une étape cruciale dans la vie de votre enfant. C’est ici que les bases de son éducation sont posées. C’est pourquoi nous mettons tout en œuvre pour offrir à votre enfant un environnement d’apprentissage idéal, où il pourra grandir, apprendre et s’épanouir. Voici quelques-uns des avantages de notre maternelle :",
+    "en": "Kindergarten is a crucial stage in your child's life. This is where the foundations of their education are laid. That’s why we do everything we can to provide your child with an ideal learning environment, where they can grow, learn, and thrive. Here are some of the benefits of our kindergarten:",
+    "ar": "تُعد رياض الأطفال مرحلة حاسمة في حياة طفلك، حيث يتم وضع الأسس الأولى لتعلمه وتطوره. لهذا السبب، نحرص على توفير بيئة تعليمية مثالية تجمع بين الأمان والتحفيز والإبداع، مما يساعد طفلك على النمو والتعلم والازدهار. إليك بعض المزايا التي تقدمها روضتنا:"
+  },
+  "benefit1": {
+    "title": {
+      "fr": "Apprentissage Ludique & Pédagogie Active",
+      "en": "Playful Learning & Active Pedagogy",
+      "ar": "التعلم باللعب وأساليب التربية النشطة"
+    },
+    "description": {
+      "fr": "Des méthodes innovantes pour éveiller la curiosité et favoriser l’autonomie dès le plus jeune âge",
+      "en": "Innovative methods to spark curiosity and foster independence from an early age",
+      "ar": "نعتمد على أساليب تعليمية مبتكرة تهدف إلى إثارة فضول الأطفال وتعزيز روح الاستقلالية لديهم منذ نعومة أظافرهم، مما يجعل التعلم ممتعًا وفعّالًا"
+    }
+  },
+  "benefit2": {
+    "title": {
+      "fr": "Environnement Bienveillant & Sécurisé",
+      "en": "Caring & Secure Environment",
+      "ar": "بيئة آمنة ومليئة بالاهتمام والرعاية"
+    },
+    "description": {
+      "fr": "Un cadre chaleureux où chaque enfant est accompagné dans son développement personnel et social",
+      "en": "A warm environment where each child is supported in their personal and social development",
+      "ar": "نوفر بيئة دافئة وآمنة يشعر فيها كل طفل بالراحة والدعم أثناء تطوره الشخصي والاجتماعي، مما يعزز ثقته بنفسه ويساعده على بناء علاقات إيجابية مع الآخرين"
+    }
+  },
+  "benefit3": {
+    "title": {
+      "fr": "Éveil aux Langues & Ouverture sur le Monde",
+      "en": "Language Awareness & Global Exposure",
+      "ar": "تنمية مهارات اللغات والانفتاح على العالم"
+    },
+    "description": {
+      "fr": "Une immersion précoce dans plusieurs langues pour préparer les citoyens de demain",
+      "en": "Early immersion in multiple languages to prepare future global citizens",
+      "ar": "نوفر للطفل فرصة الانغماس المبكر في لغات متعددة، مما يساعده على تنمية مهاراته اللغوية ويهيئه ليكون فردًا منفتحًا على الثقافات المختلفة ومستعدًا لمستقبل مليء بالفرص"
+    }
+  },
+  "highlight": {
+    "title": {
+      "fr": "Une Maternelle Pensée pour l’Épanouissement des Enfants",
+      "en": "A Kindergarten Designed for Children's Growth",
+      "ar": "روضة أطفال مصممة خصيصًا لنمو وتطور الأطفال"
+    },
+    "description": {
+      "fr": "À Écoles La Tour Eiffel, nous offrons un cadre éducatif bienveillant où chaque enfant peut grandir en confiance. Grâce à une pédagogie innovante, un environnement sécurisé et un éveil aux langues, nos tout-petits développent leurs compétences tout en s’amusant. Chaque jour est une nouvelle aventure d’apprentissage et de découverte !",
+      "en": "At Écoles La Tour Eiffel, we provide a nurturing educational environment where every child can grow with confidence. Through innovative teaching methods, a safe environment, and language immersion, our little ones develop their skills while having fun. Each day is a new learning and discovery adventure!",
+      "ar": "في مدارس لا تور إيفل، نوفر بيئة تعليمية داعمة ومشجعة حيث يمكن لكل طفل أن ينمو بثقة ويتعلم بأساليب حديثة وممتعة. بفضل طرق تعليمية مبتكرة، وبيئة آمنة، وفرص للانغماس في اللغات، يتمكن أطفالنا الصغار من تطوير مهاراتهم أثناء الاستمتاع بالتعلم. كل يوم هو مغامرة جديدة مليئة بالاكتشاف والتجارب الشيقة!"
+    },
+    "sub_description": {
+      "fr": "Un cadre éducatif pour apprendre en toute sérénité",
+      "en": "An educational environment for peaceful learning",
+      "ar": "نوفر بيئة تعليمية هادئة تساعد الطفل على التعلم براحة وثقة"
+    }
+  },
+  "testimonials": {
+    "fr": "Chaque jour, mon enfant rentre avec un sourire et des étoiles dans les yeux",
+    "en": "Every day, my child comes home with a smile and stars in their eyes",
+    "ar": "كل يوم يعود طفلي إلى المنزل بابتسامة مشرقة وعينين مليئتين بالحماس والسعادة"
+  },
+  "testimonials_author": {
+    "fr": "Parent d’un élève",
+    "en": "Parent of a student",
+    "ar": "ولي أمر أحد الطلاب السعداء بتجربتهم"
+  },
+  "image_gallery_title": {
+    "fr": "Maternelle en Images",
+    "en": "Kindergarten in Pictures",
+    "ar": "رياض الأطفال بعدسة الصور"
+  },
+  "more_photos": {
+    "fr": "Voir Plus+",
+    "en": "See More+",
+    "ar": "استكشاف المزيد من الصور+"
+  }
+}

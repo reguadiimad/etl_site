@@ -1,0 +1,152 @@
+[
+    {
+        "title1": {
+            "ar": "مجموعة مدارس لا تور إيفل",
+            "fr": "le Groupe Scolaire La Tour Eiffel",
+            "en": "The La Tour Eiffel School Group"
+        },
+        "title2": {
+            "ar": "توفر  خدمة",
+            "fr": "propose un service de",
+            "en": "offers a service of"
+        },
+        "boldTitle": {
+            "ar": "الحضانة",
+            "fr": "Garderie",
+            "en": "Daycare"
+        },
+        "paragraph": {
+            "ar": "رعايه و امان من بداية اليوم وحتى نهايته مصحوبًا ببرنامج من الأنشطة  المتاحة هذه الخدمة مقدمة من قبل محترفين و مربيات لهم خبرة كبير في التعامل مع اطفالكم",
+            "fr": "de Début et en fin de journée, accompagné d’un programme d’animations et ce dans la limite des places d’accueil disponibles. Cette prestation est assurée par des professionnels.",
+            "en": "at the beginning and end of the day, with an activity program, within the limits of available places. This service is provided by professionals."
+        },
+        "images": "/images/abc.webp",
+        "metrics": {
+            "totalSessions": {
+                "ar": "عدد الأطفال المسجلين",
+                "fr": "Nombre d'enfants inscrits",
+                "en": "Kids Enrolled",
+                "value": "+150"
+            },
+            "totalHours": {
+                "ar": "عدد ساعات الرعاية",
+                "fr": "Heures de garde",
+                "en": "Care Hours",
+                "value": 8
+            }
+        }
+    },
+    {
+        "title1": {
+            "ar": "مجموعة مدارس لا تور إيفل",
+            "fr": "le Groupe Scolaire La Tour Eiffel",
+            "en": "The La Tour Eiffel School Group"
+        },
+        "title2": {
+            "ar": "توفر خدمة",
+            "fr": "met à disposition un service de",
+            "en": "provides a service of"
+        },
+        "boldTitle": {
+            "ar": "النقل",
+            "fr": "Transports",
+            "en": "Transportation"
+        },
+        "paragraph": {
+            "ar": "لتسهيل التنقل اليومي للطلاب، مع مسارات آمنة ومناسبة. يتم إدارة هذه الخدمة من قبل سائقين محترفين يلتزمون بمعايير السلامة",
+            "fr": "pour faciliter les trajets quotidiens des élèves, avec des circuits sécurisés et adaptés. Cette prestation est gérée par des conducteurs expérimentés et respectueux des normes de sécurité.",
+            "en": "to facilitate students' daily commutes, with safe and adapted routes. This service is managed by experienced drivers who comply with safety standards."
+        },
+        "images": "/images/transport.webp",
+        "metrics": {
+            "totalSessions": {
+                "ar": "عدد الرحلات اليومية",
+                "fr": "Nombre de trajets quotidiens",
+                "en": "Daily Routes",
+                "value": 4
+            },
+            "totalHours": {
+                "ar": "عدد حافلات النقل",
+                "fr": "Heures de transport",
+                "en": "Transportation Hours",
+                "value": "+20"
+            }
+        }
+    },
+    {
+        "title1": {
+            "ar": "مجموعة مدارس لا تور إيفل",
+            "fr": "le Groupe Scolaire La Tour Eiffel",
+            "en": "The La Tour Eiffel School Group"
+        },
+        "title2": {
+            "ar": "توفر لطلابها خدمة",
+            "fr": "offre à ses élèves un service de",
+            "en": "offers its students a service of"
+        },
+        "boldTitle": {
+            "ar": "المقصف",
+            "fr": "Cantine",
+            "en": "Canteen"
+        },
+        "paragraph": {
+            "ar": "مع وجبات متوازنة ومتنوعة يتم إعدادها في الموقع من قبل فريق محترف. هذه الخدمة تهدف إلى تلبية الاحتياجات الغذائية للأطفال في بيئة ودية وآمنة",
+            "fr": "avec des repas équilibrés et variés, préparés sur place par une équipe professionnelle. Ce service veille à répondre aux besoins nutritionnels des enfants dans un cadre convivial et sécurisé.",
+            "en": "with balanced and varied meals prepared on-site by a professional team. This service aims to meet children's nutritional needs in a friendly and safe environment."
+        },
+        "images": "/images/cantine.webp",
+        "metrics": {
+            "totalSessions": {
+                "ar": "عدد الوجبات اليومية",
+                "fr": "Nombre de repas quotidiens",
+                "en": "Daily Meals",
+                "value": 3
+            },
+            "totalHours": {
+                "ar": "عدد ساعات الخدمة",
+                "fr": "Heures de service",
+                "en": "Service Hours",
+                "value":10
+            }
+        }
+    },
+    {
+        "title1": {
+            "ar": "مجموعة مدارس لا تور إيفل",
+            "fr": "le Groupe Scolaire La Tour Eiffel",
+            "en": "The La Tour Eiffel School Group"
+        },
+        "title2": {
+            "ar": "تشجع طلابها على المشاركة في أنشطة",
+            "fr": "encourage ses élèves à participer à des activités et",
+            "en": "encourages its students to participate in activities and"
+        },
+        "boldTitle": {
+            "ar": "",
+            "fr": "Clubs",
+            "en": "Clubs"
+        },
+        "paragraph": {
+            "ar": "مثل كرة القدم وكرة السلة والرسم وغيرها. تتيح هذه الأنشطة تنمية مواهب وشغف الطلاب في بيئة محفزة وموجهة",
+            "fr": "comme le football, le basketball, le dessin, et bien plus encore. Ces activités permettent de développer les talents et passions des élèves dans un environnement stimulant et encadré.",
+            "en": "such as football, basketball, drawing, and more. These activities help develop students' talents and passions in a stimulating and supervised environment."
+        },
+        "images": "/images/clubs.webp",
+        "metrics": {
+            "totalSessions": {
+                "ar": "عدد الأنشطة اليومية",
+                "fr": "Nombre d'activités quotidiennes",
+                "en": "Daily Activities",
+                "value": 4
+            },
+            "totalHours": {
+                "ar": "عدد ساعات الأنشطة",
+                "fr": "Heures d'activités",
+                "en": "Activity Hours",
+                "value": 8
+            }
+        }
+       
+        
+    }
+]

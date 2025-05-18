@@ -1,0 +1,173 @@
+{
+    "fr": {
+        
+      "services": [
+        {
+          "title": "App Mobile",
+          "title0": "Application Mobile des Écoles La Tour Eiffel",
+          "description": "L'innovation éducative à portée de main",
+          "image":"/images/srv_phn"
+        },
+        {
+          "title": "Transports",
+          "title0": "Service de transport scolaire sécurisé",
+          "description": "Transport pour un parcours sécurisé"
+        },
+        {
+          "title": "Cantine",
+          "title0": "Repas équilibrés pour vos enfants",
+          "description": "Des repas sains et savoureux"
+        },
+        {
+          "title": "Clubs",
+          "title0": "Activités extrascolaires variées",
+          "description": "Explorez des clubs adaptés aux passions de vos enfants"
+        },
+        {
+          "title": "Infirmerie",
+          "title0": "Un espace médical à disposition",
+          "description": "Soins et suivi médical pour les élèves"
+        },
+        {
+          "title": "Autre",
+          "title0": "Autres services pour les élèves",
+          "description": "Des services supplémentaires adaptés aux besoins"
+        }
+      ],
+      "heading": {
+        "subtitle": "Des services adaptés pour une expérience éducative enrichissante",
+        "mainTitle": "Un Environnement Scolaire Complet"
+      },
+      "rightSection": {
+        "intro": "Des solutions complètes pour soutenir l’épanouissement de chaque élève",
+        "heading": "Nos Services d’Accompagnement",
+        "paragraph": "Aux Écoles La Tour Eiffel, chaque service est conçu pour offrir un cadre propice à l’apprentissage et au bien-être de nos élèves. Nous vous proposons une gamme de prestations pensées pour répondre aux besoins quotidiens et favoriser un développement harmonieux",
+        "points": [
+          "Accès instantané aux informations essentielles.",
+          "Trajets sûrs et ponctuels pour un départ serein.",
+          "Repas équilibrés et gourmands pour bien démarrer la journée.",
+          "Soins rapides et attentionnés pour garantir le bien-être.",
+          "Activités stimulantes pour révéler les talents.",
+          "Initiatives sur mesure pour enrichir le quotidien."
+        ],
+        "button": "En Savoir Plus"
+      },
+      "buttons": {
+        "voir": "Voir +"
+      }
+    },
+    "en": {
+      "services": [
+        {
+          "title": "Mobile App",
+          "title0": "Mobile Application for Écoles La Tour Eiffel",
+          "description": "Educational innovation at your fingertips"
+        },
+        {
+          "title": "Transport",
+          "title0": "Secure School Transport Service",
+          "description": "Transport for a safe journey"
+        },
+        {
+          "title": "Canteen",
+          "title0": "Balanced Meals for Your Children",
+          "description": "Healthy and tasty meals"
+        },
+        {
+          "title": "Clubs",
+          "title0": "Varied Extracurricular Activities",
+          "description": "Explore clubs that match your child's interests"
+        },
+        {
+          "title": "Health Center",
+          "title0": "On-site Medical Facility",
+          "description": "Medical care and monitoring for students"
+        },
+        {
+          "title": "Other",
+          "title0": "Other Student Services",
+          "description": "Additional services tailored to needs"
+        }
+      ],
+      "heading": {
+        "subtitle": "Services tailored for an enriching educational experience",
+        "mainTitle": "A Complete School Environment"
+      },
+      "rightSection": {
+        "intro": "Comprehensive solutions to support every student's growth",
+        "heading": "Our Support Services",
+        "paragraph": "At Écoles La Tour Eiffel, every service is designed to provide an environment conducive to learning and student well-being. We offer a range of services crafted to meet daily needs and promote harmonious development.",
+        "points": [
+          "Instant access to essential information.",
+          "Safe and punctual transport for a smooth start.",
+          "Balanced and delicious meals to kickstart the day.",
+          "Prompt and caring health support to ensure well-being.",
+          "Stimulating activities to unveil talents.",
+          "Tailored initiatives to enrich everyday life."
+        ],
+        "button": "Learn More"
+      },
+      "buttons": {
+        "voir": "View +"
+      }
+    },
+    "ar": {
+      "services": [
+        {
+          "title": "تطبيق الجوال",
+          "title0": "تطبيق مدارس لا تور إيفل",
+          "description": "الابتكار التعليمي بين يديك"
+        },
+        {
+          "title": "النقل",
+          "title0": "خدمة النقل المدرسي الآمنة",
+          "description": "تنقل آمن للطلاب"
+        },
+        {
+          "title": "المطعم",
+          "title0": "وجبات متوازنة لأطفالكم",
+          "description": "وجبات صحية ولذيذة"
+        },
+        {
+          "title": "الأندية",
+          "title0": "أنشطة لا منهجية متنوعة",
+          "description": "استكشف الأندية التي تناسب اهتمامات طفلك"
+        },
+        {
+          "title": "العيادة الطبية",
+          "title0": "مرفق طبي متاح في المدرسة",
+          "description": "رعاية طبية ومتابعة صحية للطلاب"
+        },
+        {
+          "title": "أخرى",
+          "title0": "خدمات إضافية للطلاب",
+          "description": "خدمات مخصصة لتلبية الاحتياجات المختلفة"
+        }
+      ],
+      "heading": {
+        "subtitle": "خدمات مصممة لتوفير تجربة تعليمية ثرية",
+        "mainTitle": "بيئة مدرسية متكاملة"
+      },
+      "rightSection": {
+  "intro": "نوفر حلولًا شاملة لدعم تطور كل طالب، مما يساعدهم على تحقيق أفضل أداء أكاديمي وشخصي.",
+  "heading": "خدماتنا المساندة لتجربة تعليمية متكاملة",
+  "paragraph": "في مدارس لا تور إيفل، نؤمن بأن نجاح الطالب لا يقتصر على التعليم فقط، بل يشمل أيضًا بيئة داعمة وصحية. لهذا، نقدم مجموعة من الخدمات التي تلبي احتياجاتهم اليومية وتساعدهم على النمو في بيئة آمنة ومحفزة.",
+"points": [
+  "الوصول السريع إلى المعلومات الأساسية لضمان تواصل فعّال بين الطلاب والمدرسة",
+  "تنقل آمن ومنظم عبر حافلات مجهزة لتوفير بداية يوم دراسي مريحة",
+  "وجبات متوازنة وصحية توفر الطاقة والتركيز طوال اليوم",
+  "رعاية صحية فورية داخل المدرسة لضمان سلامة الطلاب وراحتهم",
+  "أنشطة محفزة لاكتشاف المواهب وتعزيز الثقة بالنفس",
+  "برامج مميزة تساهم في تنمية المهارات الاجتماعية والثقافية"
+],
+
+  "button": "اكتشف خدماتنا"
+},
+
+     
+      "buttons": {
+        "voir": "عرض +"
+      }
+    }
+  }
+  

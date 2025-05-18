@@ -1,0 +1,93 @@
+[
+    {
+      "required": {
+        "id": "LT-ADM-0001",
+        "nom": "El Baze",
+        "prenom": "Ibrahim",
+        "role": "fondateur",
+        "sex": "M",
+        "isSuperadmin": true,
+        "email": "ibrahim.elbaze@latoureiffel.ma",
+        "telephone": "+212612345678",
+        "password": "Ibrahim@2025"
+      },
+      "optional": {
+        "picture": null,
+        "adresse": "10 Avenue Mohammed V, Casablanca",
+        "birthday": "1975-06-21"
+      }
+    },
+    {
+      "required": {
+        "id": "LT-ADM-0002",
+        "nom": "Bouzid",
+        "prenom": "Khadija",
+        "role": "enseignant",
+        "sex": "F",
+        "isSuperadmin": false,
+        "email": "khadija.bouzid@latoureiffel.ma",
+        "telephone": "+212622334455",
+        "password": "Kh@dija2025"
+      },
+      "optional": {
+        "picture": null,
+        "adresse": null,
+        "birthday": "1982-11-03"
+      }
+    },
+    {
+      "required": {
+        "id": "LT-ADM-0003",
+        "nom": "Mahjoubi",
+        "prenom": "Youssef",
+        "role": "cadre",
+        "sex": "M",
+        "isSuperadmin": false,
+        "email": "youssef.mahjoubi@latoureiffel.ma",
+        "telephone": "+212633445566",
+        "password": "Youss3f#2025"
+      },
+      "optional": {
+        "picture": null,
+        "adresse": "Rue Ibn Sina, Rabat",
+        "birthday": null
+      }
+    },
+    {
+      "required": {
+        "id": "LT-ADM-0004",
+        "nom": "Benjelloun",
+        "prenom": "Salma",
+        "role": "enseignant",
+        "sex": "F",
+        "isSuperadmin": false,
+        "email": "salma.benjelloun@latoureiffel.ma",
+        "telephone": "+212644556677",
+        "password": "Salm@Eiffel25"
+      },
+      "optional": {
+        "picture": null,
+        "adresse": "45 Boulevard Zerktouni, Casablanca",
+        "birthday": "1990-02-17"
+      }
+    },
+    {
+      "required": {
+        "id": "LT-ADM-0005",
+        "nom": "Kabbaj",
+        "prenom": "Ahmed",
+        "role": "cadre",
+        "sex": "M",
+        "isSuperadmin": false,
+        "email": "ahmed.kabbaj@latoureiffel.ma",
+        "telephone": "+212655667788",
+        "password": "Ahm3d@2025"
+      },
+      "optional": {
+        "picture": null,
+        "adresse": null,
+        "birthday": null
+      }
+    }
+  ]
+  

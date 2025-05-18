@@ -1,0 +1,34 @@
+{
+  "en": {
+    "no_missed_moment": "We didn't miss the moment.",
+    "visit_gallery": "Come visit us at the Gallery.",
+    "discover_more": "Discover more",
+    "gallery_description": "A gallery that immortalizes the students",
+    "photo_count": "Endless memories",
+    "explore_more": "Explore more",
+    "gallery_info": "At Écoles La Tour Eiffel, we’ve created a special space to preserve the memories that mark the lives of our students. It’s a place where shared moments, significant events, and joyful instances stay alive in our memories."
+  },
+  "fr": {
+    "no_missed_moment": "Nous n'avons pas manqué le moment.",
+    "visit_gallery": "Venez nous voir à la Galerie.",
+    "discover_more": "Découvrir plus",
+    "gallery_description": "Une galerie qui immortalise les élèves",
+    "photo_count": "Des souvenirs infinis",
+    "explore_more": "Découvrir plus",
+    "gallery_info": "Aux Écoles La Tour Eiffel, nous avons créé un espace spécial pour préserver les souvenirs qui marquent la vie de nos élèves. C’est un endroit où les moments partagés, les événements marquants et les instants de joie restent vivants dans nos mémoires."
+  },
+  "ar": {
+    "no_missed_moment": "لا نفوت اللحظة",
+    "visit_gallery": "تعالوا لمشاهدتنا في المعرض ",
+    "discover_more": "اكتشف المزيد",
+    "gallery_description": "معرض يخلد ذكريات كل التلاميذ",
+    "photo_count": "ذكريات لا تنتهي",
+    "explore_more": "استكشاف المزيد",
+    "gallery_info": "في مدارس برج إيفل، أنشأنا مكانًا خاصًا للحفاظ على الذكريات التي تميز حياة طلابنا. إنه مكان حيث تبقى اللحظات المشتركة، والأحداث المهمة، ولحظات الفرح حية في ذاكرتنا."
+  },
+  "popUp": {
+    "ar": "استكشفوا معرضنا",
+    "fr": "Plongez dans notre galerie",
+    "en": "Dive into our gallery"
+  }
+}

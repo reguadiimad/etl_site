@@ -1,0 +1,161 @@
+[
+  {
+    "image": "/images/foot.webp",
+    "genre": {
+      "en": "Sport",
+      "fr": "Sport",
+      "ar": "رياضة"
+    },
+    "title": {
+      "en": "Historic Victory: Our Boys Lift the Cup",
+      "fr": "Victoire Historique : Nos Garçons Soulèvent la Coupe",
+      "ar": "انتصار تاريخي: أولادنا يرفعون الكأس"
+    },
+    "date": {
+      "en": "01 May",
+      "fr": "01 Mai",
+      "ar": "ماي01"
+    },
+    "description": {
+      "en": "In an electric atmosphere and before a jubilant crowd, our boys' football team brilliantly won the regional tournament final. An outstanding performance.",
+      "fr": "Dans une ambiance électrique et devant un public en liesse, notre équipe de football des garçons a brillamment remporté la finale du tournoi régional. Une performance exceptionnelle.",
+      "ar": "في أجواء مشحونة بالحماس وأمام جمهور متحمّس ومبتهج، تألق فريق كرة القدم للأولاد وحقق فوزاً ساحقاً في نهائي البطولة الإقليمية. أداء لا يُنسى يُسجل في تاريخ مدرستنا بكل فخر."
+    },
+    "bgColor": "bg-apple-light",
+    "textCoor": "text-neutral-900",
+    "translateValue": 20,
+    "minutes": {
+      "en": "4 min read",
+      "fr": "4 min de lecture",
+      "ar": "مدة القراءة: 4 دقائق"
+    }
+  },
+
+  {
+    "image": "/images/scn1.webp",
+    "genre": {
+      "en": "Science",
+      "fr": "Science",
+      "ar": "العلوم"
+    },
+    "title": {
+      "en": "Innovation at its Peak: Science Fair ",
+      "fr": "L'Innovation à son Apogée : Foire Scientifique ",
+      "ar": "قمة الابتكار: معرض العلوم "
+    },
+    "date": {
+      "en": "18 April",
+      "fr": "18 Avril",
+      "ar": "18 أبريل"
+    },
+    "description": {
+      "en": "Our students amazed the jury with cutting-edge experiments and eco-friendly innovations during the Science Fair.",
+      "fr": "Nos élèves ont impressionné le jury avec des expériences de pointe et des innovations écologiques lors de la foire scientifique.",
+      "ar": "في معرض علمي مليء بالحماس، أذهل طلابنا لجنة التحكيم من خلال تقديم تجارب علمية متقدمة وابتكارات بيئية مبدعة، مما يعكس روح الابتكار والوعي البيئي في مؤسستنا التعليمية."
+    },
+    "bgColor": "bg-the-gray",
+    "textCoor": "text-neutral-900",
+    "translateValue": 0,
+    "minutes": {
+      "en": "3 min read",
+      "fr": "3 min de lecture",
+      "ar": "مدة القراءة: 3 دقائق"
+    }
+  },
+
+  {
+    "image": "/images/cltr1.webp",
+    "genre": {
+      "en": "Culture",
+      "fr": "Culture",
+      "ar": "ثقافة"
+    },
+    "title": {
+      "en": "World Cultures Day: A Global Celebration",
+      "fr": "Cultures du Monde : Une Célébration Globale",
+      "ar": "يوم ثقافات العالم: احتفال عالمي"
+    },
+    "date": {
+      "en": "21 March",
+      "fr": "21 Mars",
+      "ar": "21 مارس"
+    },
+    "description": {
+      "en": "Students brought the world to life through music, dance, and costumes, representing various countries in colorful and vibrant performances.",
+      "fr": "Les élèves ont donné vie au monde à travers la musique, la danse et les costumes, représentant différents pays avec des performances colorées et vibrantes.",
+      "ar": "أحيا طلابنا أجواءً ثقافية عالمية من خلال عروض موسيقية راقصة وأزياء تقليدية مبهرة، حيث جسدوا تنوع الثقافات العالمية بألوان زاهية وروح مليئة بالحيوية والتفاعل."
+    },
+    "bgColor": "bg-blue-500",
+    "textCoor": "text-white",
+    "translateValue": 20,
+    "minutes": {
+      "en": "2 min read",
+      "fr": "2 min de lecture",
+      "ar": "مدة القراءة: دقيقتان"
+    }
+  },
+
+  {
+    "image": "/images/green1.webp",
+    "genre": {
+      "en": "Envi",
+      "fr": "Envi",
+      "ar": "البيئة"
+    },
+    "title": {
+      "en": "Green Day: Students Take Action",
+      "fr": "Journée Verte : Les Élèves Passent à l'Action",
+      "ar": "اليوم الأخضر: الطلاب يتحركون"
+    },
+    "date": {
+      "en": "05 April",
+      "fr": "05 Avril",
+      "ar": "05 أبريل"
+    },
+    "description": {
+      "en": "With planting workshops and recycling drives, our Green Day was a powerful step toward a more sustainable future.",
+      "fr": "Avec des ateliers de plantation et des campagnes de recyclage, notre Journée Verte était un pas fort vers un avenir durable.",
+      "ar": "من خلال ورشات الزراعة التفاعلية وحملات التدوير الميدانية، أظهر طلابنا التزاماً رائعاً تجاه البيئة في يوم أخضر مميز يهدف إلى بناء مستقبل مستدام وأكثر وعياً بيئياً."
+    },
+    "bgColor": "bg-slate-100",
+    "textCoor": "text-neutral-900",
+    "translateValue": 0,
+    "minutes": {
+      "en": "5 min read",
+      "fr": "5 min de lecture",
+      "ar": "مدة القراءة: 5 دقائق"
+    }
+  },
+
+  {
+    "image": "/images/art1.webp",
+    "genre": {
+      "en": "Art",
+      "fr": "Art",
+      "ar": "فن"
+    },
+    "title": {
+      "en": "Colors of Creativity: Annual Art Exhibit",
+      "fr": "Les Couleurs de la Créativité : Exposition Annuelle",
+      "ar": "ألوان الإبداع: المعرض السنوي للفنون"
+    },
+    "date": {
+      "en": "10 March",
+      "fr": "10 Mars",
+      "ar": "10 مارس"
+    },
+    "description": {
+      "en": "Paintings, sculptures, and digital art created by students showcased their incredible talent and imagination.",
+      "fr": "Peintures, sculptures et art numérique réalisés par les élèves ont montré leur incroyable talent et imagination.",
+      "ar": "استعرض طلابنا إبداعاتهم المتنوعة من خلال لوحات فنية، تماثيل رائعة، وأعمال رقمية مذهلة عكست خيالهم الواسع ومهاراتهم الفنية المتقدمة التي أبهرت الزوار."
+    },
+    "bgColor": "bg-red-500",
+    "textCoor": "text-white",
+    "translateValue": 20,
+    "minutes": {
+      "en": "6 min read",
+      "fr": "6 min de lecture",
+      "ar": "مدة القراءة: 6 دقائق"
+    }
+  }
+]

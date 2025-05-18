@@ -1,0 +1,130 @@
+{
+    
+        "other_services": {
+          "ar": "خدمات أخرى",
+          "fr": "Autres Services",
+          "en": "Other Services"
+        },
+        "heading": {
+          "ar":"تعتقد أننا إِنتهينا، لكنَّها فقط البداية",
+          "fr": "Vous pensez que c’est fini, ce n’est que le début",
+          "en": "You think it's over, it's just the beginning"
+        }
+      ,
+      "summary": {
+        "ar": "نحن نقدم مجموعة من الخدمات التعليمية التي تهدف إلى تنمية الأطفال ودعمهم أكاديمياً واجتماعياً. من الحضانة إلى الرياضيات المتقدمة، كل خدمة موجهة لتعزيز مهارات الطلاب وتحفيزهم للنجاح.",
+        "fr": "Nous offrons une gamme de services éducatifs visant à développer et soutenir les enfants sur le plan académique et social. De la garderie aux mathématiques avancées, chaque service est conçu pour renforcer les compétences des élèves et les motiver à réussir.",
+        "en": "We offer a range of educational services aimed at developing and supporting children academically and socially. From daycare to advanced mathematics, each service is designed to enhance students' skills and motivate them to succeed."
+      },
+      
+    "services": [
+      {
+        "title": {
+          "ar": "الحضانة",
+          "fr": "La Garderie",
+          "en": "Daycare"
+        },
+        "subtitle": {
+          "ar": "رعاية آمنة ومليئة بالحب",
+          "fr": "Un Cadre Sûr et Chaleureux",
+          "en": "Safe and Loving Care"
+        },
+        "article": {
+          "ar": "في مدارس لا تور إيفل، نقدم للأطفال الصغار بيئة آمنة ومليئة بالحب حيث يمكنهم اللعب، التعلم، والنمو تحت إشراف محترف. نؤمن أن السنوات الأولى من الحياة هي الأساس لبناء مستقبل صحي ومشرق.",
+          "fr": "Aux Écoles La Tour Eiffel, nous offrons aux tout-petits un environnement sécurisé et chaleureux où ils peuvent jouer, apprendre et grandir sous la supervision de professionnels. Nous croyons que les premières années de vie sont essentielles pour construire un avenir sain ",
+          "en": "At Écoles La Tour Eiffel, we provide little ones with a safe and loving environment where they can play, learn, and grow under professional supervision. We believe that the early years of life lay the foundation for a healthy and bright future."
+        },
+        "icon": "faBabyCarriage"
+      },
+      {
+        "title": {
+          "ar": "التوجيه المدرسي",
+          "fr": "Coaching Scolaire",
+          "en": "School Coaching"
+        },
+        "subtitle": {
+          "ar": "دعم دراسي مخصص",
+          "fr": "Un Soutien Personnalisé",
+          "en": "Personalized Support"
+        },
+        "article": {
+          "ar": "يوفر فريقنا المتخصص التوجيه والدعم الدراسي للأطفال، بما يتناسب مع احتياجاتهم الفردية، لتحسين أدائهم الأكاديمي وزيادة ثقتهم بأنفسهم.",
+          "fr": "Notre équipe spécialisée offre un accompagnement personnalisé aux enfants, en fonction de leurs besoins individuels, pour améliorer leurs performances académiques et renforcer leur confiance en eux.",
+          "en": "Our specialized team provides personalized guidance and support for children, tailored to their individual needs, to improve academic performance and boost self-confidence."
+        },
+        "icon": "faChalkboardTeacher"
+      },
+      {
+        "title": {
+          "ar": "الحساب الذهني",
+          "fr": "Calcul Mental",
+          "en": "Mental Calculation"
+        },
+        "subtitle": {
+          "ar": "تحفيز التفكير السريع",
+          "fr": "Stimuler la Réflexion Rapide",
+          "en": "Boosting Quick Thinking"
+        },
+        "article": {
+          "ar": "نساعد طلابنا على تحسين مهارات الحساب الذهني من خلال تمارين تفاعلية وممتعة تشجعهم على التفكير بسرعة ودقة.",
+          "fr": "Nous aidons nos élèves à améliorer leurs compétences en calcul mental grâce à des exercices interactifs et amusants qui les encouragent à penser rapidement et avec précision.",
+          "en": "We help students improve their mental calculation skills through interactive and fun exercises that encourage them to think quickly and accurately."
+        },
+        "icon": "faCalculator"
+      },
+      {
+        "title": {
+          "ar": "الإرشاد والتوجيه المهني",
+          "fr": "Orientation",
+          "en": "Career Guidance"
+        },
+        "subtitle": {
+          "ar": "مساعدة في اختيار المستقبل",
+          "fr": "Aider à Choisir un Avenir",
+          "en": "Helping Choose a Future"
+        },
+        "article": {
+          "ar": "نقدم استشارات مهنية للطلاب من خلال ورش عمل ومحاضرات تساعدهم في استكشاف خياراتهم المهنية واتخاذ قرارات مستنيرة حول مستقبلهم.",
+          "fr": "Nous offrons des conseils professionnels aux élèves à travers des ateliers et des conférences qui les aident à explorer leurs options de carrière et à prendre des décisions éclairées sur leur avenir.",
+          "en": "We provide career counseling to students through workshops and lectures that help them explore career options and make informed decisions about their future."
+        },
+        "icon": "faUserTie"
+      },
+      {
+        "title": {
+          "ar": "المكتبة المدرسية",
+          "fr": "Médiathèque",
+          "en": "School Library"
+        },
+        "subtitle": {
+          "ar": "مساحة للقراءة والإبداع",
+          "fr": "Un Espace de Lecture et Création",
+          "en": "A Space for Reading and Creativity"
+        },
+        "article": {
+          "ar": "توفر مكتبتنا مجموعة متنوعة من الكتب والموارد التعليمية التي تشجع الطلاب على القراءة والاستكشاف وتطوير مهاراتهم الإبداعية.",
+          "fr": "Notre médiathèque offre une large gamme de livres et de ressources éducatives qui encouragent les élèves à lire, explorer et développer leurs compétences créatives.",
+          "en": "Our library offers a wide range of books and educational resources that encourage students to read, explore, and develop their creative skills."
+        },
+        "icon": "faBook"
+      },
+      {
+        "title": {
+          "ar": "الرياضيات المتقدمة",
+          "fr": "Mathématiques Enrichies",
+          "en": "Enriched Mathematics"
+        },
+        "subtitle": {
+          "ar": "تحفيز التفكير النقدي",
+          "fr": "Stimuler la Pensée Critique",
+          "en": "Enhancing Critical Thinking"
+        },
+        "article": {
+          "ar": "نقدم برامج رياضيات متقدمة تهدف إلى تحفيز التفكير النقدي والإبداعي لدى الطلاب، وتعزز فهمهم للمفاهيم الرياضية بطريقة ممتعة وتفاعلية.",
+          "fr": "Nous proposons des programmes de mathématiques avancées visant à stimuler la pensée critique et créative des élèves, tout en renforçant leur compréhension des concepts mathématiques de manière ludique et interactive.",
+          "en": "We offer advanced mathematics programs designed to stimulate critical and creative thinking in students, while enhancing their understanding of mathematical concepts in a fun and interactive way."
+        },
+        "icon": "faSuperscript"
+      }
+    ]
+}

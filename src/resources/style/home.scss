@@ -1,0 +1,614 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bytesized&family=Pacifico&family=Poetsen+One&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Zeyada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Badeen+Display&family=Lalezar&family=Reem+Kufi+Fun:wght@400..700&family=Reem+Kufi:wght@400..700&family=Ruwudu:wght@400;500;600;700&display=swap');
+  .gradient-blur {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    backdrop-filter: blur(10px);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), transparent);
+    mask-image: linear-gradient(to bottom, black 0%, transparent 100%); 
+    -webkit-mask-image: linear-gradient(to bottom, black 0%, transparent 100%);
+    pointer-events: none;
+  }
+  .flash{
+    transition: .3s cubic-bezier(0.25, -0.52, 0.32, 1.79); ;
+
+  }
+  .texto{
+    transition: .5s ease-in-out color;
+  }
+  .nav {
+    display: flex;
+  
+    @media (max-width: 640px) {
+      display: none;
+    }
+  }
+  .arabic{
+    *{
+      font-family: "Cairo", serif;
+    }
+    h1,h2,h3,h4,h5,h6,b{
+      font-family: "Lalezar", system-ui !important;
+    }
+   
+    
+  }
+
+.ggt{
+  button:focus{
+
+    animation: gttF .3s cubic-bezier(0.175, 0.885, 0.32, 1.275) ;
+  }
+}
+.flashy{
+  transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) .4s !important;
+}
+@keyframes gttF {
+  0%{
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(0.8);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+  
+  
+.lp{
+  transition: all ease  .3s !important;
+}
+.flashy{
+  *{
+    transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) .2s !important;
+  }
+}
+
+@media (max-height:500px) {
+  .gallery{
+
+    .info{
+      display: none;
+
+    }
+    
+  }
+  .menudropd{
+    gap: 0px;
+    div{
+      height: auto;
+    }
+    .links{
+      font-size: 18px;
+      margin-top: 2px;
+    }
+  }
+}
+
+  .mobile{
+    -webkit-backdrop-filter: blur(5px) !important;
+    @media (max-width: 640px) {
+      .lien{
+        font-size: 14px;
+        margin: 0px 1px 1px 0px;
+      }
+      .liens{
+        margin-top: 46px;
+      }
+      .inscription{
+        margin-top: 55px;
+      }
+      button{
+        font-size: 12px;
+
+        margin-left: 3px;
+      }
+      p{font-size: 8px;}
+    } 
+  }
+  .blurey{
+    -webkit-backdrop-filter: blur(20px);
+  }
+  
+  .blurey2{
+    -webkit-backdrop-filter: blur(90px);
+  }
+  
+ 
+  
+
+.jhk{
+  border-radius: 99% 1% 96% 4% / 5% 95% 5% 95% ;
+}
+
+.roundedd{
+  border-radius: 40px;
+  
+ 
+  div{
+    border-radius: 30px;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) .3s all;
+    -webkit-backdrop-filter: blur(10px);
+    
+    cursor: pointer;
+  }
+}
+.blurgradient {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.45) 0%, transparent 100%);
+  filter: blur(10px);
+  position: absolute;
+  inset: 0;
+  z-index: -1; /* Push it behind the main content */
+  mask-image: linear-gradient(to bottom, black 0%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, black 0%, transparent 100%);
+}
+.boxyy{
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 2s;
+}
+.boxyy:hover .boxy{
+    width: 100%;
+    height: 100%;
+    bottom:0;left: 0;
+    span{
+      margin-bottom: 50px;
+    }
+    h1{
+      margin-bottom: 10px;
+    }
+    
+    h5{
+      display: block;
+      opacity: 1;
+      margin-bottom: 40px;
+      
+      
+    }
+    button{
+      display: block;
+      color:white
+    }
+    
+}
+.galCover{
+  -webkit-backdrop-filter: blur(10px) !important;
+}
+
+
+@media (max-width: 1000px) {
+  .home{
+  
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:90%;
+    
+    height: 120vh;
+  }
+  .boxyy:hover .boxy{
+    span{
+      margin-bottom: 5px;
+    }
+    h1{
+      margin-bottom: 1px;
+    }
+    
+    h5{
+      display: block;
+      opacity: 1;
+      margin-bottom: 0px;
+    }
+    button{
+      display: block;
+      color:white
+    }
+    
+   
+}
+}
+.roundeddd{
+  border-radius: 40px;
+}
+@media (max-width: 768px) {
+  .home{
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: -10px;
+  }
+  .tiny{
+    font-size: 9px;
+  }
+  .iphone{
+    scale: 0.7;
+  }
+  .roundedd{
+    border-radius: 20px;
+    div{
+    border-radius: 16px;
+    }
+  }
+  .cards{
+    scale: 0.5;
+    margin-left: -50%;
+    margin-top: -25%;
+    width: 200%;
+  }
+  .gall{
+    width: 500%;
+    margin-top: 20px;
+  }
+ 
+  
+}
+
+
+@keyframes arrowAnimation {
+  0% {
+    transform: translateX(0); /* Start at the center */
+    opacity: 1; /* Fully visible */
+  }
+  25% {
+    transform: translateX(11vw); 
+    scale: 0.2;/* Move to the right edge */
+    opacity: 1; /* Still visible */
+  }
+  50% {
+    transform: translateX(5vw); /* Stay at the right edge */
+    opacity: 0; /* Make it disappear */
+  }
+  75% {
+    transform: translateX(-5vw); /* Move to the left edge */
+    opacity: 0;
+    scale: 0.1;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275); /* Still invisible */
+  }
+  90%{
+    scale: 0.6;
+  }
+  100% {
+    transform: translateX(0);
+    scale: 1; /* Return to the center */
+    opacity: 1; /* Reappear */
+  }
+}
+
+
+.ds:hover .animate-arrow {
+  animation: arrowAnimation .7s ease-in-out forwards;
+}
+
+.yt{
+  transition: ease-in-out .15s;
+}
+
+.tex{
+  transition: ease-in 1s all !important;
+}
+
+.rt{
+  animation: jk 1.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1;
+}
+
+.bt{
+  transition:  .2s cubic-bezier(0.175, 0.885, 0.32, 1.1) all !important;
+}
+
+
+@keyframes jk {
+  0%{
+    opacity: 1;scale: 1;   
+  }
+  100%{opacity: 0;scale: 0.1}
+}
+
+.shd{
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.01);
+}
+
+.dots{
+ 
+    
+      transition: ease-in-out .3s  !important;
+    
+  
+}
+.dotds{
+ 
+    
+  *{transition: ease-in-out .3s  !important;}
+
+
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+
+
+.animate-scroll {
+  animation: scroll 35s linear infinite;
+}
+
+.zaz{
+ *{
+   transition: .3s cubic-bezier(0.175, 0.885, 0.32, 1.35);
+  }
+ color:red;
+ .zaza{opacity: 0;scale: 0.5; cursor: pointer;}
+ .zaza h1{transform: translateY(200px);}
+ .zaza button{transform: translateY(100px);}
+ &:hover .zaza{
+  opacity: 1;scale: 1;
+  h1{transform: translateY(0);}
+  button{transform: translateY(0);}
+}
+
+}
+.links{
+  a:hover{
+    color: rgba(0, 0, 0, 0.75);
+  }
+}
+.language{
+  font-family: "Poppins", sans-serif !important;
+
+  button{
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.2) .25s;
+    font-family: "Poppins", sans-serif !important;
+    &:hover{
+      opacity: 0.7;
+    }
+
+  }
+}
+
+
+.tes{
+  text-shadow: 1px 1px 30px rgba(31, 74, 203, 0.231);
+}
+.hhy{
+  background: radial-gradient(#0000000e, #000000a8);
+}
+.pops{
+  transition: ease-in-out .05s !important;
+  transition: transform none !important;
+  
+}
+.psd,.psdr,.psdro{position: relative;z-index: -1;}
+.psd::before{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: -10px;
+  width: 10px;
+  height: 20px;
+
+  border-bottom-left-radius: 25px;
+  box-shadow: 0 10px 0 0 #ffffff;
+}
+.psdr::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -10px;
+  width: 10px;
+  height: 20px;
+
+  border-top-left-radius: 25px;
+  box-shadow: 0 -10px 0 0 #ffffff;
+}
+
+
+.psdl::before{
+  content: "";
+  position: absolute;
+  top:10px;
+  left: -10px;
+  width: 10px;
+  height: 20px;
+
+  border-bottom-left-radius: 25px;
+  box-shadow: 0 10px 0 0 #ffffff;
+  scale:-1 ;
+}
+.dh{
+ *{
+    transition: .1s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
+    
+ } 
+}
+.feed{
+  box-shadow: 19px 19px 27px 0px rgba(0,0,0,0.15);
+}
+
+.trr{
+  line-height: 1.5;
+}
+
+.top-blur {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 150px; /* Adjust as needed */
+
+  /* Semi-transparent background for glassmorphism effect */
+  background: rgba(255, 255, 255, 0.25);
+
+  /* Apply gradient mask for fading the blur */
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+
+  /* Core blur effect (with Safari support) */
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+.top-blur::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+
+  /* Inherit background to keep the semi-transparency */
+  background: inherit;
+
+  /* Optional extra blur layer */
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+
+  /* Optional: gradient mask again if you want to control blur strength */
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+.sc1{
+  scale: 1.1;
+}
+
+.servicesQte{
+  *{
+    transition: ease-in-out ;
+  }
+}
+.theBars {
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) .3s all !important;
+
+*{
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) .3s all !important;
+}
+}
+
+
+
+@media (max-height:400px) {
+  .fg{
+    height: auto;
+  }
+  .fgg{
+    margin-top: -100px;
+  }
+}
+
+.fa1 {
+  font-family: 'Bytesized', sans-serif;
+}
+
+.fa2 {
+  font-family: 'Pacifico', cursive;
+}
+
+.fa3 {
+  font-family: 'Poetsen One', sans-serif;
+}
+
+.fa4 {
+  font-family: 'Righteous', sans-serif;
+}
+
+.fa5 {
+  font-family: "Great Vibes", cursive;
+ 
+}
+
+.fa6{
+  font-family: "Zeyada", cursive;
+  
+}
+
+.arfa1 {
+  font-family: 'Reem Kufi Fun', sans-serif;
+}
+
+.arfa2 {
+  font-family: 'Reem Kufi', sans-serif;
+}
+
+.arfa3 {
+  font-family: 'Ruwudu', serif;
+}
+
+.arfa4 {
+  font-family: 'Lalezar', cursive;
+}
+
+.arfa5 {
+  font-family: 'Badeen Display', cursive;
+}
+
+.arfa6 {
+  font-family: 'Alkalami', serif;
+}
+
+.fd:hover .gh{
+  background-color: #ffffff32;
+  color: white;
+  scale:1.1
+
+}
+.fd{
+  span{transition: ease-in-out .4s; }
+}
+
+.sss{
+  box-shadow: rgba(99, 99, 99, 0.3) 0px 2px 30px 0px;
+}
+.inp {
+  transition: font-size 0.4s ease-in-out !important;
+}
+select{
+
+  appearance: none;
+  -webkit-appearance: none; /* Safari iOS */
+  background-color: white;
+}
+
+@media (min-height: 1300px) {
+  .home {
+    height: 60vh; /* Set to 70% of viewport height */
+  }
+}
+
+
+@media (max-height: 500px) {
+  .pne {
+    margin-top: 50px !important; /* Set to 70% of viewport height */
+  }
+}
+
+@media (min-width: 1020px){
+ @media (max-height:710px) {
+  .pnee{
+    margin-top: -70px;
+  }
+  .theBoy{
+    bottom: 20px;
+  }
+ }
+
+ @media (max-height:541px) {
+  .pnee{
+    margin-top: -20px;
+  }
+  .theBoy{
+    bottom: 10px;
+    scale: 1;
+  }
+ }
+
+}

@@ -1,0 +1,42 @@
+{
+    "fr": {
+      "services": "Nos Services",
+      "title": "Découvrez les services exclusifs de l'École La Tour Eiffel",
+      "description": "À l'École La Tour Eiffel, nous offrons des services conçus pour le bien-être et la réussite de nos élèves.",
+      "mobileApp": "Application mobile",
+      "transport": "Transports",
+      "canteen": "Cantine",
+      "infirmary": "Infirmerie",
+      "clubs": "Clubs",
+      "other": "Autre",
+      "discoverMore": "Découvrez plus",
+      "image":"serviceMockupe.webp"
+    },
+    "en": {
+      "services": "Our Services",
+      "title": "Discover the exclusive services of La Tour Eiffel School",
+      "description": "At La Tour Eiffel School, we offer services designed for the well-being and success of our students.",
+      "mobileApp": "Mobile App",
+      "transport": "Transport",
+      "canteen": "Canteen",
+      "infirmary": "Infirmary",
+      "clubs": "Clubs",
+      "other": "Other",
+      "discoverMore": "Discover More",
+      "image":"appEng.webp"
+    },
+    "ar": {
+      "services": "خدماتنا",
+      "title": "اكتشف الخدمات الحصرية لمدرسة برج إيفل",
+      "description": "في مدرسة برج إيفل، نقدم خدمات مصممة لرفاهية ونجاح طلابنا.",
+      "mobileApp": "تطبيق الهاتف",
+      "transport": "النقل",
+      "canteen": "المقصف",
+      "infirmary": "العيادة",
+      "clubs": "الأندية",
+      "other": "أخرى",
+      "discoverMore": "اكتشف المزيد",
+      "image":"appArb.webp"
+    }
+  }
+  

@@ -1,0 +1,25 @@
+{
+
+      "headline": {
+        "en": "Receive news and be alerted about upcoming events.",
+        "fr": "Recevez les actus et soyez averti des événements à venir.",
+        "ar": "تلقى الأخبار وكن على علم بالأحداث القادمة"
+      },
+      "placeholder": {
+        "en": "Enter your email address here",
+        "fr": "Saisissez votre adresse e-mail ici",
+        "ar": "أدخل عنوان بريدك الإلكتروني هنا"
+      },
+      "subscribeButton": {
+        "en": "Subscribe",
+        "fr": "S'abonner",
+        "ar": "اشترك"
+      },
+      "footerText": {
+        "en": "We will send you all information related to your journey as a great student or, if your child studies in our school, to their experience at Écoles La Tour Eiffel.",
+        "fr": "Nous allons vous envoyer toutes les informations liées à votre parcours en tant que grand étudiant(e) ou, si votre enfant étudie dans notre école, à son expérience à les Écoles La Tour Eiffel.",
+        "ar": "سنرسل لك جميع المعلومات المتعلقة بمسيرتك كطالب متميز أو إذا كان طفلك يدرس في مدرستنا، سنرسل لك تفاصيل تجربته في مدارس برج إيفل"
+      }
+    
+  }
+  

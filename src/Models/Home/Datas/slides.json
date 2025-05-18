@@ -1,0 +1,30 @@
+{
+    "ar": [
+      { "id": 1, "title": "رحلة إلى الوادي", "description": "مغامرة مثيرة لطلابنا في الصف المتوسط.", "category": "المدرسة الثانوية", "image": "/events/sortie.webp", "icon": "faMountain", "date": "2024-12-20" },
+      { "id": 2, "title": "ورشة الرسم", "description": "طلاب المدرسة الثانوية أطلقوا خيالهم الفني.", "category": "التمهيدي", "image": "/events/pintr.webp", "icon": "faPaintBrush", "date": "2024-12-29" },
+      { "id": 6, "title": "يوم القراءة", "description": "لحظة من الهدوء والتفكير مخصصة لاكتشاف كتب جديدة.", "category": "المدرسة العليا", "image": "/events/aw.webp", "icon": "faBookOpen", "date": "2024-11-20" },
+      { "id": 5, "title": "رحلة إلى الرباط", "description": "اكتشاف ثقافي وتاريخي للعاصمة المغربية.", "category": "الجميع", "image": "/events/av.webp", "icon": "faLandmark", "date": "2024-11-15" },
+      { "id": 3, "title": "دورة رياضية", "description": "يوم مخصص للمنافسة وروح الفريق لطلابنا.", "category": "المدرسة العليا", "image": "/events/sport.webp", "icon": "faFutbol", "date": "2024-11-08" },
+      { "id": 4, "title": "المتحف الإسلامي", "description": "استكشاف غني لتاريخ وتراث الإسلام.", "category": "الجميع", "image": "/events/ae.webp", "icon": "faLandmark", "date": "2024-12-12" },
+      { "id": 7, "title": "يوم التذوق", "description": "رحلة طعام لاكتشاف وتقدير النكهات المختلفة.", "category": "الابتدائي", "image": "/events/az.webp", "icon": "faUtensils", "date": "2024-11-25" }
+    ],
+    "fr": [
+      { "id": 1, "title": "Sortie à L'Oued", "description": "Une aventure passionnante pour nos élèves de la moyenne section.", "category": "Collège", "image": "/events/sortie.webp", "icon": "faMountain", "date": "2024-12-20" },
+      { "id": 2, "title": "Atelier de Peinture", "description": "Les élèves du collège ont laissé libre cours à leur imagination artistique.", "category": "Maternelle", "image": "/events/pintr.webp", "icon": "faPaintBrush", "date": "2024-12-29" },
+      { "id": 6, "title": "Journée de Lecture", "description": "Un moment de calme et de réflexion dédié à la découverte de nouveaux ouvrages.", "category": "Lycée", "image": "/events/aw.webp", "icon": "faBookOpen", "date": "2024-11-20" },
+      { "id": 5, "title": "Excursion à Rabat", "description": "Une découverte culturelle et historique de la capitale marocaine.", "category": "Tous", "image": "/events/av.webp", "icon": "faLandmark", "date": "2024-11-15" },
+      { "id": 3, "title": "Tournoi Sportif", "description": "Une journée dédiée à la compétition et à l'esprit d'équipe pour nos élèves.", "category": "Lycée", "image": "/events/sport.webp", "icon": "faFutbol", "date": "2024-11-08" },
+      { "id": 4, "title": "Musée Islamique", "description": "Une exploration enrichissante de l'histoire et du patrimoine islamique.", "category": "Tous", "image": "/events/ae.webp", "icon": "faLandmark", "date": "2024-12-12" },
+      { "id": 7, "title": "Journée de Dégustation", "description": "Un voyage culinaire pour découvrir et apprécier différentes saveurs.", "category": "Primaire", "image": "/events/az.webp", "icon": "faUtensils", "date": "2024-11-25" }
+    ],
+    "en": [
+      { "id": 1, "title": "Trip to the River", "description": "An exciting adventure for our middle school students.", "category": "High School", "image": "/events/sortie.webp", "icon": "faMountain", "date": "2024-12-20" },
+      { "id": 2, "title": "Painting Workshop", "description": "High school students let their artistic imagination run wild.", "category": "Kindergarten", "image": "/events/pintr.webp", "icon": "faPaintBrush", "date": "2024-12-29" },
+      { "id": 6, "title": "Reading Day", "description": "A quiet and reflective moment dedicated to discovering new books.", "category": "High School", "image": "/events/aw.webp", "icon": "faBookOpen", "date": "2024-11-20" },
+      { "id": 5, "title": "Trip to Rabat", "description": "A cultural and historical discovery of the Moroccan capital.", "category": "Everyone", "image": "/events/av.webp", "icon": "faLandmark", "date": "2024-11-15" },
+      { "id": 3, "title": "Sports Tournament", "description": "A day dedicated to competition and team spirit for our students.", "category": "High School", "image": "/events/sport.webp", "icon": "faFutbol", "date": "2024-11-08" },
+      { "id": 4, "title": "Islamic Museum", "description": "An enriching exploration of Islamic history and heritage.", "category": "Everyone", "image": "/events/ae.webp", "icon": "faLandmark", "date": "2024-12-12" },
+      { "id": 7, "title": "Tasting Day", "description": "A culinary journey to discover and appreciate different flavors.", "category": "Primary", "image": "/events/az.webp", "icon": "faUtensils", "date": "2024-11-25" }
+    ]
+  }
+  

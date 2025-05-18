@@ -1,0 +1,67 @@
+{
+  "surNous": {
+    "ar": "حولنا ",
+    "fr": "Sur Nous",
+    "en": "About Us"
+  },
+  "title": {
+    "ar": "تعرفوا علينا معاً لمستقبل أطفالكم",
+    "fr": "Faites Connaissance avec Nous  Ensemble pour l'Avenir de Vos Enfants",
+    "en": "Get to Know Us Together for Your Children's Future"
+  },
+  "description": {
+    "ar": "نؤمن أن المعرفة المتبادلة هي مفتاح التعاون الناجح تعرفوا على مدرستنا قيمنا والتزامنا",
+    "fr": "Nous Croyons que la Connaissance Mutuelle Est la Clé d'une Collaboration Réussie. Apprenez à Découvrir Notre École, Nos Valeurs et Notre Engagement",
+    "en": "We Believe that Mutual Understanding is Key to Successful Collaboration. Learn About Our School, Our Values, and Our Commitment."
+  },
+  "callUs": {
+    "ar": "اتصلوا بنا",
+    "fr": "Appelez-nous",
+    "en": "Call Us"
+  },
+  "readMore": {
+    "ar": "اقرأ المزيد",
+    "fr": "Lire plus",
+    "en": "Read more"
+  },
+  "since": {
+    "ar": "منذ",
+    "fr": "depuis",
+    "en": "since"
+  },
+  "year": {
+    "ar": "2008",
+    "fr": "2008",
+    "en": "2008"
+  },
+  "successStory": {
+    "ar": "مدارس لا تور إيفل حققت نجاحاً مميزاً بفضلكم نجاح مدارسنا يقوم على نجاح أطفالكم وطلابنا",
+    "fr": "Écoles La Tour Eiffel a Connu un Succès Remarquable Grâce à Vous Le succès de nos écoles repose sur la réussite de vos enfants et de nos étudiants",
+    "en": "La Tour Eiffel Schools Have Achieved Remarkable Success Thanks to You. The Success of Our Schools Relies on the Success of Your Children and Our Students."
+  },
+  "yearsOfSuccess": {
+    "ar": "أكثر من {yr-2008} عامًا",
+    "fr": "Plus de {yr-2008} ans",
+    "en": "More than {yr-2008} years"
+  },
+  "sharedSuccess": {
+    "ar": "نجاح بفضل جهودكم",
+    "fr": "un succès grâce à vous",
+    "en": "success thanks to you."
+  },
+  "sharedFuture": {
+    "ar": "معاً نبني مستقبلاً مشرقاً ومزدهراً",
+    "fr": "Ensemble, nous bâtissons un avenir prometteur et brillant.",
+    "en": "Together, we are building a promising and bright future."
+  },
+  "collaboration": {
+    "ar": "التعاون من أجلكم نحو الأفضل",
+    "fr": "Collaborer pour le meilleur pour vous",
+    "en": "Collaborating for Your Best"
+  },
+  "partnerWith": {
+    "ar": "بالتعاون مع",
+    "fr": "En partenariat avec",
+    "en": "In partnership with"
+  }
+}

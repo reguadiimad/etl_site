@@ -1,0 +1,73 @@
+{
+    "title": {
+      "ar": "تطبيق الهاتف المحمول",
+      "fr": "Application Mobile",
+      "en": "Mobile Application"
+    },
+    "subtitle": {
+      "ar": "تعليم في متناول اليد",
+      "fr": "Une Éducation à Portée de Main",
+      "en": "Education at Your Fingertips"
+    },
+    "image":"srvAppMobile.webp",
+    "features": [
+      {
+        "icon": "faBell",                                   
+        "title": {
+          "ar": "إشعارات في الوقت الحقيقي",
+          "fr": "Notifications en Temps Réel",
+          "en": "Real-Time Notifications"
+        },
+        "description": {
+          "ar": "احصل فوراً على جميع المعلومات الأساسية: الأحداث القادمة، الاجتماعات، الإعلانات الهامة والمزيد.",
+          "fr": "Recevez instantanément toutes les informations essentielles : événements à venir, réunions, annonces importantes et bien plus encore.",
+          "en": "Receive all essential information instantly: upcoming events, meetings, important announcements, and more."
+        }
+      },
+      {
+        "icon": "faBookOpen",
+        "title": {
+          "ar": "متابعة الواجبات والدروس",
+          "fr": "Suivi des Devoirs et Cours",
+          "en": "Homework and Course Tracking"
+        },
+        "description": {
+          "ar": "يمكن للطلاب وأولياء الأمور متابعة الواجبات والدروس والموارد التعليمية بسهولة عبر التطبيق.",
+          "fr": "Les élèves et les parents peuvent consulter facilement les devoirs, les leçons et les ressources pédagogiques depuis l’application.",
+          "en": "Students and parents can easily access homework, lessons, and educational resources via the app."
+        }
+      },
+      {
+        "icon": "faLock",
+        "title": {
+          "ar": "أمان معزز",
+          "fr": "Sécurité Renforcée",
+          "en": "Enhanced Security"
+        },
+        "description": {
+          "ar": "بفضل نظام التتبع والتنبيهات، يطمئن الآباء: الحضور، الخروج والطوارئ تدار بشفافية تامة لضمان سلامة الطلاب.",
+          "fr": "Grâce à notre système de suivi et d’alertes, les parents sont rassurés : présence, sorties et urgences sont gérées en toute transparence pour la sécurité des élèves.",
+          "en": "With our tracking and alert system, parents feel reassured: attendance, departures, and emergencies are managed transparently for student safety."
+        }
+      },
+      {
+        "icon": "faComments",
+        "title": {
+          "ar": "اتصال مبسط",
+          "fr": "Communication Simplifiée",
+          "en": "Simplified Communication"
+        },
+        "description": {
+          "ar": "مساحة مخصصة للتواصل بين الآباء، الأساتذة والإدارة من أجل متابعة شخصية وفعالة.",
+          "fr": "Un espace dédié aux échanges entre parents, professeurs et administration pour un suivi personnalisé et efficace.",
+          "en": "A dedicated space for communication between parents, teachers, and administration for effective and personalized follow-up."
+        }
+      }
+    ],
+    "footer": {
+      "ar": "تم تصميم تطبيق مدارس لا تور إيفل لتقريب المدرسة والعائلات من خلال تسهيل التواصل والمتابعة الدراسية. متاح 24/24، يتيح للآباء والطلاب الوصول إلى المعلومات الأساسية بنقرة واحدة.",
+      "fr": "L’application mobile des Écoles La Tour Eiffel est conçue pour rapprocher l’école et les familles en facilitant la communication et le suivi scolaire. Disponible 24h/24, elle permet aux parents et aux élèves d’accéder en quelques clics aux informations essentielles.",
+      "en": "The mobile application of Écoles La Tour Eiffel is designed to bring the school and families closer by facilitating communication and academic tracking. Available 24/7, it allows parents and students to access essential information in just a few clicks."
+    }
+  }
+  

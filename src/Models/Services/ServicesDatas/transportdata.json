@@ -1,0 +1,73 @@
+{
+    "title": {
+      "ar": "النقل المدرسي",
+      "fr": "Transport Scolaire",
+      "en": "School Transport"
+    },
+    "subtitle": {
+      "ar": " الأكثر أماناً وسرعة وانسيابية",
+      "fr": "Le plus sûr, le plus rapide et le plus fluide",
+      "en": "The most secure, fastest, and smoothest transport service"
+    },
+    "image": "srvTransport.webp",
+    "features": [
+      {
+        "icon": "faShieldAlt",
+        "title": {
+          "ar": "أمان معزز",
+          "fr": "Sécurité Renforcée",
+          "en": "Enhanced Security"
+        },
+        "description": {
+          "ar": "يتميز نظام النقل لدينا بأحدث تقنيات الأمان، مع مراقبة مستمرة عبر GPS وكاميرات داخل الحافلات، مما يضمن أقصى درجات الحماية للطلاب أثناء رحلاتهم اليومية من وإلى المدرسة.",
+          "fr": "Notre service de transport est doté des dernières technologies de sécurité, incluant un suivi GPS en temps réel et des caméras embarquées, assurant une protection optimale des élèves.",
+          "en": "Our transport service features the latest security technologies, including real-time GPS tracking and onboard cameras, ensuring maximum safety for students."
+        }
+      },
+      {
+        "icon": "faTachometerAlt",
+        "title": {
+          "ar": "سرعة ودقة",
+          "fr": "Rapidité et Ponctualité",
+          "en": "Speed & Punctuality"
+        },
+        "description": {
+          "ar": "نحن نضمن وصول الطلاب في الوقت المحدد بفضل المسارات الذكية المخططة مسبقًا ونظام التوجيه الحديث الذي يساعد السائقين على تفادي الازدحام وضمان رحلة سلسة ودقيقة كل يوم.",
+          "fr": "Grâce à des itinéraires optimisés et un système de navigation avancé, nous garantissons l’arrivée ponctuelle des élèves tout en évitant les embouteillages.",
+          "en": "With optimized routes and an advanced navigation system, we ensure students arrive on time while avoiding traffic delays."
+        }
+      },
+      {
+        "icon": "faBus",
+        "title": {
+          "ar": "رحلة مريحة",
+          "fr": "Trajet Confortable",
+          "en": "Comfortable Ride"
+        },
+        "description": {
+          "ar": "حافلاتنا حديثة ومجهزة بمقاعد مريحة، تكييف هواء، ونظام تعليق عالي الجودة لتوفير تجربة سفر مريحة وممتعة للطلاب، مما يساعدهم على بدء يومهم المدرسي براحة واستعداد كامل.",
+          "fr": "Nos véhicules modernes offrent des sièges confortables, la climatisation et une suspension de qualité pour un trajet agréable et relaxant.",
+          "en": "Our modern buses provide comfortable seating, air conditioning, and quality suspension for a smooth and pleasant ride."
+        }
+      },
+      {
+        "icon": "faUsers",
+        "title": {
+          "ar": "خدمة مخصصة",
+          "fr": "Service Dédié",
+          "en": "Dedicated Service"
+        },
+        "description": {
+          "ar": "لدينا فريق محترف ومدرب على تقديم خدمة متميزة، مع متابعة مستمرة واستجابة سريعة لأي استفسارات أو حالات طارئة، مما يضمن راحة البال للآباء وثقة تامة في خدمة النقل المدرسي.",
+          "fr": "Notre équipe est dédiée à un service personnalisé avec un suivi constant et une réponse rapide aux demandes et urgences.",
+          "en": "Our team is committed to personalized service with constant monitoring and quick responses to inquiries and emergencies."
+        }
+      }
+    ],
+    "footer": {
+      "ar": "اختر خدمتنا للنقل المدرسي لرحلة آمنة، دقيقة ومريحة. نحن نقدر ثقتكم ونضمن أفضل رعاية لرحلة طفلكم.",
+      "fr": "Optez pour notre service de transport scolaire pour un trajet sécurisé, ponctuel et confortable. Nous valorisons votre confiance et assurons le meilleur soin pour le voyage de votre enfant.",
+      "en": "Choose our school transport service for a safe, punctual, and comfortable journey. We value your trust and ensure the best care for your child's travel."
+    }
+  }
+  

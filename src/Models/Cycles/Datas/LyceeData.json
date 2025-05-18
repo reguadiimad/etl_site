@@ -1,0 +1,96 @@
+{
+    "title": {
+      "fr": "Lycée",
+      "en": "High School Cycle",
+      "ar": "المرحلة الثانوية"
+    },
+    "subtitle": {
+      "fr": "Un accompagnement complet pour les trois dernières années, en particulier le Baccalauréat",
+      "en": "Comprehensive support for the last three years, especially the Baccalaureate",
+      "ar": "دعم كامل للسنوات الثلاث الأخيرة، خاصة البكالوريا"
+    },
+    "description": {
+      "fr": "Découvrez un cycle Lycée où chaque élève est soutenu dans son parcours académique, avec une préparation optimale pour le Baccalauréat",
+      "en": "Discover a high school cycle where each student is supported in their academic journey, with optimal preparation for the Baccalaureate",
+      "ar": "اكتشف مرحلة الثانوية حيث يتم دعم كل طالب في مساره الأكاديمي، مع تحضير مثالي للبكالوريا"
+    },
+    "explication": {
+      "fr": "Le cycle Lycée est une étape décisive dans la vie scolaire de votre enfant. C’est ici que les bases de leur avenir académique et professionnel se construisent. Nous mettons tout en œuvre pour offrir à votre enfant un environnement propice à la réussite, avec un accompagnement renforcé pour réussir le Baccalauréat.",
+      "en": "The high school cycle is a decisive stage in your child’s academic life. This is where the foundations of their academic and professional future are laid. We do everything possible to provide your child with an environment conducive to success, with enhanced support to excel in the Baccalaureate.",
+      "ar": "المرحلة الثانوية هي مرحلة حاسمة في حياة طفلك الدراسية. حيث تُبنى أسس مستقبله الأكاديمي والمهني. نحرص على توفير بيئة تعليمية تساعد على النجاح، مع تقديم دعم إضافي لضمان التفوق في امتحانات البكالوريا."
+    },
+    "benefit1": {
+      "title": {
+        "fr": "Préparation Spécialisée au Baccalauréat",
+        "en": "Specialized Baccalaureate Preparation",
+        "ar": "تحضير متخصص للبكالوريا"
+      },
+      "description": {
+        "fr": "Des méthodes d’enseignement et de révision adaptées pour garantir une préparation optimale aux examens du Baccalauréat",
+        "en": "Teaching and revision methods tailored to ensure optimal preparation for the Baccalaureate exams",
+        "ar": "نقدم أساليب تدريس ومراجعة مخصصة لضمان تحضير مثالي لامتحانات البكالوريا"
+      }
+    },
+    "benefit2": {
+      "title": {
+        "fr": "Accompagnement Personnel et Suivi Individualisé",
+        "en": "Personalized Support & Individual Monitoring",
+        "ar": "دعم شخصي ومتابعة فردية"
+      },
+      "description": {
+        "fr": "Un suivi constant pour accompagner chaque élève dans son parcours et sa réussite",
+        "en": "Continuous support to guide each student through their journey and ensure success",
+        "ar": "متابعة مستمرة لدعم كل طالب في مساره الدراسي وضمان نجاحه"
+      }
+    },
+    "benefit3": {
+      "title": {
+        "fr": "Ouverture sur les Horizons Professionnels et Universitaires",
+        "en": "Opening to Professional & University Horizons",
+        "ar": "فتح آفاق مهنية وجامعية"
+      },
+      "description": {
+        "fr": "Une préparation complète qui prépare les élèves à la fois pour l’université et le monde professionnel",
+        "en": "A comprehensive preparation that prepares students for both university and the professional world",
+        "ar": "تحضير شامل يُعد الطلاب للجامعة والعالم المهني"
+      }
+    },
+    "highlight": {
+      "title": {
+        "fr": "Un Lycée Pensé pour la Réussite des Élèves",
+        "en": "A High School Designed for Student Success",
+        "ar": "ثانوية مصممة من أجل نجاح الطلاب"
+      },
+      "description": {
+        "fr": "À Écoles La Tour Eiffel, nous offrons un cadre éducatif rigoureux mais bienveillant, où chaque élève reçoit l'attention nécessaire pour réussir son Baccalauréat. Grâce à des cours spécialisés, des révisions intensives et un suivi personnalisé, nos élèves sont prêts à affronter les défis de leurs examens et à ouvrir les portes de l’avenir.",
+        "en": "At Écoles La Tour Eiffel, we provide a rigorous yet caring educational environment where every student receives the necessary attention to succeed in their Baccalaureate. With specialized courses, intensive revision, and personalized monitoring, our students are ready to face the challenges of their exams and open the doors to their future.",
+        "ar": "في مدارس لا تور إيفل، نوفر بيئة تعليمية صارمة ولكن مليئة بالرعاية، حيث يتلقى كل طالب الدعم اللازم للنجاح في البكالوريا. بفضل الدروس المتخصصة، والمراجعات المكثفة، والمتابعة الشخصية، يكون طلابنا مستعدين لمواجهة تحديات امتحاناتهم وفتح أبواب المستقبل."
+      },
+      "sub_description": {
+        "fr": "Un cadre éducatif pour exceller et réussir",
+        "en": "An educational environment to excel and succeed",
+        "ar": "بيئة تعليمية لتحقيق التفوق والنجاح"
+      }
+    },
+    "testimonials": {
+      "fr": "Grâce à la préparation de l’école, mon enfant a pu réussir brillamment son Baccalauréat et s'orienter vers des études supérieures.",
+      "en": "Thanks to the school’s preparation, my child was able to brilliantly pass the Baccalaureate and pursue higher education.",
+      "ar": "بفضل التحضير الذي تقدمه المدرسة، تمكن طفلي من اجتياز البكالوريا بتفوق والانتقال إلى الدراسة الجامعية."
+    },
+    "testimonials_author": {
+      "fr": "Parent d’un élève du Lycée",
+      "en": "Parent of a high school student",
+      "ar": "ولي أمر أحد طلاب الثانوية"
+    },
+    "image_gallery_title": {
+      "fr": "Lycée en Images",
+      "en": "High School in Pictures",
+      "ar": "المرحلة الثانوية بعدسة الصور"
+    },
+    "more_photos": {
+      "fr": "Voir Plus+",
+      "en": "See More+",
+      "ar": "استكشاف المزيد من الصور+"
+    }
+  }
+  

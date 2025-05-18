@@ -1,0 +1,38 @@
+{
+  "fr": {
+    "students": "Plus de",
+    "studentsCount": "1500",
+    "studentsText": "Élèves Inscrits",
+    "successRate": "Avec un taux de",
+    "successRateText": "Réussite au Bac",
+    "languages": "Nous enseignons",
+    "languagesCount": "3",
+    "languagesText": "Langues+ Espagnol",
+    "isoCertification": "Première école obtenir",
+    "isoCertificationText": "au Maroc"
+  },
+  "en": {
+    "students": "More than",
+    "studentsCount": "1500",
+    "studentsText": "Enrolled Students",
+    "successRate": "With a success rate of",
+    "successRateText": "Baccalaureate Success Rate",
+    "languages": "We teach",
+    "languagesCount": "3",
+    "languagesText": "Languages+ Spanish",
+    "isoCertification": "First school in Morocco to obtain",
+    "isoCertificationText": "2015 quality certification"
+  },
+  "ar": {
+    "students": "أكثر من",
+    "studentsCount": "1500",
+    "studentsText": "الطلاب المسجلين",
+    "successRate": "مع معدل نجاح قدره",
+    "successRateText": "معدل النجاح في الباكالوريا",
+    "languages": "نحن ندرس",
+    "languagesCount": "3",
+    "languagesText": "لغات+ إسباني",
+    "isoCertification": "أول مدرسة في المغرب تحصل على",
+    "isoCertificationText": " للجودة 2015"
+  }
+}

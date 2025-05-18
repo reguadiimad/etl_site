@@ -1,0 +1,158 @@
+{
+
+    "school_name": {
+      "fr": "La Tour Eiffel",
+      "en": "The Eiffel Tower",
+      "ar": "برج إيفل"
+    },
+    "pedagogy": {
+      "fr": "Pédagogie",
+      "en": "Pedagogy",
+      "ar": "التعليم"
+    },
+    "prenote": {
+      "fr": "Prenote",
+      "en": "Prenote",
+      "ar": "ملاحظة"
+    },
+    "social": {
+      "fr": "Social",
+      "en": "Social",
+      "ar": "‏وسائل التواصل"
+    },
+
+
+    "home": {
+      "fr": "Accueil",
+      "en": "Home",
+      "ar": "الرئيسية"
+    },
+    "about": {
+      "fr": "À propos",
+      "en": "About",
+      "ar": "حولنا"
+    },
+    "founder_message": {
+      "fr": "Mot du fondateur",
+      "en": "Founder’s Message",
+      "ar": "كلمة المؤسس"
+    },
+    "values": {
+      "fr": "Nos valeurs",
+      "en": "Our Values",
+      "ar": "قيمنا"
+    },
+    "school_life": {
+      "fr": "La vie scolaire",
+      "en": "School Life",
+      "ar": "حياة مدرسية"
+    },
+    "admission": {
+      "fr": "Admission",
+      "en": "Admission",
+      "ar": "الالتحاق"
+    },
+    "kindergarten": {
+      "fr": "Maternelle",
+      "en": "Kindergarten",
+      "ar": "رياض الأطفال"
+    },
+    "primary": {
+      "fr": "Primaire",
+      "en": "Primary",
+      "ar": "المرحلة الابتدائية"
+    },
+    "college": {
+      "fr": "Collège",
+      "en": "Middle School",
+      "ar": "الإعدادي"
+    },
+    "high_school": {
+      "fr": "Lycée",
+      "en": "High School",
+      "ar": "الثانوي"
+    },
+    "general_conditions": {
+      "fr": "Conditions générales",
+      "en": "General Conditions",
+      "ar": "الشروط العامة"
+    },
+    "contact": {
+      "fr": "Contact",
+      "en": "Contact",
+      "ar": "اتصل"
+    },
+    "news_events": {
+      "fr": "Actualités et événements",
+      "en": "News and Events",
+      "ar": "الأخبار والفعاليات"
+    },
+    "canteen": {
+      "fr": "Cantine",
+      "en": "Canteen",
+      "ar": "المقصف"
+    },
+    "transport": {
+      "fr": "Transport",
+      "en": "Transport",
+      "ar": "النقل"
+    },
+    "clubs": {
+      "fr": "Clubs",
+      "en": "Clubs",
+      "ar": "الأندية"
+    },
+    "nursery": {
+      "fr": "Garderie",
+      "en": "Nursery",
+      "ar": "الحضانة"
+    },
+    "gallery": {
+      "fr": "Galerie",
+      "en": "Gallery",
+      "ar": "المعرض"
+    },
+
+
+    "facebook": {
+      "fr": "Écoles La Tour Eiffel",
+      "en": "Écoles La Tour Eiffel",
+      "ar": "مدارس برج إيفل"
+    },
+    "instagram": {
+      "fr": "lesecoleslatoureiffel2",
+      "en": "lesecoleslatoureiffel2",
+      "ar": "مدارس برج إيفل 2"
+    },
+    "whatsapp": {
+      "fr": "Numéro WhatsApp",
+      "en": "WhatsApp Number",
+      "ar": "رقم الواتساب"
+    },
+    "email": {
+      "fr": "ecoleslatoureiffel@gmail.com",
+      "en": "ecoleslatoureiffel@gmail.com",
+      "ar": "ecoleslatoureiffel@gmail.com"
+    },
+
+  "copy_alert": {
+    "fr": "Numéro copié : ",
+    "en": "Number copied: ",
+    "ar": "تم نسخ الرقم: "
+  },
+  "language_selector": {
+    "fr": "Français",
+    "en": "French",
+    "ar": "الفرنسية"
+  },
+  "copyright": {
+    "fr": "Copyright ©",
+    "en": "Copyright ©",
+    "ar": "حقوق النشر ©"
+  },
+  "all_rights_reserved": {
+    "fr": "Tous les droits réservés. Les Écoles La Tour Eiffel, SARL déposée.",
+    "en": "All rights reserved. Les Écoles La Tour Eiffel, registered LLC.",
+    "ar": "جميع الحقوق محفوظة. مدارس برج إيفل، شركة ذات مسؤولية محدودة مسجلة."
+  }
+}

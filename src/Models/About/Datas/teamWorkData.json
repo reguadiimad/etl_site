@@ -1,0 +1,62 @@
+{
+  "teamSection": {
+    "heading": {
+      "ar": "اكتشف فريقنا المميز",
+      "fr": "Explorez Notre Équipe",
+      "en": "Explore Our Team"
+    },
+    "title": {
+      "ar": "قوتنا تكمن في فريقنا الاستثنائي",
+      "fr": "Notre Force C'est notre équipe",
+      "en": "Our Strength Is Our Team"
+    },
+    "contentBlocks": [
+      {
+        "title": {
+          "ar": "عرض شامل للفريق التربوي",
+          "fr": "Présentation de l'Équipe Pédagogique",
+          "en": "Presentation of the Teaching Team"
+        },
+        "description": {
+          "ar": "مدرسونا مؤهلون وذوو خبرة عالية، يملكون شهادات ومؤهلات معترف بها عالميًا. يتمتعون بسنوات من الخبرة في تقديم التعليم بجودة عالية تلبي احتياجات كل طالب. نستخدم أساليب تعليمية مبتكرة تجمع بين التقنية والتفاعل لتحفيز الفضول العلمي لدى الطلاب وتعزيز فهمهم العميق للمواد الدراسية. نحن ملتزمون بتطوير الطلاب أكاديميًا وشخصيًا، وبتزويدهم بالمهارات الضرورية لمواجهة تحديات المستقبل.",
+          "fr": "Enseignants qualifiés et expérimentés. Nos enseignants possèdent une solide expérience et des qualifications reconnues, garantissant un enseignement de qualité adapté aux besoins de chaque élève. Nous adoptons des méthodes modernes et interactives pour stimuler la curiosité et favoriser une compréhension approfondie des sujets abordés.",
+          "en": "Qualified and experienced teachers. Our teachers have strong experience and recognized qualifications, ensuring quality teaching tailored to each student's needs. We adopt modern and interactive methods to stimulate curiosity and foster a deep understanding of the subjects addressed."
+        }
+      },
+      {
+        "title": {
+          "ar": "القيم والالتزامات التربوية",
+          "fr": "Valeurs et Engagements",
+          "en": "Values and Commitments"
+        },
+        "description": {
+          "ar": "نحن نؤمن بأن كل طالب فريد من نوعه وله احتياجات خاصة تتطلب متابعة دقيقة ودعمًا مخصصًا. فريقنا يعمل بجد لتوفير بيئة تعلم متكاملة تسعى لتحقيق أقصى إمكانيات الطلاب. كما نشجع تعلم اللغات والانفتاح الثقافي لتطوير قدرات الطلاب وإعدادهم لعالم مليء بالفرص. من خلال التعليم الشامل، نسعى لتعزيز التفكير النقدي، الابتكار، والانفتاح على التنوع الثقافي لبناء مستقبل مشرق.",
+          "fr": "Accompagnement personnalisé des élèves. Chaque élève est unique. Notre équipe veille à offrir un suivi adapté pour aider chacun à atteindre son plein potentiel. Ouverture sur le Monde. Nous encourageons l'apprentissage des langues et la découverte de différentes cultures afin de préparer nos élèves à un avenir globalisé.",
+          "en": "Personalized support for students. Each student is unique. Our team ensures tailored support to help each one reach their full potential. Openness to the World. We encourage language learning and the discovery of different cultures to prepare our students for a globalized future."
+        }
+      }
+    ],
+    "additionalInfo": [
+      {
+        "ar": "مدرسون ذوو خبرة وكفاءة معترف بها. نستخدم أحدث أساليب التعليم التفاعلي لتعزيز مشاركة الطلاب. نقدم دعمًا فرديًا لكل طالب لضمان تحقيق أهدافهم الأكاديمية.",
+        "fr": "Des enseignants expérimentés aux compétences reconnues. Des méthodes pédagogiques innovantes et interactives. Un suivi personnalisé pour chaque élève.",
+        "en": "Experienced teachers with recognized skills. Innovative and interactive teaching methods. Personalized support for each student."
+      },
+      {
+        "ar": "قيم فريق التعليم تشمل تشجيع التبادل الثقافي والانفتاح على العالم. نحرص على تعزيز التفكير النقدي والإبداع لدى الطلاب. نسعى لبناء بيئة تعليمية شاملة تدعم التميز والتنوع.",
+        "fr": "Valeurs et Engagements de l'Équipe Pédagogique. Encourager l'ouverture culturelle et les échanges internationaux. Stimuler l'esprit critique et l'innovation chez les élèves. Promouvoir un environnement inclusif et respectueux pour tous.",
+        "en": "Values and Commitments of the Teaching Team. Encourage cultural openness and international exchanges. Stimulate critical thinking and innovation among students. Promote an inclusive and respectful environment for all."
+      }
+    ],
+    "sidebar": {
+      "ar": "يتفانى الفريق التربوي لمدارس برج إيفل في تقديم التعليم عالي الجودة، حيث يراعي احتياجات الطلاب المختلفة في كل مرحلة عمرية. نقدم دعمًا مستمرًا في الجوانب الأكاديمية، التطوير الشخصي، والأنشطة المدرسية. نحرص على خلق بيئة تعليمية ملهمة ومحفزة تساعد الطلاب على تحقيق إمكانياتهم الكاملة وبناء مستقبل ناجح.",
+      "fr": "L’équipe pédagogique des Écoles La Tour Eiffel s’adapte aux besoins des élèves à chaque âge. Elle offre un soutien constant dans l’enseignement, le développement personnel et les événements scolaires, créant un environnement propice à leur épanouissement.",
+      "en": "The teaching team at La Tour Eiffel Schools adapts to the needs of students at every age. It provides constant support in education, personal development, and school events, creating an environment conducive to their growth."
+    },
+    "footer": {
+      "ar": "معًا نحو التميز والإبداع",
+      "fr": "Ensemble vers l'excellence",
+      "en": "Together Toward Excellence"
+    }
+  }
+}

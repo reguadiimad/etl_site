@@ -1,0 +1,114 @@
+{
+  "texts": {
+    "header1": {
+      "fr": "VOTRE",
+      "en": "YOUR",
+      "ar": "مدرستكم"
+    },
+    "header2": {
+      "fr": "SUIVEZ LEUR PROGRÈS",
+      "en": "TRACK THEIR PROGRESS",
+      "ar": "تتبع تقدمهم"
+    },
+    "header3": {
+      "fr": "ÉCOLE À ÉTÉ",
+      "en": "SCHOOL IS",
+      "ar": "لقد تمت رقمنتها"
+    },
+    "header4": {
+      "fr": "DIGITALISÉE",
+      "en": "DIGITIZED",
+      "ar": "بشكل كااااااامل"
+    },
+    "connect_button": {
+      "fr": "CONNECTEZ-NOUS",
+      "en": "CONNECT US",
+      "ar": "تواصل معنا"
+    },
+    "header5": {
+      "fr": "À100%",
+      "en": "100%",
+      "ar": "100%"
+    },
+    "description": {
+      "fr": "Notre école, La Tour Eiffel, est fière de lancer une application moderne qui simplifie la gestion des devoirs et renforce le lien entre les parents, les élèves et l'école.",
+      "en": "Our school, La Tour Eiffel, is proud to launch a modern application that simplifies homework management and strengthens the bond between parents, students, and the school.",
+      "ar": "تفتخر مدرستنا، لا تور إيفل، بإطلاق تطبيق حديث يسهل إدارة الواجبات المنزلية ويعزز الروابط بين الآباء والطلاب والمدرسة."
+    },
+    "real_time_connect": {
+      "fr": "Connectez-vous à La Tour Eiffel en temps réel",
+      "en": "Connect to La Tour Eiffel in real-time",
+      "ar": "اتصلوا بـ لا تور إيفل في الوقت الحقيقي"
+    },
+    "free_header": {
+      "fr": "Gratuitement",
+      "en": "For Free",
+      "ar": "مجانا"
+    },
+    "free_description": {
+      "fr": "Informez-vous instantanément sur la vie scolaire et pédagogique de votre enfant.",
+      "en": "Stay instantly informed about your child's school and educational life.",
+      "ar": "ابقَ مطلعًا فورًا على حياة طفلك المدرسية والتعليمية."
+    },
+    "stay_informed": {
+      "fr": "Restez informé",
+      "en": "Stay informed",
+      "ar": "ابقَ على اطلاع"
+    },
+    "stay_informed_detail": {
+      "fr": "Vous serez toujours notifié et informé",
+      "en": "You will always be notified and informed",
+      "ar": "ستكون دائمًا مُخطَرًا ومُطلعًا"
+    },
+    "always_connected": {
+      "fr": "Toujours connectés",
+      "en": "Always connected",
+      "ar": "دائمًا متصلون"
+    },
+    "always_connected_detail": {
+      "fr": "Application toujours en ligne, rien raté.",
+      "en": "App always online, nothing missed.",
+      "ar": "التطبيق دائمًا متصل، لن يفوتك شيء."
+    },
+    "at_your_service": {
+      "fr": "Toujours à votre service",
+      "en": "Always at your service",
+      "ar": "دائمًا في خدمتك"
+    },
+    "at_your_service_detail": {
+      "fr": "Notre équipe est prête à vous aider à tout moment.",
+      "en": "Our team is ready to assist you at any time.",
+      "ar": "فريقنا جاهز لمساعدتك في أي وقت."
+    },
+    "visit_us": {
+      "fr": "Visitez la direction de l'école ou cliquez sur \"Connectez-nous\" pour plus d'informations.",
+      "en": "Visit the school's office or click \"Connect Us\" for more information.",
+      "ar": "زر إدارة المدرسة أو انقر على \"تواصل معنا\" لمزيد من المعلومات."
+    },
+    "school_name": {
+      "fr": "le Groupe Scolaire La Tour Eiffel",
+      "en": "La Tour Eiffel School Group",
+      "ar": "مجموعة مدارس لا تور إيفل"
+    },
+    "read_more": {
+      "fr": "Lire plus",
+      "en": "Read more",
+      "ar": "اقرأ المزيد"
+    },
+    "total_sessions": {
+      "fr": "Total Session",
+      "en": "Total Sessions",
+      "ar": "إجمالي الجلسات"
+    },
+    "total_hours": {
+      "fr": "Heures Total",
+      "en": "Total Hours",
+      "ar": "إجمالي الساعات"
+    }
+  },
+  "popUp": {
+    "ar": "اكتشفوا خدماتنا",
+    "fr": "Découvrez nos Services",
+    "en": "Discover our Services"
+  }
+}

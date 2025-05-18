@@ -1,0 +1,53 @@
+{
+    "localisation": {
+      "en": "Location",
+      "fr": "Localisation",
+      "ar": "الموقع"
+    },
+    "title": {
+      "en": "Where we're waiting for you",
+      "fr": "Là où nous vous attendons",
+      "ar": "حيث ننتظرك"
+    },
+    "schoolName": {
+      "en": "Écoles La Tour Eiffel",
+      "fr": "Écoles La Tour Eiffel",
+      "ar": "مدارس لا تور إيفل"
+    },
+    "address": {
+      "en": "Al Hadika, Imm. Chellah, Sidi Moumen, Casablanca",
+      "fr": "Al Hadika, Imm. Chellah, Sidi Moumen, Casablanca",
+      "ar": "الحديقة، عمارة شالة، سيدي مومن، الدار البيضاء"
+    },
+    "rating": {
+      "en": "Rating",
+      "fr": "notation",
+      "ar": "التقييم"
+    },
+    "seeLargeMap": {
+      "en": "see on a large map",
+      "fr": "voir sur une grande carte",
+      "ar": "عرض على خريطة كبيرة"
+    },
+    "directions": {
+      "en": "Direction",
+      "fr": "Direction",
+      "ar": "الاتجاه"
+    },
+    "googleMaps": {
+      "en": "Google Maps",
+      "fr": "Google maps",
+      "ar": "خرائط جوجل"
+    },
+    "appleMaps": {
+      "en": "Apple Maps",
+      "fr": "Apple maps",
+      "ar": "خرائط آبل"
+    },
+    "mapUrls": {
+        "en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3324.1359261851885!2d-7.5130746!3d33.5758199!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7cb4e3b1536db%3A0x8a260272bc14ecfb!2sEcole%20La%20Tour%20Eiffel!5e0!3m2!1sen!2sma!4v1744388533322!5m2!1sen!2sma",
+        "ar": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3324.1357550901203!2d-7.510499676243821!3d33.57582434273535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7cb4e3b1536db%3A0x8a260272bc14ecfb!2sEcole%20La%20Tour%20Eiffel!5e0!3m2!1sar!2sma!4v1744558601010!5m2!1sar!2sma",
+        "fr": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3324.1359261851885!2d-7.5130746!3d33.5758199!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7cb4e3b1536db%3A0x8a260272bc14ecfb!2sEcole%20La%20Tour%20Eiffel!5e0!3m2!1sfr!2sma!4v1744558803055!5m2!1sfr!2sma"
+      }
+  }
+  

@@ -1,0 +1,27 @@
+{
+    "ar": {
+      "intro": "أعد التفكير في التعليم برؤية مبتكرة وشغف لا يتزعزع والتزام مطلق! تم تصميم كل خدمة لتعزيز المسار الدراسي للطلاب، من خلال تزويدهم بأدوات عصرية وبيئة محفزة وفرص فريدة لتنمية إمكانياتهم.",
+      "servicesTitle": "خدمات التميز",
+      "servicesSubTitle": "أعد تعريف التجربة التعليمية بالابتكار والشغف",
+      "placeholder": "مثال",
+      "galleryAlt": "صورة رياض الأطفال",
+      "selectedImageAlt": "الصورة المحددة لرياض الأطفال"
+    },
+    "fr": {
+      "intro": "Repensez l’éducation avec une vision novatrice, une passion sans faille et un engagement absolu ! Chaque service a été conçu pour enrichir le parcours scolaire des élèves, en leur offrant des outils modernes, un environnement stimulant et des opportunités uniques pour s’épanouir pleinement.",
+      "servicesTitle": "Services d'Excellence",
+      "servicesSubTitle": "Redéfinissez l'expérience éducative avec innovation et passion",
+      "placeholder": "fh",
+      "galleryAlt": "Image de Maternelle",
+      "selectedImageAlt": "Image sélectionnée de Maternelle"
+    },
+    "en": {
+      "intro": "Rethink education with a forward-thinking vision, unwavering passion, and absolute commitment! Each service has been designed to enrich students' academic journey by providing modern tools, a stimulating environment, and unique opportunities to thrive.",
+      "servicesTitle": "Excellence Services",
+      "servicesSubTitle": "Redefine the educational experience with innovation and passion",
+      "placeholder": "fh",
+      "galleryAlt": "Kindergarten Image",
+      "selectedImageAlt": "Selected Kindergarten Image"
+    }
+  }
+  

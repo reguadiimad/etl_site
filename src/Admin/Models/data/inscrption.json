@@ -1,0 +1,503 @@
+[
+    {
+      "id": 1,
+      "date": "2024-06-10",
+      "schoolYear": "2024/2025",
+      "responsable": {
+        "nom": "El Amrani",
+        "prenom": "Mohamed",
+        "lien": "pere",
+        "email": "mohamed.elamrani@example.com",
+        "telephone": "+212612345678"
+      },
+      "eleve": {
+        "prenom": "Sara",
+        "nom": "El Amrani",
+        "dateNaissance": {
+          "annee": 2012,
+          "mois": 4,
+          "jour": 18
+        },
+        "niveauScolaire": "Primaire",
+        "classe": "CM1",
+        "institut": "Lycée Sidi Kacem",
+        "province": "Casablanca"
+      }
+    },
+    {
+      "id": 2,
+      "date": "2024-06-12",
+      "schoolYear": "2024/2025",
+      "responsable": {
+        "nom": "Benkirane",
+        "prenom": "Aicha",
+        "lien": "mere",
+        "email": "aicha.benkirane@example.com",
+        "telephone": "+212698765432"
+      },
+      "eleve": {
+        "prenom": "Youssef",
+        "nom": "Benkirae",
+        "dateNaissance": {
+          "annee": 2011,
+          "mois": 9,
+          "jour": 5
+        },
+        "niveauScolaire": "Primaire",
+        "classe": "CM2",
+        "institut": "Collège Hassan II",
+        "province": "Rabat"
+      }
+    },
+    {
+      "id": 3,
+      "date": "2024-06-15",
+      "schoolYear": "2024/2025",
+      "responsable": {
+        "nom": "El Idrissi",
+        "prenom": "Khadija",
+        "lien": "mere",
+        "email": "khadija.elidrissi@example.com",
+        "telephone": "+212655443322"
+      },
+      "eleve": {
+        "prenom": "Amine",
+        "nom": "El Idrissi",
+        "dateNaissance": {
+          "annee": 2010,
+          "mois": 11,
+          "jour": 22
+        },
+        "niveauScolaire": "Collège",
+        "classe": "5ème",
+        "institut": "Lycée Moulay Youssef",
+        "province": "Marrakech"
+      }
+    },
+    {
+      "id": 4,
+      "date": "2024-06-18",
+      "schoolYear": "2024/2025",
+      "responsable": {
+        "nom": "Kettani",
+        "prenom": "Youssef",
+        "lien": "pere",
+        "email": "youssef.kettani@example.com",
+        "telephone": "+212611223344"
+      },
+      "eleve": {
+        "prenom": "Salma",
+        "nom": "Kettani",
+        "dateNaissance": {
+          "annee": 2013,
+          "mois": 2,
+          "jour": 14
+        },
+        "niveauScolaire": "Primaire",
+        "classe": "CP",
+        "institut": "École Ibn Sina",
+        "province": "Fès"
+      }
+    },
+    {
+      "id": 5,
+      "date": "2024-06-20",
+      "schoolYear": "2024/2025",
+      "responsable": {
+        "nom": "Rachidi",
+        "prenom": "Leila",
+        "lien": "tuteur",
+        "email": "leila.rachidi@example.com",
+        "telephone": "+212622334455"
+      },
+      "eleve": {
+        "prenom": "Imane",
+        "nom": "Rachidi",
+        "dateNaissance": {
+          "annee": 2012,
+          "mois": 7,
+          "jour": 30
+        },
+        "niveauScolaire": "Primaire",
+        "classe": "CE2",
+        "institut": "Collège Al Qamar",
+        "province": "Agadir"
+      }
+    },
+    {
+      "id": 6,
+      "date": "2024-06-22",
+      "schoolYear": "2024/2025",
+      "responsable": {
+        "nom": "Ouazzani",
+        "prenom": "Hassan",
+        "lien": "pere",
+        "email": "hassan.ouazzani@example.com",
+        "telephone": "+212666554433"
+      },
+      "eleve": {
+        "prenom": "Rania",
+        "nom": "Ouazzani",
+        "dateNaissance": {
+          "annee": 2011,
+          "mois": 12,
+          "jour": 3
+        },
+        "niveauScolaire": "Collège",
+        "classe": "6ème",
+        "institut": "Lycée Moulay Rachid",
+        "province": "Tangier"
+      }
+    },
+    {
+      "id": 7,
+      "date": "2024-06-25",
+      "schoolYear": "2024/2025",
+      "responsable": {
+        "nom": "El Khattabi",
+        "prenom": "Fatima",
+        "lien": "mere",
+        "email": "fatima.elkhattabi@example.com",
+        "telephone": "+212677889900"
+      },
+      "eleve": {
+        "prenom": "Omar",
+        "nom": "El Khattabi",
+        "dateNaissance": {
+          "annee": 2010,
+          "mois": 5,
+          "jour": 16
+        },
+        "niveauScolaire": "Collège",
+        "classe": "4ème",
+        "institut": "École Ouarzazate",
+        "province": "Ouarzazate"
+      }
+    },
+    {
+      "id": 8,
+      "date": "2025-06-05",
+      "schoolYear": "2025/2026",
+      "responsable": {
+        "nom": "Zarrouk",
+        "prenom": "Samir",
+        "lien": "pere",
+        "email": "samir.zarrouk@example.com",
+        "telephone": "+212690112233"
+      },
+      "eleve": {
+        "prenom": "Nour",
+        "nom": "Zarrouk",
+        "dateNaissance": {
+          "annee": 2014,
+          "mois": 3,
+          "jour": 25
+        },
+        "niveauScolaire": "Primaire",
+        "classe": "CE1",
+        "institut": "École Essaouira",
+        "province": "Essaouira"
+      }
+    },
+    {
+      "id": 9,
+      "date": "2025-06-07",
+      "schoolYear": "2025/2026",
+      "responsable": {
+        "nom": "Belaïdi",
+        "prenom": "Salim",
+        "lien": "pere",
+        "email": "salim.belaidi@example.com",
+        "telephone": "+212698877665"
+      },
+      "eleve": {
+        "prenom": "Amina",
+        "nom": "Belaïdi",
+        "dateNaissance": {
+          "annee": 2013,
+          "mois": 8,
+          "jour": 9
+        },
+        "niveauScolaire": "Primaire",
+        "classe": "CP",
+        "institut": "Collège Tetouan",
+        "province": "Tétouan"
+      }
+    },
+    {
+      "id": 10,
+      "date": "2025-06-10",
+      "schoolYear": "2025/2026",
+      "responsable": {
+        "nom": "Mouline",
+        "prenom": "Najat",
+        "lien": "mere",
+        "email": "najat.mouline@example.com",
+        "telephone": "+212634556677"
+      },
+      "eleve": {
+        "prenom": "Yassine",
+        "nom": "Mouline",
+        "dateNaissance": {
+          "annee": 2012,
+          "mois": 10,
+          "jour": 2
+        },
+        "niveauScolaire": "Collège",
+        "classe": "5ème",
+        "institut": "Lycée Sidi Kacem",
+        "province": "Kénitra"
+      }
+    },
+    {
+      "id": 11,
+      "date": "2025-06-12",
+      "schoolYear": "2025/2026",
+      "responsable": {
+        "nom": "Hafidi",
+        "prenom": "Latifa",
+        "lien": "mere",
+        "email": "latifa.hafidi@example.com",
+        "telephone": "+212612998877"
+      },
+      "eleve": {
+        "prenom": "Salim",
+        "nom": "Hafidi",
+        "dateNaissance": {
+          "annee": 2011,
+          "mois": 1,
+          "jour": 20
+        },
+        "niveauScolaire": "Collège",
+        "classe": "6ème",
+        "institut": "École Oujda",
+        "province": "Oujda"
+      }
+    },
+    {
+      "id": 12,
+      "date": "2025-06-15",
+      "schoolYear": "2025/2026",
+      "responsable": {
+        "nom": "Saïdi",
+        "prenom": "Karim",
+        "lien": "pere",
+        "email": "karim.saidi@example.com",
+        "telephone": "+212645332211"
+      },
+      "eleve": {
+        "prenom": "Hana",
+        "nom": "Saïdi",
+        "dateNaissance": {
+          "annee": 2012,
+          "mois": 6,
+          "jour": 11
+        },
+        "niveauScolaire": "Primaire",
+        "classe": "CE2",
+        "institut": "Collège El Jadida",
+        "province": "El Jadida"
+      }
+    },
+    {
+      "id": 13,
+      "date": "2025-06-17",
+      "schoolYear": "2025/2026",
+      "responsable": {
+        "nom": "Naciri",
+        "prenom": "Rachid",
+        "lien": "pere",
+        "email": "rachid.naciri@example.com",
+        "telephone": "+212656778899"
+      },
+      "eleve": {
+        "prenom": "Imad",
+        "nom": "Naciri",
+        "dateNaissance": {
+          "annee": 2010,
+          "mois": 2,
+          "jour": 28
+        },
+        "niveauScolaire": "Collège",
+        "classe": "4ème",
+        "institut": "Lycée Marrakech",
+        "province": "Marrakech"
+      }
+    },
+    {
+      "id": 14,
+      "date": "2025-06-20",
+      "schoolYear": "2025/2026",
+      "responsable": {
+        "nom": "El Fassi",
+        "prenom": "Karima",
+        "lien": "mere",
+        "email": "karima.elfassi@example.com",
+        "telephone": "+212627443355"
+      },
+      "eleve": {
+        "prenom": "Othman",
+        "nom": "El Fassi",
+        "dateNaissance": {
+          "annee": 2013,
+          "mois": 9,
+          "jour": 14
+        },
+        "niveauScolaire": "Primaire",
+        "classe": "CP",
+        "institut": "École Rabat",
+        "province": "Rabat"
+      }
+    },
+    {
+      "id": 15,
+      "date": "2025-06-22",
+      "schoolYear": "2025/2026",
+      "responsable": {
+        "nom": "Toumi",
+        "prenom": "Siham",
+        "lien": "mere",
+        "email": "siham.toumi@example.com",
+        "telephone": "+212699112233"
+      },
+      "eleve": {
+        "prenom": "Meryem",
+        "nom": "Toumi",
+        "dateNaissance": {
+          "annee": 2012,
+          "mois": 11,
+          "jour": 6
+        },
+        "niveauScolaire": "Collège",
+        "classe": "5ème",
+        "institut": "Lycée Beni Mellal",
+        "province": "Beni Mellal"
+      }
+    },
+    {
+      "id": 16,
+      "date": "2025-06-25",
+      "schoolYear": "2025/2026",
+      "responsable": {
+        "nom": "Fellah",
+        "prenom": "Yamina",
+        "lien": "pere",
+        "email": "yamina.fellah@example.com",
+        "telephone": "+212644556677"
+      },
+      "eleve": {
+        "prenom": "Adil",
+        "nom": "Fellah",
+        "dateNaissance": {
+          "annee": 2011,
+          "mois": 3,
+          "jour": 19
+        },
+        "niveauScolaire": "Collège",
+        "classe": "6ème",
+        "institut": "Collège El Hoceima",
+        "province": "Al Hoceima"
+      }
+    },
+    {
+      "id": 17,
+      "date": "2025-06-27",
+      "schoolYear": "2025/2026",
+      "responsable": {
+        "nom": "Jilali",
+        "prenom": "Rachida",
+        "lien": "mere",
+        "email": "rachida.jilali@example.com",
+        "telephone": "+212633221144"
+      },
+      "eleve": {
+        "prenom": "Zakaria",
+        "nom": "Jilali",
+        "dateNaissance": {
+          "annee": 2013,
+          "mois": 7,
+          "jour": 8
+        },
+        "niveauScolaire": "Primaire",
+        "classe": "CE1",
+        "institut": "École Tetouan",
+        "province": "Tétouan"
+      }
+    },
+    {
+      "id": 18,
+      "date": "2025-06-29",
+      "schoolYear": "2025/2026",
+      "responsable": {
+        "nom": "Chakiri",
+        "prenom": "Hicham",
+        "lien": "pere",
+        "email": "hicham.chakiri@example.com",
+        "telephone": "+212678899001"
+      },
+      "eleve": {
+        "prenom": "Laila",
+        "nom": "Chakiri",
+        "dateNaissance": {
+          "annee": 2012,
+          "mois": 5,
+          "jour": 21
+        },
+        "niveauScolaire": "Collège",
+        "classe": "5ème",
+        "institut": "Lycée Salé",
+        "province": "Salé"
+      }
+    },
+    {
+      "id": 19,
+      "date": "2025-07-01",
+      "schoolYear": "2025/2026",
+      "responsable": {
+        "nom": "Boushaba",
+        "prenom": "Nabil",
+        "lien": "pere",
+        "email": "nabil.boushaba@example.com",
+        "telephone": "+212611998877"
+      },
+      "eleve": {
+        "prenom": "Sara",
+        "nom": "Boushaba",
+        "dateNaissance": {
+          "annee": 2011,
+          "mois": 12,
+          "jour": 12
+        },
+        "niveauScolaire": "Collège",
+        "classe": "4ème",
+        "institut": "École Khenifra",
+        "province": "Khenifra"
+      }
+    },
+    {
+      "id": 20,
+      "date": "2025-07-03",
+      "schoolYear": "2025/2026",
+      "responsable": {
+        "nom": "Essafi",
+        "prenom": "Dounia",
+        "lien": "mere",
+        "email": "dounia.essafi@example.com",
+        "telephone": "+212643221199"
+      },
+      "eleve": {
+        "prenom": "Youssef",
+        "nom": "Essafi",
+        "dateNaissance": {
+          "annee": 2013,
+          "mois": 10,
+          "jour": 4
+        },
+        "niveauScolaire": "Primaire",
+        "classe": "CP",
+        "institut": "Collège Agadir",
+        "province": "Agadir"
+      }
+    }
+  ]
+  

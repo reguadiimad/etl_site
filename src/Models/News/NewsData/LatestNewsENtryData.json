@@ -1,0 +1,22 @@
+{
+  "fr": {
+    "discover": "Découvrez",
+    "latestNews": "Dernières nouvelles",
+    "months": ["Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre"]
+    
+    
+  },
+  "en": {
+    "discover": "Discover",
+    "latestNews": "Latest News",
+    "months": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+     
+    
+  },
+  "ar": {
+    "discover": "اكتشف",
+    "latestNews": "آخر الأخبار",
+    "months": ["يناير", "فبراير", "مارس", "أبريل", "ماي", "يونيو", "يوليوز", "غشت", "شتنبر", "أكتوبر", "نونبر", "دجنبر"]
+    
+  }
+}

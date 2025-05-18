@@ -1,0 +1,18 @@
+{
+    "explore_details": {
+      "ar": "استكشف الآن المزيد من التفاصيل",
+      "fr": "Explorer de maintenant plus détails",
+      "en": "Explore more details now"
+    },
+    "our_cycles": {
+      "ar": "دوراتنا",
+      "fr": "Nos Cycles",
+      "en": "Our Cycles"
+    },
+    "button_labels": {
+      "ar": ["الروضة", "الابتدائي", "الإعدادي", "الثانوي"],
+      "fr": ["Maternelle", "Primaire", "Collège", "Lycée"],
+      "en": ["Kindergarten", "Primary", "Middle School", "High School"]
+    }
+  }
+  

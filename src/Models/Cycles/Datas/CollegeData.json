@@ -1,0 +1,95 @@
+{
+    "title": {
+        "fr": "Le Collège",
+        "en": "Middle School",
+        "ar": "المدرسة الإعدادية"
+    },
+    "subtitle": {
+        "fr": "Un parcours scolaire structuré pour une transition réussie",
+        "en": "A structured academic journey for a successful transition",
+        "ar": "مسار دراسي منظم لضمان انتقال ناجح"
+    },
+    "description": {
+        "fr": "Le collège est une étape essentielle du parcours scolaire. Il accompagne les élèves dans leur développement intellectuel et personnel tout en les préparant aux exigences du lycée. Aux Écoles La Tour Eiffel, nous intégrons la technologie pour moderniser l'apprentissage grâce à notre application mobile, offrant un accès simplifié aux ressources pédagogiques et à la communication avec les enseignants.",
+        "en": "Middle school is a crucial step in the academic journey. It supports students in their intellectual and personal development while preparing them for the challenges of high school. At Écoles La Tour Eiffel, we integrate technology to modernize learning through our mobile application, providing easy access to educational resources and communication with teachers.",
+        "ar": "المدرسة الإعدادية هي مرحلة أساسية في المسار الدراسي، حيث تساعد التلاميذ على تنمية مهاراتهم الفكرية والشخصية، مع تهيئتهم لمتطلبات التعليم الثانوي. في مدارس لا تور إيفل، نقوم بدمج التكنولوجيا لتحديث التعلم من خلال تطبيقنا المحمول، مما يتيح وصولاً سهلاً إلى الموارد التعليمية والتواصل مع المعلمين."
+    },
+    "explication": {
+        "fr": "Au collège, les bases acquises en primaire sont renforcées et approfondies. Nous veillons à offrir un cadre structuré et bienveillant qui favorise l'autonomie, l'esprit critique et la réussite scolaire. De plus, nous mettons un accent particulier sur l'enseignement des langues. Nos élèves bénéficient d'une immersion en français, en arabe et en anglais, et nous avons récemment intégré l'espagnol à notre programme pour une ouverture linguistique encore plus riche.",
+        "en": "In middle school, the foundations acquired in elementary school are strengthened and deepened. We provide a structured and supportive environment that fosters independence, critical thinking, and academic success. Additionally, we place a strong emphasis on language learning. Our students benefit from immersion in French, Arabic, and English, and we have recently included Spanish in our curriculum to enhance linguistic exposure.",
+        "ar": "في المدرسة الإعدادية، يتم تعزيز وتطوير الأسس التعليمية المكتسبة في المرحلة الابتدائية. نحن نحرص على توفير بيئة تعليمية منظمة وداعمة تعزز الاستقلالية والتفكير النقدي والنجاح الأكاديمي. بالإضافة إلى ذلك، نولي اهتمامًا خاصًا بتعليم اللغات. يستفيد تلاميذنا من التعلم بالفرنسية والعربية والإنجليزية، وقد قمنا مؤخرًا بإدراج اللغة الإسبانية في مناهجنا لتعزيز التنوع اللغوي."
+    },
+    "benefit1": {
+        "title": {
+            "fr": "Approfondissement des Connaissances",
+            "en": "Deepening Knowledge",
+            "ar": "تعميق المعرفة"
+        },
+        "description": {
+            "fr": "Un programme riche et varié pour permettre aux élèves d'explorer toutes les matières et de développer leurs compétences.",
+            "en": "A rich and varied curriculum that allows students to explore all subjects and develop their skills.",
+            "ar": "برنامج تعليمي غني ومتعدد الجوانب يتيح للتلاميذ استكشاف جميع المواد الدراسية وتطوير مهاراتهم."
+        }
+    },
+    "benefit2": {
+        "title": {
+            "fr": "Encadrement Personnalisé",
+            "en": "Personalized Support",
+            "ar": "متابعة ودعم فردي"
+        },
+        "description": {
+            "fr": "Un suivi individualisé pour accompagner chaque élève dans son parcours scolaire et personnel.",
+            "en": "Individualized support to guide each student in their academic and personal journey.",
+            "ar": "متابعة فردية ودعم مخصص لمرافقة كل تلميذ في مساره الدراسي والشخصي."
+        }
+    },
+    "benefit3": {
+        "title": {
+            "fr": "Ouverture Culturelle et Linguistique",
+            "en": "Cultural and Linguistic Exposure",
+            "ar": "الانفتاح الثقافي واللغوي"
+        },
+        "description": {
+            "fr": "Des activités et échanges internationaux pour développer une vision du monde élargie. Grâce à notre programme multilingue, incluant le français, l’arabe, l’anglais et l’espagnol",
+            "en": "Activities and international exchanges to develop a broad worldview. Through our multilingual program, including French, Arabic, English, and Spanish, we prepare our students for a globalized world.",
+            "ar": "أنشطة وتبادلات دولية تساعد على توسيع آفاق التلاميذ وتعزيز فهمهم للعالم. من خلال برنامجنا متعدد اللغات، الذي يشمل الفرنسية والعربية والإنجليزية والإسبانية، نجهز طلابنا لعالم معولم."
+        }
+    },
+    "highlight": {
+        "title": {
+            "fr": "Un Collège Conçu pour la Réussite des Élèves",
+            "en": "A Middle School Designed for Student Success",
+            "ar": "مدرسة إعدادية مصممة لضمان نجاح التلاميذ"
+        },
+        "description": {
+            "fr": "À Écoles La Tour Eiffel, nous accompagnons nos élèves à travers un enseignement structuré et stimulant. Notre approche pédagogique favorise la curiosité, la réflexion et l'autonomie, garantissant ainsi un parcours scolaire enrichissant. De plus, notre application mobile permet un suivi simplifié des cours et des activités, renforçant l'engagement des élèves et des parents.",
+            "en": "At Écoles La Tour Eiffel, we guide our students through a structured and stimulating education. Our teaching approach fosters curiosity, reflection, and independence, ensuring an enriching academic journey. Additionally, our mobile application allows easy tracking of classes and activities, strengthening student and parent engagement.",
+            "ar": "في مدارس لا تور إيفل، نرافق تلاميذنا عبر تعليم منظم ومحفز. نهجنا التربوي يعزز الفضول والتفكير المستقل، مما يضمن مسارًا دراسيًا مثمرًا ومتميزًا. بالإضافة إلى ذلك، يوفر تطبيقنا المحمول متابعة سهلة للدروس والأنشطة، مما يعزز تفاعل الطلاب وأولياء الأمور."
+        },
+        "sub_description": {
+            "fr": "Un environnement propice à l'apprentissage et à l'épanouissement",
+            "en": "An environment conducive to learning and growth",
+            "ar": "بيئة مناسبة للتعلم والتطور"
+        }
+    },
+    "testimonials": {
+        "fr": "Grâce au collège, mon enfant a gagné en confiance et en autonomie.",
+        "en": "Thanks to middle school, my child has gained confidence and independence.",
+        "ar": "بفضل المدرسة الإعدادية، اكتسب طفلي الثقة بالنفس والاستقلالية."
+    },
+    "testimonials_author": {
+        "fr": "Parent d'un collégien",
+        "en": "Parent of a middle school student",
+        "ar": "ولي أمر أحد طلاب المدرسة الإعدادية"
+    },
+    "image_gallery_title": {
+        "fr": "Le Collège en Images",
+        "en": "Middle School in Pictures",
+        "ar": "المدرسة الإعدادية بعدسة الصور"
+    },
+    "more_photos": {
+        "fr": "Voir Plus+",
+        "en": "See More+",
+        "ar": "استكشاف المزيد من الصور+"
+    }
+}

@@ -1,0 +1,142 @@
+{
+  "texts": {
+    "title": {
+      "ar": " لماذا مدارس ",
+      "fr": "Pourquoi",
+      "en": "Why"
+    },
+    "subtitle": {
+      "ar": "برج إيفل",
+      "fr": "La Tour Eiffel",
+      "en": "The Eiffel Tower"
+    },
+    "description": {
+      "ar": "تقدم مدارس برج إيفل تعليماً يركز على النجاح والابتكار التربوي",
+      "fr": "L'école La Tour Eiffel offre une éducation axée sur le succès et l'innovation pédagogique.",
+      "en": "La Tour Eiffel School offers an education focused on success and pedagogical innovation."
+    },
+    "secondary_description": {
+      "ar": "تسلط هذه الرؤية الضوء على نهج فريد وملهم لتنمية الطلاب",
+      "fr": "Cette vision met en avant une approche unique et inspirante pour l'épanouissement des élèves.",
+      "en": "This vision highlights a unique and inspiring approach for the development of students."
+    },
+    
+      "stages": [
+        {
+          "name": {
+            "ar": "رياض الأطفال",
+            "fr": "Maternelle",
+            "en": "Preschool"
+          },
+          "age": {
+            "ar": "سنوات",
+            "fr": "ans",
+            "en": "years"
+          },
+          "goal": {
+            "ar": "إيقاظ الفضول وتحفيز القدرات التعبيرية",
+            "fr": "Éveiller la curiosité et stimuler les capacités expressives.",
+            "en": "Awaken curiosity and stimulate expressive abilities."
+          },
+          "more": {
+            "ar": "تضمن رياض الأطفال استقبالًا دافئًا لدعم كل طفل في اكتشاف العالم المدرسي.",
+            "fr": "L'\u00e9cole maternelle assure un accueil attentif pour accompagner chaque enfant dans sa d\u00e9couverte du monde scolaire.",
+            "en": "Preschool provides a warm environment to support each child in discovering the school world."
+          }
+        },
+        {
+          "name": {
+            "ar": "الابتدائي",
+            "fr": "Primaire",
+            "en": "Primary"
+          },
+          "age": {
+            "ar": "سنوات",
+            "fr": "ans",
+            "en": "years"
+          },
+          "goal": {
+            "ar": "اكتساب الأسس الضرورية للمستقبل",
+            "fr": "Acqu\u00e9rir les bases essentielles pour l’avenir.",
+            "en": "Acquire the essential foundations for the future."
+          },
+          "more": {
+            "ar": "",
+            "fr": "",
+            "en": ""
+          }
+        },
+        {
+          "name": {
+            "ar": "الإعدادية",
+            "fr": "Coll\u00e8ge",
+            "en": "Middle School"
+          },
+          "age": {
+            "ar": "سنوات",
+            "fr": "ans",
+            "en": "years"
+          },
+          "goal": {
+            "ar": "تأسيس قواعد قوية للغد",
+            "fr": "\u00c9tablir des fondations solides pour demain.",
+            "en": "Establish strong foundations for tomorrow."
+          },
+          "more": {
+            "ar": "يتبع الطلاب مسارًا مناسبًا يعدهم للتميز الأكاديمي والشخصي.",
+            "fr": "Les \u00e9l\u00e8ves suivent un parcours adapt\u00e9, pr\u00e9parant \u00e0 l'excellence scolaire et personnelle.",
+            "en": "Students follow a tailored path preparing them for academic and personal excellence."
+          }
+        },
+        {
+          "name": {
+            "ar": "الثانوية",
+            "fr": "Lyc\u00e9e",
+            "en": "High School"
+          },
+          "age": {
+            "ar": "سنوات",
+            "fr": "ans",
+            "en": "years"
+          },
+          "goal": {
+            "ar": "التحضير لنجاحات أكاديمية ودائمة",
+            "fr": "Pr\u00e9parer \u00e0 des r\u00e9ussites sup\u00e9rieures et durables.",
+            "en": "Prepare for superior and lasting achievements."
+          },
+          "more": {
+            "ar": "إطار منظم لدعم الطلاب في طموحاتهم الأكاديمية والشخصية.",
+            "fr": "Un cadre structuré pour accompagner les \u00e9l\u00e8ves dans leurs ambitions scolaires et personnelles.",
+            "en": "A structured framework to support students in their academic and personal ambitions."
+          }
+        }
+      ]
+    
+    
+  },
+  "pidagogie": {
+    
+      "ar": {
+        "name": "",
+        "description": "تبرز مدارس برج إيفل كواحدة من المؤسسات التعليمية المعتمدة  في المغرب ومن اندر المدارس التي تحصل على شهادة نظام إدارة الجودة إيزو 9001:2015 مما يدل على التزامها بالتميز. من خلال اعتماد نهج تعليمي مبتكر، فإنهم يتجاوزون التعليم التقليدي من خلال تنمية مواهب وإمكانات كل طفل. وبفضل الشراكات مع مؤسسات مرموقة، مثل معهد سرفانتس والمعهد الفرنسي بالمغرب والسفارة الفرنسية، فإنهم يقدمون انغماسًا فريدًا في الثقافات الناطقة بالإسبانية والفرنسية. كما يضمن برنامج اللغة الإنجليزية الخاص بهم، المعتمد من كامبريدج للغة الإنجليزية، جودة التدريس الدولية."
+      },
+      "fr": {
+        "name": "Les Écoles La Tour Eiffel",
+        "description": "démarquent comme l'une des rares institutions éducatives au Maroc certifiées ISO 9001:2015, témoignant de leur engagement envers l'excellence. Adoptant une approche pédagogique innovante, elles vont au-delà de l’éducation classique en cultivant les talents et le potentiel de chaque enfant. Grâce à des partenariats avec des institutions de renom, telles que l'Institut Cervantes, l'Institut Français du Maroc et l'Ambassade de France, elles offrent une immersion unique dans les cultures hispanique et francophone. Leur programme en anglais, certifié Cambridge English, garantit également un enseignement de qualité internationale."
+      },
+      "en": {
+        "name": "Les Écoles La Tour Eiffel",
+        "description": "Les \"Écoles La Tour Eiffel\" stand out as one of the few educational institutions in Morocco certified ISO 9001:2015, reflecting their commitment to excellence. By adopting an innovative educational approach, they go beyond traditional education by nurturing the talents and potential of each child. Through partnerships with prestigious institutions such as the Instituto Cervantes, the Institut Français du Maroc, and the Embassy of France, they offer a unique immersion into Hispanic and Francophone cultures. Their English program, certified by Cambridge English, also ensures high-quality international education."
+      }
+  },"btn": {
+    "ar": "اقرأ المزيد",
+    "fr":"Lire plus",
+    "en":"Read More"
+  },
+  "popUp": {
+  "ar": "اكتشفوا منهجنا التربوي",
+  "fr": "Découvrez notre pédagogie",
+  "en": "Discover our pedagogy"
+}
+
+}

@@ -1,0 +1,63 @@
+{
+    "educateForFuture": {
+      "ar": "التعليم من أجل المستقبل",
+      "fr": "Éduquer pour l'avenir",
+      "en": "Educating for the Future"
+    },
+    "paragraph1": {
+      "ar": "كآباء وأمهات، ندرك جيدًا أن اختيار مؤسسة تعليمية جيدة أصبح أمرًا ضروريًا لتحضير أطفال اليوم لفهم وبناء عالم الغد وللتأقلم فيه في عصر التكنولوجيا الرقمية التي تزيل الحدود وتعزز العولمة، يجب أن يكون الأطفال قادرين على التواصل بلغات متعددة واكتساب مهارات عالية المستوى في مختلف المجالات كما يجب أن يمتلكوا القدرة على التفكير النقدي، والإبداع، وتحليل المعلومات بشكل منطقي التعليم في هذا العصر لا يقتصر على المعلومات الأكاديمية فقط،",
+      "fr": "En tant que parents, nous savons bien que le choix d’un bon établissement scolaire est devenu crucial pour préparer les enfants d’aujourd’hui à comprendre et bâtir le monde de demain et à s’y épanouir. À l’heure où le numérique efface les frontières et renforce la globalisation, ils doivent pouvoir communiquer dans plusieurs langues et acquérir des savoir-faire de haut niveau.",
+      "en": "As parents, we know that choosing a good school has become crucial to preparing today’s children to understand and build the world of tomorrow and thrive in it. In an era where digital technology erases boundaries and enhances globalization, they must be able to communicate in multiple languages and acquire high-level skills."
+    },
+    "paragraph2": {
+      "ar": "من هذا المنطلق تم تأسيس مدارس برج إيفل، مع قناعة عميقة بأن كل طفل يمتلك إمكانات فريدة تستحق أن تُطوَّر في بيئة محفزة، ودودة، ومناسبة للتحديات المعاصرة نؤمن أن التعليم لا يقتصر فقط على نقل المعرفة الأكاديمية، بل يتعداه ليشمل تنمية المهارات الحياتية مثل القدرة على التواصل الفعّال، وحل المشكلات، والتعاون مع الآخرين نحن نعمل على توفير بيئة تعليمية تشجع على التفكير النقدي، وتعزز من قدرة الطلاب على الابتكار والمساهمة في بناء مجتمعهم في مدارس برج إيفل، نعتبر أن النجاح ليس فقط في التفوق الأكاديمي،",
+      "fr": "C’est dans cette vision que les Écoles La Tour Eiffel ont été fondées, avec la conviction profonde que chaque enfant possède un potentiel unique qui mérite d'être développé dans un environnement stimulant, bienveillant et adapté aux défis contemporains. Nous croyons fermement que l’éducation ne se limite pas à la transmission des connaissances académiques.",
+      "en": "It is with this vision that La Tour Eiffel Schools were founded, with the profound conviction that every child has a unique potential that deserves to be developed in a stimulating, caring, and contemporary environment. We firmly believe that education is not limited to the transmission of academic knowledge."
+    },
+    "welcome": {
+      "ar": "مرحبًا بكم في مدارس برج إيفل، حيث يبدأ المستقبل اليوم",
+      "fr": "Bienvenue aux Écoles La Tour Eiffel, où l’avenir prend forme aujourd’hui.",
+      "en": "Welcome to La Tour Eiffel Schools, where the future takes shape today."
+    },
+    "founder": {
+      "ar": "السيد إبراهيم الباز",
+      "fr": "Mr. Ibrahim El Baz",
+      "en": "Mr. Ibrahim El Baz"
+    },
+    "founderTitle": {
+      "ar": "مؤسس مدارس برج إيفل",
+      "fr": "Fondateur des écoles La Tour Eiffel",
+      "en": "Founder of La Tour Eiffel Schools"
+    },
+    "promisesOfFounder": {
+      "ar": "وعود المؤسس",
+      "fr": "Promesses du Fondateur",
+      "en": "Promises of the Founder"
+    },
+    "promises": {
+      "ar": [
+        "الالتزام بالتميز",
+        "احترام الفردية",
+        "بيئة ودودة",
+        "الشفافية والتواصل"
+      ],
+      "fr": [
+        "Engagement envers l'Excellence",
+        "Respect de l'Individualité",
+        "Un Environnement Bienveillant",
+        "Transparence et Communication"
+      ],
+      "en": [
+        "Commitment to Excellence",
+        "Respect for Individuality",
+        "A Caring Environment",
+        "Transparency and Communication"
+      ]
+    },
+    "principles": {
+      "ar": "هذه المبادئ تحدد نهجنا التعليمي",
+      "fr": "Ces principes définissent notre approche éducative",
+      "en": "These principles define our educational approach"
+    }
+  }
+  

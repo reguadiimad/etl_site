@@ -1,0 +1,73 @@
+{
+    "title": {
+      "ar": "الأندية المدرسية",
+      "fr": "Les Clubs Scolaires",
+      "en": "School Clubs"
+    },
+    "subtitle": {
+      "ar": "مكان لاكتشاف المواهب وتطوير المهارات",
+      "fr": "Un Espace pour Découvrir et Développer les Talents",
+      "en": "A Space to Discover and Develop Talents"
+    },
+    "image": "srvClubs.webp",
+    "features": [
+      {
+        "icon": "faFutbol",
+        "title": {
+          "ar": "الفريق الرسمي لكرة القدم",
+          "fr": "L'Équipe Officielle de Football",
+          "en": "The Official Football Team"
+        },
+        "description": {
+          "ar": "تفخر مدارس لا تور إيفل بامتلاك فريق كرة قدم رسمي لفئة أقل من 18 سنة، حيث يتم تدريب الطلاب على يد مدربين محترفين لاكتساب المهارات الرياضية والانضباط والعمل الجماعي، مع المشاركة في البطولات المدرسية على مستوى عالٍ.",
+          "fr": "Les Écoles La Tour Eiffel possèdent une équipe officielle de football U18, entraînée par des coachs professionnels, favorisant la discipline, l’esprit d’équipe et la performance dans les compétitions scolaires.",
+          "en": "Écoles La Tour Eiffel proudly has an official U18 football team, trained by professional coaches, promoting discipline, teamwork, and high-level competition participation."
+        }
+      },
+      {
+        "icon": "faTheaterMasks",
+        "title": {
+          "ar": "نادي المسرح والموسيقى",
+          "fr": "Club de Théâtre et de Musique",
+          "en": "Theatre & Music Club"
+        },
+        "description": {
+          "ar": "يتيح نادي المسرح والموسيقى للطلاب فرصة التعبير عن أنفسهم، تنمية ثقتهم بالنفس، وصقل مواهبهم في التمثيل والغناء. نقدم عروضًا مسرحية وحفلات موسيقية رائعة تجمع بين الإبداع والفن.",
+          "fr": "Le club de théâtre et de musique permet aux élèves d’exprimer leur créativité à travers des pièces de théâtre et des performances musicales exceptionnelles.",
+          "en": "The Theatre & Music Club allows students to express their creativity through theatre performances and outstanding musical shows."
+        }
+      },
+      {
+        "icon": "faPalette",
+        "title": {
+          "ar": "نادي الفنون والإبداع",
+          "fr": "Club d'Art et Créativité",
+          "en": "Art & Creativity Club"
+        },
+        "description": {
+          "ar": "ندعم المواهب الفنية من خلال الرسم، النحت، والتصميم، حيث نقدم ورشات عمل احترافية لتطوير الحس الإبداعي لدى الطلاب، مع عرض أعمالهم في معارض مدرسية مميزة.",
+          "fr": "Nous encourageons les talents artistiques avec des ateliers de peinture, sculpture et design, mettant en avant la créativité des élèves à travers des expositions scolaires.",
+          "en": "We support artistic talents through painting, sculpture, and design workshops, showcasing students' creativity in school exhibitions."
+        }
+      },
+      {
+        "icon": "faRobot",
+        "title": {
+          "ar": "نادي الروبوتات والتكنولوجيا",
+          "fr": "Club de Robotique et Technologie",
+          "en": "Robotics & Technology Club"
+        },
+        "description": {
+          "ar": "ندمج العلوم بالتكنولوجيا من خلال تعليم الطلاب أساسيات البرمجة، الهندسة، والذكاء الاصطناعي. يشارك فريقنا في مسابقات الروبوتات، حيث يتعلم الطلاب كيفية بناء الروبوتات والتعامل مع التحديات التقنية.",
+          "fr": "Nous combinons science et technologie en initiant les élèves à la programmation, l’ingénierie et l’intelligence artificielle, avec participation aux concours de robotique.",
+          "en": "We merge science and technology by teaching students programming, engineering, and AI fundamentals, with participation in robotics competitions."
+        }
+      }
+    ],
+    "footer": {
+      "ar": "تمنح أندية مدارس لا تور إيفل للطلاب فضاءً للنمو الشخصي، تطوير المواهب، وبناء علاقات اجتماعية مفيدة، في بيئة مشجعة وداعمة.",
+      "fr": "Les clubs des Écoles La Tour Eiffel offrent aux élèves un espace pour s’épanouir, développer leurs talents et créer des liens dans un environnement motivant.",
+      "en": "The clubs at Écoles La Tour Eiffel provide students with a space for personal growth, talent development, and meaningful social connections in a supportive environment."
+    }
+  }
+  

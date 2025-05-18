@@ -1,0 +1,166 @@
+{"parentSection": {
+"title": {
+"ar": "شريك أساسي للنجاح",
+"fr": "Un Partenaire Clé pour la Réussite",
+"en": "A Key Partner for Success"
+},
+"heading": {
+"ar": "الآباء في قلب التعليم",
+"fr": "Les Parents au Cœur de l'Éducation",
+"en": "Parents at the Heart of Education"
+},
+"description": {
+"ar": "في مدارس لا تور إيفل، نؤمن بأن الشراكة بين المدرسة والأسرة تُعَد الأساس في بناء شخصية متكاملة للطالب. نحن نسعى جاهدين لخلق بيئة تعاونية يشعر فيها الآباء بأنهم جزء أساسي وفعّال من العملية التعليمية. نوفر مجموعة متنوعة من قنوات التواصل، مثل اللقاءات الفردية، الاجتماعات الدورية، والبريد الإلكتروني، مما يتيح لهم متابعة تقدم أبنائهم باستمرار، الحصول على ملاحظات دقيقة حول أدائهم، والمشاركة في اتخاذ القرارات التربوية المهمة.",
+"fr": "Aux Écoles La Tour Eiffel, nous établissons une relation solide avec les parents, leur permettant de se sentir proches de la vie scolaire de leurs enfants. Nous croyons que chaque parent joue un rôle central et actif dans tout ce qui se passe à l’école, des événements aux progrès académiques.",
+"en": "At La Tour Eiffel Schools, we establish a strong relationship with parents, allowing them to feel close to their children's school life. We believe that every parent plays a central and active role in everything that happens at school, from events to academic progress."
+},
+"pillarsTitle": {
+"ar": "ركائزنا الثلاث لطالب مزدهر",
+"fr": "Nos 3 Piliers pour un Élève épanoui:",
+"en": "Our 3 Pillars for a Thriving Student:"
+},
+"pillar1": {
+"title": {
+"ar": "أنشطة ونوادي مثيرة وممتعة",
+"fr": "Activités et Clubs Enrichissants",
+"en": "Enriching Activities and Clubs"
+},
+"description": {
+"ar": "نؤمن بأن التعليم لا يقتصر على الجانب الأكاديمي فقط؛ بل يشمل أيضاً تنمية المهارات الشخصية والاجتماعية والإبداعية. ولذلك، نحن ملتزمون بتقديم مجموعة متنوعة من الأنشطة والنوادي التي تتناسب مع اهتمامات الطلاب، مما يشجعهم على الاستكشاف والتعلم المستمر، ويعزز تطوير مهاراتهم القيادية والإبداعية بطرق مبتكرة وفعالة.",
+
+
+"fr": "Nous organisons de nombreux événements et proposons divers clubs pour sortir les élèves de la routine et leur donner envie de venir à l’école chaque jour.",
+"en": "We organize numerous events and offer various clubs to break the students' routine and make them want to come to school every day."
+}
+},
+"pillar2": {
+"title": {
+"ar": "بيئة شاملة وآمنة للطلاب",
+"fr": "Un Environnement Complet et Sécurisé",
+"en": "A Complete and Safe Environment"
+},
+"description": {
+"ar": "نحرص على توفير بيئة تعليمية آمنة ومتكاملة تشمل فصولاً دراسية مجهزة بأحدث التقنيات، مختبرات علمية متطورة، مكتبة غنية بالموارد، ومساحات خاصة للدراسة والاجتماعات. كما نولي اهتماماً كبيراً بالصحة الجسدية والنفسية للطلاب من خلال تقديم وجبات غذائية متوازنة، وتشجيعهم على ممارسة الأنشطة الرياضية بانتظام.",
+
+"fr": "Notre campus est conçu pour répondre à tous les besoins des élèves : une infirmerie, une cantine, une bibliothèque, et bien plus, pour assurer leur bien-être.",
+"en": "Our campus is designed to meet all the needs of students: an infirmary, a cafeteria, a library, and much more, to ensure their well-being."
+}
+},
+"pillar3": {
+"title": {
+"ar": "إصغاء ودعم مستمر",
+"fr": "Écoute et Accompagnement",
+"en": "Listening and Support"
+},
+"description": {
+"ar": "نخصص مكتباً للاستماع إلى الطلاب، حيث يمكنهم التعبير عن أفكارهم ومشاعرهم بحرية تامة وبدون أي تحفظات. يعمل فريق الإرشاد النفسي والأكاديمي بكل تفانٍ لتقديم الدعم الكامل للطلاب، وتوجيههم في جميع جوانب حياتهم الدراسية والشخصية. نسعى جاهدين لمساعدتهم في التغلب على أي تحديات قد تواجههم خلال رحلتهم التعليمية، سواء كانت أكاديمية أو نفسية، لضمان نجاحهم وتطورهم المستمر.",
+"fr": "Avec un bureau dédié à l’écoute des élèves, nous créons un espace de dialogue où chaque étudiant peut s’exprimer librement, favorisant leur épanouissement personnel.",
+"en": "With an office dedicated to listening to students, we create a space for dialogue where each student can express themselves freely, fostering their personal development."
+}
+},
+"quote1": {
+  "ar": "في بيئة تعليمية آمنة، طفلي بأمان",
+  "fr": "Dans un environnement éducatif sécurisé, mon enfant est en sécurité.",
+  "en": "A safe educational environment, my child is safe."
+}
+,
+"quote1Author": {
+"ar": "أحد أولياء الأمور",
+"fr": "parent d'un éleve",
+"en": "A parent of a student"
+},
+"quote2": {
+"ar": "لا تور إيفل حيث يتألق طفلي",
+"fr": "La Tour Eiffel, où mon enfant brille.",
+"en": "La Tour Eiffel, where my child shines."
+},
+"quote2Author": {
+"ar": "أحد أولياء الأمور",
+"fr": "parent d'un éleve",
+"en": "A parent of a student"
+}
+},
+    
+        "studentSection": {
+          "title": {
+            "ar": "تعليم مُكيَّف لكل مرحلة عمرية",
+            "fr": "Une Éducation Adaptée à Chaque Âge",
+            "en": "An Education Adapted to Each Age"
+          },
+          "heading": {
+            "ar": "الطالب في محور اهتمامنا",
+            "fr": "L'Élève au Centre de Notre Attention",
+            "en": "The Student at the Center of Our Attention"
+          },
+          "description": {
+            "ar": "في مدارس لا تور إيفل، نؤمن بأن كل طالب فريد من نوعه وله قدرات واهتمامات مميزة. نحن نحرص على متابعة تطوره في كل مرحلة من مراحل حياته، بدءًا من سنواته الأولى في عمر السنتين وحتى بلوغه 18 عامًا وما بعدها. فرقنا التعليمية المميزة تتلقى تدريبًا مستمرًا لضمان توفير بيئة تعليمية مليئة بالرعاية، التفهم، والاحترام، مما يساهم في بناء شخصية الطالب وتطوير مهاراته. نحن ملتزمون بتقديم تجربة تعليمية استثنائية تركز على النمو الأكاديمي والشخصي للطلاب، بما يضمن لهم النجاح والتميز في جميع مجالات حياتهم.",
+            "fr": "Aux Écoles La Tour Eiffel, chaque élève est unique. Nous respectons son âge et ses besoins spécifiques, en prenant soin de l’accompagner de ses premières années, dès 2 ans, jusqu’à ses 18 ans et au-delà. Nos équipes professionnelles et bienveillantes sont formées pour interagir de manière douce et adaptée avec tous les élèves.",
+            "en": "At La Tour Eiffel Schools, each student is unique. We respect their age and specific needs, taking care to accompany them from their early years, from the age of 2, up to the age of 18 and beyond. Our professional and caring teams are trained to interact gently and appropriately with all students."
+          },
+          "keysTitle": {
+            "ar": "مفاتيحك الثلاث لمشاركة كاملة",
+            "fr": "Vos 3 Clés pour une Implication Totale :",
+            "en": "Your 3 Keys for Total Involvement:"
+          },
+         "key1": {
+  "title": {
+    "ar": "قرب وشفافية في التعامل",
+    "fr": "Proximité et Transparence",
+    "en": "Proximity and Transparency"
+  },
+  "description": {
+    "ar": "نحرص على إبقاء الآباء على اطلاع دائم بتقدم أبنائهم في جميع الجوانب الأكاديمية والأنشطة المدرسية، بالإضافة إلى كل جديد يحدث داخل المدرسة. نحن نؤمن بأهمية التواصل المستمر والمنتظم مع أولياء الأمور، مما يعكس شفافيتنا التامة في تقديم المعلومات. هذا التواصل المنتظم يضمن للآباء أن يكونوا على دراية بكافة التفاصيل المتعلقة بأطفالهم، ويعكس اهتمامنا العميق بمشاركة الأهل في العملية التعليمية وتعزيز مشاركتهم في كافة جوانب الحياة المدرسية.",
+    "fr": "Une communication régulière pour informer les parents des progrès, des activités et des nouveautés.",
+    "en": "Regular communication to inform parents of progress, activities, and news."
+  }
+},
+"key2": {
+  "title": {
+    "ar": "مشاركة في جميع الفعاليات",
+    "fr": "Participation aux Événements",
+    "en": "Participation in Events"
+  },
+  "description": {
+    "ar": "ندعو الآباء للمشاركة الفعّالة في جميع الفعاليات المدرسية والأنشطة الرئيسية لنخلق مجتمعًا تعليميًا مترابطًا يشمل الطلاب والمعلمين وأولياء الأمور.",
+    "fr": "Invitation à participer activement aux événements scolaires et aux moments clés de la vie éducative.",
+    "en": "Invitation to actively participate in school events and key moments in educational life."
+  }
+},
+"key3": {
+  "title": {
+    "ar": "تطبيق جوال مبتكر ومتطور",
+    "fr": "Application Mobile Innovante",
+    "en": "Innovative Mobile Application"
+  },
+  "description": {
+    "ar": "نقدم تطبيقًا ذكيًا يتيح للآباء متابعة كل ما يخص أطفالهم من الواجبات المدرسية إلى الإعلانات والأخبار فور صدورها مما يجعلهم على اتصال دائم بالمدرسة.",
+    "fr": "Une application dédiée pour envoyer directement les devoirs, annonces, et actualités sur le téléphone des parents.",
+    "en": "A dedicated application to send homework, announcements, and news directly to parents' phones."
+  }
+}
+,
+              "quote1":{
+                      "ar":"أحب النوادي لا أشعر بالملل أبداً",
+                      "fr":"J’adore les clubs, c’est jamais ennuyeux !",
+                      "en":"I love the clubs, it's never boring!"
+                  },
+                  "quote1Author":{
+                      "ar":"طه 10 سنوات",
+                      "fr":"ُTaha, 10 ans",
+                      "en":"Taha, 10 years old"
+                  },
+                  "quote2":{
+                      "ar":"المعلمون دائماً يصغون إلينا",
+                      "fr":"Les profs sont toujours à l’écoute.",
+                      "en":"The teachers are always listening."
+                  },
+                  "quote2Author":{
+                      "ar":"آدم 15 سنة",
+                      "fr":"Adam, 15 ans",
+                      "en":"Adam, 15 years old"
+                  }
+        }
+        
+      
+    }
+

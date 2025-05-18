@@ -1,0 +1,73 @@
+{
+    "title": {
+      "ar": "المطعم المدرسي",
+      "fr": "La Cantine",
+      "en": "The Canteen"
+    },
+    "subtitle": {
+      "ar":"النمو السليم يحتاج غذاءً قويم",
+      "fr": "Bien grandir, Bien nourrir.",
+      "en": "To grow up right, eat right"
+    },
+    "image": "srvCantine.webp",
+    "features": [
+    {
+      "icon": "faAppleAlt",
+      "title": {
+        "ar": "وجبات صحية ومتوازنة",
+        "fr": "Repas Sains et Équilibrés",
+        "en": "Healthy & Balanced Meals"
+      },
+      "description": {
+        "ar": "نقدم وجبات طازجة ومتوازنة، غنية بالفيتامينات والعناصر الغذائية الأساسية التي تساهم في تقوية المناعة، تحسين التركيز، وتعزيز النمو السليم للأطفال. نحرص على تقديم وجبات متنوعة تناسب جميع الأذواق، مع مراعاة الاحتياجات الغذائية لكل فئة عمرية.",
+        "fr": "Nous proposons des repas frais et équilibrés, riches en vitamines et en nutriments essentiels pour la santé et la croissance des enfants.",
+        "en": "We offer fresh, balanced meals rich in vitamins and essential nutrients that support children's health and growth."
+      }
+    },
+    {
+      "icon": "faUtensils",
+      "title": {
+        "ar": "لمسة من المطبخ المغربي",
+        "fr": "Une Touche de Cuisine Marocaine",
+        "en": "A Touch of Moroccan Cuisine"
+      },
+      "description": {
+        "ar": "نفخر بتراثنا الغني ونحرص على تقديم أطباق مستوحاة من المطبخ المغربي الأصيل مثل الطاجين، الكسكس، والبسطيلة، مع دمج نكهات عالمية لتقديم تجربة غذائية متكاملة وممتعة للأطفال، مع الحفاظ على التنوع الغذائي والتوازن الصحي.",
+        "fr": "Fiers de notre culture, nous offrons des plats inspirés de la cuisine marocaine traditionnelle, avec une touche internationale pour satisfaire tous les goûts.",
+        "en": "Proud of our culture, we serve dishes inspired by authentic Moroccan cuisine, with an international touch to satisfy all tastes."
+      }
+    },
+    {
+      "icon": "faLeaf",
+      "title": {
+        "ar": "مكونات طبيعية وعضوية",
+        "fr": "Ingrédients Naturels et Bio",
+        "en": "Natural & Organic Ingredients"
+      },
+      "description": {
+        "ar": "نحرص على استخدام مكونات طبيعية طازجة وخالية من المواد الحافظة لضمان وجبات صحية وآمنة لأطفالكم. كما نعتمد على المنتجات العضوية كلما أمكن ذلك، مما يساعد على تعزيز صحة الأطفال ومنحهم الطاقة اللازمة ليوم دراسي مليء بالحيوية والنشاط.",
+        "fr": "Nous sélectionnons soigneusement des ingrédients frais et naturels pour garantir une qualité supérieure et un goût savoureux à chaque repas.",
+        "en": "We carefully select fresh, natural ingredients to ensure top quality and delicious taste in every meal."
+      }
+    },
+    {
+      "icon": "faBroom",
+      "title": {
+        "ar": "نظافة وسلامة قصوى",
+        "fr": "Hygiène et Sécurité Maximales",
+        "en": "Maximum Hygiene & Safety"
+      },
+      "description": {
+        "ar": "نلتزم بأعلى معايير النظافة والسلامة الغذائية، حيث يتم إعداد الطعام في بيئة معقمة وفقًا للإجراءات الصحية الصارمة. كما نقوم بمراقبة جودة الطعام يوميًا لضمان تقديم وجبات خالية من أي مخاطر صحية، مما يضمن راحة البال للآباء وسلامة الأطفال.",
+        "fr": "Nous respectons les normes d'hygiène et de sécurité alimentaire les plus strictes pour assurer un environnement sain et sécurisé à vos enfants.",
+        "en": "We adhere to the highest hygiene and food safety standards to ensure a healthy and secure environment for your children."
+      }
+    }
+  ],
+    "footer": {
+      "ar": "في مطعم مدارس لا تور إيفل، نوفر لأطفالكم تجربة غذائية غنية، صحية، ونظيفة تعكس حبنا لجودة الحياة ولثقافتنا المغربية العريقة.",
+      "fr": "À la cantine des Écoles La Tour Eiffel, nous offrons à vos enfants une expérience culinaire saine, savoureuse et propre, reflétant notre amour pour la qualité de vie et notre riche culture marocaine.",
+      "en": "At Écoles La Tour Eiffel’s canteen, we provide your children with a nutritious, delicious, and clean dining experience that reflects our love for quality living and our rich Moroccan heritage."
+    }
+  }
+  

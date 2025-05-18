@@ -1,0 +1,54 @@
+{
+    "heading": {
+      "fr": "Aidons nos élèves à s'élever vers le ciel, comme la TourEiffel",
+      "en": "Let's help our students soar to the sky, like the Eiffel Tower",
+      "ar": "نُساعد طلاَّبنا على النمو داخلنا ويرتقوا في السماء مثل برج إيفل"
+    },
+    "paragraph": {
+      "fr": "Découvrez nos parcours éducatifs adaptés à chaque étape du développement de vos enfants.",
+      "en": "Discover our educational paths tailored to each stage of your children's development.",
+      "ar": "اكتشفوا مساراتنا التعليمية المُناسبة لكل مرحلة من مراحل تطوير أطفالكم"
+    },
+    "paragraph2": {
+      "fr": "Parcours éducatifs adaptés à chaque étape.",
+      "en": "Educational paths tailored to each stage ",
+      "ar": "اكتشفوا مساراتنا التعليمية المُناسبة لكل مرحلة "
+    },
+    "categories": {
+      "fr": [
+        "Maternelle",
+        "Primaire",
+        "Collège",
+        "Lycée"
+      ],
+      "en": [
+        "Kindergarten",
+        "Primary",
+        "Middle School",
+        "High School"
+      ],
+      "ar": [
+        "الروض",
+        "الابتدائي",
+        "الإعدادي",
+        "الثانوي"
+      ]
+    },
+    "buttons": {
+      "register": {
+        "fr": "S'inscrire",
+        "en": "Register",
+        "ar": "التسجيل"
+      },
+      "presentation": {
+        "fr": "Voir la présentation",
+        "en": "View the presentation",
+        "ar": "مشاهدة العرض"
+      }
+    }, "videoTitle": {
+        "fr": "Présentation des Écoles La Tour Eiffel",
+        "en": "Presentation of La Tour Eiffel Schools",
+        "ar": "عرض مدارس لا تور إيفل"
+      }
+  }
+  

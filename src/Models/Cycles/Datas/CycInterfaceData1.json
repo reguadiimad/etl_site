@@ -1,0 +1,158 @@
+{
+    "texts": {
+      "discover": {
+        "ar": "اكتشف معنا",
+        "fr": "Découvrez avec nous",
+        "en": "Discover with us"
+      },
+      "nos_cycles_pedagogiques": {
+        "ar": "دوراتنا التربوية",
+        "fr": "Nos Cycles pédagogiques",
+        "en": "Our Educational Cycles"
+      },
+      "description": {
+        "ar": "في مدارس برج إيفل، نرافق الطلاب من خلال دورات تربوية متنوعة تتناسب مع كل مرحلة من مراحل تعلمهم. من الروضة إلى الثانوية، يهدف برنامجنا إلى تطوير مهارات قوية مع تعزيز الفضول والنمو لكل طالب.",
+        "fr": "À Écoles La Tour Eiffel, nous accompagnons les élèves à travers différents cycles pédagogiques, adaptés à chaque étape de leur apprentissage. De la maternelle au lycée, notre programme vise à développer des compétences solides tout en favorisant la curiosité et l’épanouissement de chaque élève.",
+        "en": "At Écoles La Tour Eiffel, we guide students through different educational cycles, tailored to each stage of their learning. From kindergarten to high school, our program aims to develop strong skills while fostering curiosity and growth for every student."
+      },
+      "maternelle": {
+        "subTitle": {
+          "ar": "كل طفل صغير في",
+          "fr": "Les enfants de la",
+          "en": "Every little child in"
+        },
+        "title": {
+          "ar": "الروض",
+          "fr": "Maternelle",
+          "en": "Kindergarten"
+        },
+        "description": {
+          "ar": " له بداية مغامرة تعليمية رائعة في بيئة مليئة بالرعاية والحب",
+          "fr": "C’est le début d’une belle aventure éducative. Dans un environnement bienveillant.",
+          "en": "The beginning of a beautiful educational journey in a nurturing environment."
+        },
+        "features": {
+          "playful_learning": {
+            "ar": "تعلم مرح",
+            "fr": "Un apprentissage ludique",
+            "en": "Playful learning"
+          },
+          "nurturing_environment": {
+            "ar": "بيئة حاضنة",
+            "fr": "Un cadre bienveillant",
+            "en": "A nurturing environment"
+          },
+          "autonomy_basics": {
+            "ar": "أسس الاستقلالية",
+            "fr": "Les bases de l’autonomie",
+            "en": "Basics of autonomy"
+          }
+        }
+      },
+      "primaire": {
+        "subTitle": {
+          "ar": "تطوير العلم في",
+          "fr": "Développer le Savoir au  ",
+          "en": "Developing Knowledge in"
+        },
+        "title": {
+          "ar": "المرحلة الابتدائية",
+          "fr": "Primaire",
+          "en": "Primary School"
+        },
+        "description": {
+          "ar": "بيئة محفزة للتعلم والنمو ",
+          "fr": "Un Environnement Stimulant pour Apprendre et Grandir.",
+          "en": "A stimulating environment to learn and grow."
+        }
+      },
+      "college": {
+        "subTitle": {
+          "ar": "الطريق إلى النجاح في",
+          "fr": "Le Chemin de la Réussite au",
+          "en": "The Path to Success in"
+        },
+        "title": {
+          "ar": "الإعدادية",
+          "fr": "Collège",
+          "en": "Middle School"
+        },
+        "description": {
+          "ar": "مدرسة يجد فيها كل طالب طريقه نحو النجاح.",
+          "fr": "Un collège où chaque élève trouve sa voie vers la réussite.",
+          "en": "A middle school where every student finds their path to success."
+        }
+      },
+      "lycee": {
+        "subTitle": {
+          "ar": "إعداد للمستقبل في",
+          "fr": "Préparer l’Avenir au",
+          "en": "Preparing for the future in"
+        },
+        "title": {
+          "ar": "الثانوية",
+          "fr": "Lycée",
+          "en": "High School"
+        },
+        "description": {
+          "ar": "إعداد للمستقبل.",
+          "fr": "Se Préparer à l’Avenir.",
+          "en": "Preparing for the future."
+        },
+        "features": {
+          "excellence_teaching": {
+            "ar": "تعليم متميز",
+            "fr": "Enseignement d’excellence",
+            "en": "Excellence in teaching"
+          },
+          "future_guidance": {
+            "ar": "التوجيه نحو المستقبل",
+            "fr": "Accompagnement vers l’avenir",
+            "en": "Future guidance"
+          },
+          "key_skills": {
+            "ar": "مهارات رئيسية",
+            "fr": "Des compétences clés",
+            "en": "Key skills"
+          }
+        }
+      },
+      "footer": {
+        "quote": {
+          "ar": "في مدارس برج إيفل، يكبر كل طالب ويتعلم ويتطور مع كل دورة. بداية مشرقة تبدأ من هنا!",
+          "fr": "À Écoles La Tour Eiffel, chaque élève grandit, apprend et s’épanouit à chaque cycle. Un avenir brillant commence ici !",
+          "en": "At Écoles La Tour Eiffel, every student grows, learns, and thrives at every cycle. A bright future starts here!"
+        },
+        "signature": {
+          "ar": "السيد إبراهيم الباز",
+          "fr": "Mr. Brahim El Baz",
+          "en": "Mr. Brahim El Baz"
+        }
+      },
+      
+      "readMore":{
+        "Voir Plus": {
+          "fr": "Voir Plus",
+          "ar": "رؤية المزيد",
+          "en": "See More"
+        },
+        "En Savoir Plus": {
+          "fr": "En Savoir Plus",
+          "ar": "تعرف أكثر",
+          "en": "Learn More"
+        },
+        "Lire Plus": {
+          "fr": "Lire Plus",
+          "ar": "قراءة المزيد",
+          "en": "Read More"
+        },
+        "Découvrir Plus": {
+          "fr": "Découvrir Plus",
+          "ar": "اكتشف المزيد",
+          "en": "Discover More"
+        }
+      }
+    }
+  }
+  
+

@@ -1,0 +1,97 @@
+{
+    "title": {
+    "fr": "Primaire",
+    "en": "Primary School",
+    "ar": "المدرسة الابتدائية"
+    },
+    "subtitle": {
+    "fr": "Une éducation de qualité pour un avenir prometteur",
+    "en": "Quality education for a bright future",
+    "ar": "تعليم عالي الجودة لمستقبل واعد"
+    },
+    "description": {
+    "fr": "Offrez à votre enfant une école primaire où il développe ses connaissances, ses compétences et sa créativité dans un cadre dynamique et bienveillant.",
+    "en": "Give your child a primary school where they develop knowledge, skills, and creativity in a dynamic and caring environment.",
+    "ar": "وفّر لطفلك مدرسة ابتدائية تساعده على تنمية معارفه ومهاراته وإبداعه في بيئة تعليمية ديناميكية ومليئة بالرعاية"
+    },
+    "explication": {
+    "fr": "L’école primaire est une étape essentielle dans le parcours scolaire de votre enfant. Elle pose les bases de son éducation et de son développement personnel. Nous mettons tout en œuvre pour lui offrir un environnement stimulant et adapté à ses besoins. Voici quelques-uns des avantages de notre école primaire :",
+    "en": "Primary school is a crucial stage in your child's education. It lays the foundation for their learning and personal development. We do everything to provide them with a stimulating environment tailored to their needs. Here are some of the benefits of our primary school:",
+    "ar": "تُعد المدرسة الابتدائية مرحلة أساسية في مسيرة طفلك التعليمية، حيث يتم بناء أسس تعليمه وتطوره الشخصي. لهذا السبب، نحرص على توفير بيئة محفزة تتناسب مع احتياجاته. إليك بعض المزايا التي توفرها مدرستنا الابتدائية:"
+    },
+    "benefit1": {
+    "title": {
+    "fr": "Méthodes Pédagogiques Innovantes",
+    "en": "Innovative Teaching Methods",
+    "ar": "أساليب تدريس مبتكرة"
+    },
+    "description": {
+    "fr": "Des approches éducatives modernes qui favorisent la réflexion, la curiosité et l’autonomie des élèves.",
+    "en": "Modern educational approaches that encourage critical thinking, curiosity, and independence.",
+    "ar": "نستخدم أساليب تعليمية حديثة تُحفّز التفكير النقدي، الفضول، والاستقلالية لدى التلاميذ"
+    }
+    },
+    "benefit2": {
+    "title": {
+    "fr": "Un Environnement Sécurisé et Stimulant",
+    "en": "A Safe and Stimulating Environment",
+    "ar": "بيئة آمنة ومحفزة"
+    },
+    "description": {
+    "fr": "Un cadre bienveillant qui permet aux enfants d’apprendre avec confiance et sérénité.",
+    "en": "A caring environment that allows children to learn with confidence and peace of mind.",
+    "ar": "نوفر بيئة تعليمية مشجعة تساعد الأطفال على التعلم بثقة وراحة"
+    }
+    },
+    "benefit3": {
+    "title": {
+    "fr": "Apprentissage des Langues et Ouverture Culturelle",
+    "en": "Language Learning and Cultural Awareness",
+    "ar": "تعلم اللغات والانفتاح الثقافي"
+    },
+    "description": {
+    "fr": "Une immersion linguistique qui prépare les enfants à un monde multiculturel et globalisé.",
+    "en": "A linguistic immersion that prepares children for a multicultural and globalized world.",
+    "ar": "توفر المدرسة تجربة انغماس لغوي تُهيئ الطفل لمستقبل مليء بالتنوع الثقافي والانفتاح العالمي"
+    }
+    },
+    "highlight": {
+    "title": {
+    "fr": "Une École Primaire Conçue pour la Réussite de Chaque Élève",
+    "en": "A Primary School Designed for Each Student’s Success",
+    "ar": "مدرسة ابتدائية مصممة لضمان نجاح كل تلميذ"
+    },
+    "description": {
+    "fr": "À Écoles La Tour Eiffel, nous accompagnons chaque enfant vers l’excellence grâce à un enseignement de qualité, des activités enrichissantes et un cadre sécurisé. Chaque jour est une nouvelle opportunité d’apprendre et de grandir.",
+    "en": "At Écoles La Tour Eiffel, we guide each child toward excellence with quality teaching, enriching activities, and a secure environment. Each day is a new opportunity to learn and grow.",
+    "ar": "في مدارس لا تور إيفل، نساعد كل تلميذ على تحقيق التميز من خلال تعليم عالي الجودة، أنشطة تثري معارفه، وبيئة تعليمية آمنة. كل يوم هو فرصة جديدة للتعلم والتطور."
+    },
+    "sub_description": {
+    "fr": "Un cadre propice à l’apprentissage et à l’épanouissement",
+    "en": "A framework conducive to learning and growth",
+    "ar": "إطار تعليمي يساعد على التعلم والتطور"
+    }
+    },
+    "testimonials": {
+    "fr": "Mon enfant s’épanouit chaque jour et rentre de l’école avec enthousiasme et envie d’apprendre.",
+    "en": "My child thrives every day and comes home from school with enthusiasm and a desire to learn.",
+    "ar": "طفلي ينمو كل يوم ويعود من المدرسة بحماس ورغبة في التعلم"
+    },
+    "testimonials_author": {
+    "fr": "Parent d’un élève",
+    "en": "Parent of a student",
+    "ar": "ولي أمر أحد التلاميذ"
+    },
+    "image_gallery_title": {
+    "fr": "École Primaire en Images",
+    "en": "Primary School in Pictures",
+    "ar": "المدرسة الابتدائية بعدسة الصور"
+    },
+    "more_photos": {
+    "fr": "Voir Plus+",
+    "en": "See More+",
+    "ar": "استكشاف المزيد من الصور+"
+    }
+    }
+    
+    

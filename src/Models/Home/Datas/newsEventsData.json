@@ -1,0 +1,47 @@
+{
+    "stay_informed": {
+      "en": "Stay always informed",
+      "fr": "Reste toujours informé",
+      "ar": "ابقَ دائمًا على اطلاع"
+    },
+    "dont_miss_news": {
+      "en": "Never miss the news",
+      "fr": "Ne manquez jamais les nouveautés",
+      "ar": "لا تفوّت الأخبار أبدًا"
+    },
+    "categories": {
+      "en": ["All", "Kindergarten", "Primary", "Middle School", "High School"],
+      "fr": ["Tous", "Maternelle", "Primaire", "Collège", "Lycée"],
+      "ar": ["الجميع", "رياض الأطفال", "الابتدائي", "الإعدادي", "الثانوي"]
+    },
+    "new": {
+      "en": "New!",
+      "fr": "Nouveau!",
+      "ar": "!جديد"
+    },
+    "more": {
+      "en": "Click to see +",
+      "fr": "Cliquez pour voir +",
+      "ar": "اضغط لرؤية المزيد"
+    },
+    "click_to_see_more": {
+      "en": "Click here to see all upcoming and past events",
+      "fr": "Cliquez ici pour voir tous les événements à venir et passés",
+      "ar": "اضغط هنا لرؤية جميع الأحداث القادمة والماضية"
+    },
+    "read_more": {
+      "fr": "Lire plus",
+      "en": "Read more",
+      "ar": "اقرأ المزيد"
+    },
+    "popUp": {
+      "ar":" اكتشفوا آخر الأخبار والاحذاث",
+      "fr": "Découvrez les derniers nouvelles",
+      "en": "Discover the latest news"
+    }
+    
+ 
+
+
+  }
+  

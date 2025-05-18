@@ -1,0 +1,107 @@
+{
+    "texts": {
+      "header": {
+      "ar": {
+        "prt1": "من",
+        "prt2":  "الروض" 
+      },
+      "fr": {
+        "prt1": "Du",
+        "prt2": "Lycée"
+      },
+      "en": {
+        "prt1": "",
+        "prt2": "Kindergarten"
+      }
+    },
+    "subHeader": {
+      "ar": {
+        "prt1": "وصولاً إلى",
+        "prt2": "الثانوية" 
+      },
+      "fr": {
+        "prt1": "à la",
+        "prt2": "Maternelle"
+      },
+      "en": {
+        "prt1": "to ",
+        "prt2": "High School"
+      }
+    },
+      "description": {
+        "ar": "كل مرحلة دراسية هي خطوة، وكل خطوة هي نجاح. في برج إيفل، نرافق كل طالب لينمو، ويتعلم، ويزدهر في كل لحظة من مسيرته الدراسية",
+        "fr": "Chaque cycle est une étape, chaque étape est une réussite. À La Tour Eiffel, nous accompagnons chaque élève à grandir, apprendre et s’épanouir à chaque moment de son parcours scolaire.",
+        "en": "Each cycle is a step, each step is a success. At La Tour Eiffel, we help each student grow, learn, and thrive at every moment of their academic journey."
+      },
+      "buttonText": {
+        "ar": "اكتشفوا نظامنا التعليمي",
+        "fr": "Découvrez notre cycle éducatif",
+        "en": "Discover our educational cycle"
+      },
+      "ageGroups": {
+        "kindergarten": {
+          "label": {
+            "ar": "روض",
+            "fr": "Maternelle",
+            "en": "Kindergarten"
+          },
+          "age": {
+            "ar": " 2-5 سنوات",
+            "fr": "de 2-5 ans",
+            "en": " 2-5 years"
+          }
+        },
+        "primary": {
+          "label": {
+            "ar": "ابتدائي",
+            "fr": "Primaire",
+            "en": "Primary"
+          },
+          "age": {
+            "ar": " 6-12 سنوات",
+            "fr": "6-12 ans",
+            "en": "6-12 years"
+          }
+        },
+        "middle": {
+          "label": {
+            "ar": "إعدادي",
+            "fr": "Collège",
+            "en": "Middle School"
+          },
+          "age": {
+            "ar": " 13-15 سنة",
+            "fr": "de 13-15 ans",
+            "en": " 13-15 years"
+          }
+        },
+        "high": {
+          "label": {
+            "ar": "ثانوي",
+            "fr": "Lycée",
+            "en": "High School"
+          },
+          "age": {
+            "ar": " 15-18 سنة",
+            "fr": "15-18 ans",
+            "en": "15-18 years"
+          }
+        }
+      },
+      "testimonial": {
+        "quote": {
+          "ar": "من الروض إلى الثانوية، كانت مدارس برج إيفل عائلتي الثانية",
+          "fr": "De la maternelle au lycée, La Tour Eiffel a été ma seconde famille",
+          "en": "From kindergarten to high school, La Tour Eiffel was my second family"
+        },
+        "author": {
+          "ar": "طه 16 سنة تلميذ في المرحلة الثانوية",
+          "fr": "Taha 16 ans élève cycle lycée",
+          "en": "Taha, 16 years old, high school student"
+        }
+      }
+      
+    }
+  
+  }
+  

@@ -1,0 +1,39 @@
+{
+    "fr": {
+      "menu": [
+        "Accueil",
+        "À propos",
+        "Cycles",
+        "Services",
+        "Actualités",
+        "Galerie",
+        "Contact",
+        "Inscription"
+      ]
+    },
+    "en": {
+      "menu": [
+        "Home",
+        "About",
+        "Cycles",
+        "Services",
+        "News",
+        "Gallery",
+        "Contact",
+        "Registration"
+      ]
+    },
+    "ar": {
+      "menu": [
+        "الصفحة الرئيسية",
+        "حول",
+        "الدورات",
+        "الخدمات",
+        "الأخبار",
+        "المعرض",
+        "اتصل",
+        "التسجيل"
+      ]
+    }
+  }
+  
