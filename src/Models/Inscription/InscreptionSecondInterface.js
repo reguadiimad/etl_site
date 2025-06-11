@@ -7,6 +7,8 @@ import { InscStep2 } from "./inscrptionCards/InscStep2";
 import { InscStep3 } from "./inscrptionCards/InscStep3";
 import { InscStep4 } from "./inscrptionCards/InscStep4";
 import inscriptionTexts from "./InscData/inscFirstInterface.json";
+import axios from "axios"
+
 
 
 export default function InscriptionSecondInterface() {
@@ -24,6 +26,12 @@ export default function InscriptionSecondInterface() {
   const getPrevButton = (index) => inscriptionTexts.previousButtons[index][language];
   const getDescription = () => inscriptionTexts.description[language];
   const getStepLabel = () => inscriptionTexts.step.label[language];
+  const [isSubmitting,setIsSubmitting] = useState(false);
+  const [serverError, setServerError] = useState("");
+  const handelClearError = () => {setShowValidateModal(false);setServerError("")};
+  const [isotherKid, setIsOtherKid] = useState(false);
+
+
 
   const gapSize = 16;
 
@@ -48,7 +56,25 @@ export default function InscriptionSecondInterface() {
       institut: ""
     }
   });
-
+  const handelOtherKid = () => {
+    setIsOtherKid(true);
+    setFormData(prev => ({
+      ...prev,
+      eleve: {
+        ...prev.eleve,
+        eleveFName: "",
+        eleveLName: "",
+        eleveYear: "",
+        eleveMonth: "",
+        eleveDay: "",
+        nivSco: "",
+        classActual: "",
+        institut: ""
+      }
+    }));
+    setCurrentStep(2);
+    setShowValidateModal(false);
+  }
 
   const handleDataChange = (step, data) => {
     setFormData(prev => ({
@@ -59,13 +85,71 @@ export default function InscriptionSecondInterface() {
       }
     }));
   };
+const submitInscription = async e => {
+    e.preventDefault()
+    if (isSubmitting) return
 
-  const handleSubmit = (e) => {
-    e.preventDefault(); // prevent page reload
-    console.log("📝 Full form data:", formData);
-    setShowValidateModal(true); // this will show the modal
-  };
-  
+    setIsSubmitting(true)
+    setServerError("")
+
+    const today = new Date()
+    const date = today.toISOString().slice(0, 10)
+    
+    const schoolYear = `${today.getMonth() < 3
+      ? today.getFullYear() - 1
+      : today.getFullYear()}-${
+      today.getMonth() < 3
+        ? today.getFullYear()
+        : today.getFullYear() + 1
+    }`
+
+    const payload = {
+      date,
+      school_year: schoolYear,
+      confirmed: false,
+      confirmed_by: null,
+      responsable: {
+        nom: formData.responsable.responsableLName,
+        prenom: formData.responsable.responsableFName,
+        lien: formData.responsable.responsableType,
+        email: formData.responsable.responsableEmail,
+        telephone: formData.responsable.responsablePhone
+      },
+      eleve: {
+        nom: formData.eleve.eleveLName,
+        prenom: formData.eleve.eleveFName,
+        dateNaissance: {
+          annee: formData.eleve.eleveYear,
+          mois:   formData.eleve.eleveMonth,
+          jour:   formData.eleve.eleveDay
+        },
+        niveauScolaire: formData.eleve.nivSco,
+        classe:         formData.eleve.classActual,
+        institut:       formData.eleve.institut,
+        province:       "Casablanca"
+      }
+    }
+
+    try {
+      await axios.post(
+        "http://macbook-pro-2.local:8000/api/inscriptions/create/",
+        payload
+      )
+      setShowValidateModal(true)
+    } catch (err) {
+      const errs = err.response?.data?.non_field_errors
+      if (Array.isArray(errs) && errs.length) {
+        setServerError(errs[0])
+        setShowValidateModal(true)
+      } else {
+        setServerError("Une erreur est survenue, veuillez réessayer.")
+      }
+      setShowValidateModal(true)
+    } finally {
+      setIsSubmitting(false)
+    }
+  }
+ 
 
   useEffect(() => {
     function measure() {
@@ -98,9 +182,7 @@ export default function InscriptionSecondInterface() {
 <p className="flex text-center items-center justify-center gap-2">
   <span className={`w-2 h-2 rounded-full ${["bg-apple-light","bg-red-500","bg-the-gray","bg-blue-500"][currentStep-1]}`}></span>
   {getStepLabel()} {currentStep}
-</p>
-
-<h1 className="text-3xl 2xl:text-6xl text-apple-title font-bold">{getTitle(currentStep-1)}</h1>   <div className="flex justify-between  mt-6 px-4 w-[70%]">
+</p><h1 className="text-3xl 2xl:text-6xl text-apple-title font-bold">{getTitle(currentStep-1)}</h1>   <div className="flex justify-between  mt-6 px-4 w-[70%]">
       <AnimatePresence>
         {!showValidateModal &&currentStep > 1 && (
           <motion.button className="flex items-center gap-2 text-sm  bg-apple-light text-apple-dark font-semibold p-3  rounded-lg " layout initial={{y:80,scale:0.5,opacity:0}} animate={{y:0,scale:1,opacity:1}} exit={{y:60,scale:0,opacity:0}} transition={{type:"spring"}}onClick={prevStep}>
@@ -117,9 +199,9 @@ export default function InscriptionSecondInterface() {
         <form ref={viewportRef} className="overflow-x-hidden overflow-y-visible w-full h-full">
         <motion.div className="flex items-center h-full" style={{ gap: `${gapSize}px` }} animate={{ x }} transition={{ type: "spring", bounce: 0.2 }}>
             <InscStep1 isActive={currentStep === 1} onDataChange={(data) => handleDataChange("responsable", data)} onNext={()=>setCurrentStep(2)} refProp={slideRef} />
-            <InscStep2 isActive={currentStep === 2} onDataChange={(data) => handleDataChange("eleve", data)}  onNext={()=>setCurrentStep(3)} />
+            <InscStep2 isActive={currentStep === 2} onDataChange={(data) => handleDataChange("eleve", data)}  onNext={()=>setCurrentStep(3)} data={formData} otherKid={isotherKid} />
             <InscStep3 isActive={currentStep === 3} onNext={()=>setCurrentStep(4)}/>
-            <InscStep4 isActive={currentStep === 4} showValidateModal={showValidateModal} values={formData} onSubmit={handleSubmit}  onBackToStep={(step) => setCurrentStep(step)} />
+            <InscStep4 isActive={currentStep === 4}  showValidateModal={showValidateModal} values={formData} onSubmit={submitInscription} isSubmitting={isSubmitting}  onBackToStep={(step) => setCurrentStep(step)} serverError={serverError} clearErr={handelClearError} onOtherKid={handelOtherKid} />
            
         </motion.div>
         </form>

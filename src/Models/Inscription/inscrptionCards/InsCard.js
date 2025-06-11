@@ -34,7 +34,7 @@ export const TheInput = ({ value, onValueChange, name, error, type = "text", req
 
 };
 
-export const TheSelect = ({ value = "", onValueChange, name, isMonth, error, required, data, disabled = false,displayed }) => {
+export const TheSelect = ({ value = "", onValueChange, name, error, required, data, disabled = false,displayed,isMonth=false }) => {
   const [clicked, setClicked] = useState(false);
   const { language } = useSelector((state) => state.presntion);
 
@@ -52,7 +52,7 @@ export const TheSelect = ({ value = "", onValueChange, name, isMonth, error, req
             {name}
           </option>
           {data.map((item, i) => (
-            <option key={i} value={item}>
+            <option key={i} value={isMonth?i+1:item}>
               {displayed?displayed[i]:item}
             </option>
           ))}
@@ -125,8 +125,15 @@ export const ConfirmationModal = ({ isVisible, onClose, onConfirm }) => {
   );
 };
 
-export const ValidateModal = ({ isVisible, onClose, onConfirm,msg=" Merci d'avoir complété l'inscription de votre enfant." }) => {
-  const { language } = useSelector((state) => state.presntion);
+export const ValidateModal = ({
+  isVisible,
+  onClose,
+  msg = "Merci d'avoir complété l'inscription de votre enfant.",
+  isErr=false,
+  onErrClick,
+  onOtherKid,ui
+}) => {
+  const { language } = useSelector((state) => state.presntion)
 
   return (
     <AnimatePresence>
@@ -136,21 +143,45 @@ export const ValidateModal = ({ isVisible, onClose, onConfirm,msg=" Merci d'avoi
           animate={{ y: 0, scale: 1, opacity: 1 }}
           exit={{ y: 180, scale: 0, opacity: 0 }}
           transition={{ type: "spring" }}
-          className="absolute w-[50%] p-5 bg-white/40 backdrop-blur-lg blurey  border flex-col rounded-3xl shadow-2xl flex items-center justify-center"
+          className="absolute w-full h-full p-5 gap-5 bg-white/40 backdrop-blur-lg border flex-col rounded-3xl shadow-2xl flex items-center justify-center"
         >
-          <p className="text-center">
-           
-{msg}
-           
-          </p>
-          <FontAwesomeIcon icon={faCheck} className="text-blue-500 text-7xl py-5"/>
-          <div className="flex w-full items-center justify-center mt-5 cursor-pointer">
+          <p className="text-center">{msg}</p>
+         {!isErr&& <FontAwesomeIcon icon={faCheck} className="text-blue-500 text-7xl py-5"/>}
+          <div className="flex w-full items-center justify-center mt-5">
+            <div
+              onClick={onClose}
+              className="px-4 py-2 bg-gray-200 rounded cursor-pointer"
+            >
+              {{
+                fr: "Fermer",
+                en: "Close",
+                ar: "إغلاق"
+              }[language]}
+              
+            </div>
 
-              <div onClick={()=>window.location.reload()}>{{fr:"Fermer",en:"Close",ar:"إغلاق"}[language]}</div>
-
+            {
+              isErr &&  <div onClick={onErrClick}
+  
+              className="px-4 py-2 bg-blue-500 text-white ml-4 rounded cursor-pointer"
+            >
+              {{
+                fr: "Modifier",
+                en: "Edit",
+                ar: "تعديل"
+              }[language]}</div>
+            }
           </div>
+         {(!isErr&&ui)&& <p onClick={onOtherKid} className="underline text-apple-dark/60 mt-4 cursor-pointer ">{otherChildText[language]}</p>}
         </motion.div>
       )}
     </AnimatePresence>
-  );
-};
+  )
+}
+
+
+const otherChildText = {
+  fr: "Vous avez un autre enfant ? Cliquez ici",
+  en: "Do you have another child? Click here",
+  ar: "هل لديك طفل آخر؟ انقر هنا"
+}

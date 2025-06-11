@@ -14,7 +14,7 @@ const MobileStckMenu = () => {
 
     const toggleMenu = () => setIsOpen(!isOpen);
     const {pageIndex}=useSelector((state)=>state.pageIndex);
-    const routes = ["/", "/about", "/cycles", "/services", "/news", "/gallery", "/contact", "/registration"];
+    const routes = ["/", "/about", "/cycles", "/services", "/news", "/gallery", "/contact", "/registration","postuler"];
     
 
 

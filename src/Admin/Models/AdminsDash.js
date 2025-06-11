@@ -19,7 +19,7 @@ export default function AdminsDash() {
   useEffect(() => {
     const fetchAdmins = async () => {
       try {
-        const response = await axios.get("http://localhost:8000/api/admins/");
+        const response = await axios.get("http://macbook-pro-2.local:8000/api/admins/");
         setAdmins(response.data);
       } catch (error) {
         console.error("Erreur lors du chargement des admins :", error);
@@ -55,7 +55,7 @@ const handleCheckboxChange = (e) => {
 const handleSubmit = async (e) => {
   e.preventDefault();
   try {
-    const response = await axios.post("http://localhost:8000/api/admins/", {
+    const response = await axios.post("http://macbook-pro-2.local:8000/api/admins/", {
       prenom: formData.prenom,
       nom: formData.nom,
       email: formData.email,
@@ -131,7 +131,7 @@ const handleSubmit = async (e) => {
 const handleDelete = async (id) => {
   if (window.confirm('Are you sure you want to delete this admin?')) {
     try {
-      const response = await axios.delete(`http://localhost:8000/api/admins/${id}/`);
+      const response = await axios.delete(`http://macbook-pro-2.local:8000/api/admins/${id}/`);
       console.log("Admin deleted:", response.data);
 
       // Optionally update the state to remove the admin from the frontend

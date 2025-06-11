@@ -19,7 +19,28 @@
         "en": "We will send you all information related to your journey as a great student or, if your child studies in our school, to their experience at Écoles La Tour Eiffel.",
         "fr": "Nous allons vous envoyer toutes les informations liées à votre parcours en tant que grand étudiant(e) ou, si votre enfant étudie dans notre école, à son expérience à les Écoles La Tour Eiffel.",
         "ar": "سنرسل لك جميع المعلومات المتعلقة بمسيرتك كطالب متميز أو إذا كان طفلك يدرس في مدرستنا، سنرسل لك تفاصيل تجربته في مدارس برج إيفل"
-      }
+      },
+
+      "success": {
+    "en": "Email subscribed successfully!",
+    "fr": "Email inscrit avec succès!",
+    "ar": "تم الاشتراك بنجاح!"
+  },
+  "duplicate": {
+    "en": "This email is already subscribed.",
+    "fr": "هذا البريد مسجل مسبقًا.",
+    "ar": "هذا البريد الإلكتروني مشترك بالفعل."
+  },
+  "error": {
+    "en": "Something went wrong.",
+    "fr": "حدث خطأ ما.",
+    "ar": "حدث خطأ ما."
+  },
+  "invalid": {
+    "en": "Please enter a valid email.",
+    "fr": "يرجى إدخال بريد إلكتروني صالح.",
+    "ar": "يرجى إدخال بريد إلكتروني صحيح."
+  }
     
   }
   

@@ -27,7 +27,7 @@ const GalleryPrev = () => {
       const navigate = useNavigate();
     return(
         <>
-            <div ref={motherRef} className="w-[90%]  flex flex-col lg:mt-10 md:-mt-10 -mt-20 z-50">
+            <div ref={motherRef} className="w-[90%]  flex flex-col lg:mt-10 md:-mt-10 -mt-20 z-40">
                 <motion.p {...custumAnimation(0,'-80%',0,0)} className="text-sm md:text-lg xl:text-2xl text-neutral-300 mt-10">{content[language].no_missed_moment}</motion.p>
                 <div className="w-full flex">
                 <motion.h1 {...custumAnimation(0,'-80%',0,0.2)} className="text-4xl  md:text-7xl xl:text-8xl w-[60%] text-blue-500 font-bold mt-2">

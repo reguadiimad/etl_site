@@ -63,7 +63,7 @@ const BottomNavigation = memo(({ show, handelSelect, selected }) => {
                 <motion.div initial={{y:50,opacity:0}} animate={{y:0,opacity:1,scale:1}} exit={{y:50,opacity:0}} transition={{type:'ease'}} className="w-full lg:hidden fixed bottom-0  flex items-center justify-center gap-3 z-50">
                    <div className={`${language==="ar"&&"flex-row-reverse"} w-[98%] bg-black/10 blurey pb-6 backdrop-blur-lg border-[0.1px] border-white/60 border-b-0 p-4 px-6 shadow-md  rounded-t-3xl flex justify-between items-center`}>
                    {
-                    icons.map((icon,index)=><div className="relative flex flex-col md:flex-row gap-x-2 items-center justify-center">
+                    icons.map((icon,index)=><div className="relative cursor-pointer flex flex-col md:flex-row gap-x-2 items-center justify-center">
                         <motion.div initial={{y:30,opacity:0,scale:0.5}} animate={{y:0,opacity:1,scale:1}} exit={{y:30,opacity:0,scale:0.3}} transition={{type:"ease",delay:0.08*index}}><FontAwesomeIcon onClick={()=>handelSelect(index)} icon={icon} className={` ease-in-out duration-300 text-2xl  ${selected===index?"text-blue-500":"text-white"}`}/></motion.div>
                         <motion.p initial={{y:20,opacity:0}} animate={{y:0,opacity:1,scale:1}} exit={{y:30,opacity:0}} transition={{type:"ease",delay:0.081*index}} className={`text-[8px] sm:text-[10px] md:text-xs  ease-in-out duration-300 ${selected===index?"text-blue-500 font-semibold":"text-white"}`}>{levels[language][index]}</motion.p>
                          <AnimatePresence>

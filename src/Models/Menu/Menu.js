@@ -124,7 +124,7 @@ const Menu = ({ visible }) => {
                                         to={routes[index]}
                                         key={index}
                                         style={{ width: 100 / currentMenuList.length + "%" }}
-                                        className={`text-center z-40  xl:py-5 md:py-4 lg:text-base md:text-sm ease-out duration-200 ${
+                                        className={`text-center z-40  xl:py-5 md:py-4 lg:text-base md:text-sm  ${
                                             language === "ar" ? "lg:text-lg" : "lg:text-base"
                                         } ${pageIndex === index ? "text-white/90 font-bold " : "text-apple-dark hover:animate-pulse mix-blend-difference"}`}
                                         onClick={() => {
@@ -153,7 +153,7 @@ const Menu = ({ visible }) => {
                 <div className="fixed bottom-0  left-0 mx-w-52 max-h-52 blur-3xl scale-150 z-40">
                     <div className="w-28 h-28 lg:w-44 lg:h-44 rounded-full absolute -bottom-16 -left-32 scale-150"></div>
                 </div>
-                <div className="w-[4%] scale-110 gap-y-2 pb-5 bottom-0 left-6 lg:left-1 fixed flex flex-col items-center language ease-in duration-200 z-40">
+                <div className={`w-[4%] scale-110 gap-y-2 pb-5 bottom-0 left-6 lg:left-1 fixed flex flex-col items-center language ease-in duration-200 z-50 ${!showLang&&" mt-24 lg:mt-0 lg:opacity-100"} `}>
                     <AnimatePresence>
                         {langClicked && (
                             <motion.div
@@ -162,7 +162,7 @@ const Menu = ({ visible }) => {
                                 animate={{ y: 0, scale: 1 }}
                                 exit={{ y: 80, scale: 0.2 }}
                                 transition={{ type: "spring", damping: 13, duration: 0.1 }}
-                                className="w-10 text-apple-dark bg-apple-light/90 blurey backdrop-blur-lg duration-0 rounded-full flex flex-col items-center justify-center gap-y-2 lg:py-2 py-4"
+                                className={`w-10 text-apple-dark bg-apple-light/90 blurey backdrop-blur-lg duration-0 rounded-full flex flex-col items-center justify-center gap-y-2 lg:py-2 py-4 ${!showLang&&'opacity-0'} `}
                             >
                                 {langButtons(language)}
                             </motion.div>
@@ -171,7 +171,7 @@ const Menu = ({ visible }) => {
                     <AnimatePresence>
                    <motion.button initial={{x:-50}} animate={{x:0}} exit={{x:-50}} transition={{type:'spring',damping:13,mass:1}}
                         onClick={() => setLangClicked(!langClicked)}
-                        className={`text-apple-dark shadow-lg bg-apple-light/90  rounded-full w-10 h-10 blurey backdrop-blur-lg font-semibold hover:bg-black/5 ${!showLang&&"-ml-20 opacity-0 lg:-ml-0 lg:opacity-100"}`}
+                        className={`text-apple-dark shadow-lg bg-apple-light/90  rounded-full w-10 h-10 blurey backdrop-blur-lg font-semibold hover:bg-apple-light/80  ${!showLang&&"opacity-0 -ml-36 lg:mt-0 lg:opacity-100"}`}
                     >
                     {language}
 
@@ -186,9 +186,12 @@ const Menu = ({ visible }) => {
                 animate={{ opacity: 1, scale: 1 }}
                 exit={{ opacity: 0, scale: 0.8 }}
                 transition={{ duration: 0.3 }}
+               className="hidden lg:flex"
             >
-                <div className="fixed bottom-0  right-0 mx-w-52 max-h-52 blur-3xl scale-150 z-40">
-                    <div className="w-28 h-28 lg:w-44 lg:h-44 rounded-full absolute -bottom-16 -left-32 scale-150"></div>
+                <div className="fixed bottom-0  right-0  blur-3xl scale-150 z-0">
+                    <div className="w-28 h-28 lg:w-44 lg:h-44 rounded-full absolute -bottom-16 -left-32 scale-150">
+                        
+                    </div>
                 </div>
                 <div className="w-[4%] scale-110 gap-y-2 pb-5 bottom-0 right-8 lg:right-10 fixed flex flex-col items-center language ease-in duration-200 z-40">
                     
@@ -196,7 +199,7 @@ const Menu = ({ visible }) => {
                   {
                     pageIndex!==8&& <motion.button layout onClick={()=>{navigate('/postuler')}} initial={{x:100,y:10,opacity:0,scale:0.5}} animate={{x:0,opacity:1,y:0,scale:1}} exit={{x:100,opacity:0,y:10,scale:0.5}} transition={{type:'spring',bounce:0.2}}
             
-                     className={`text-apple-dark shadow-lg  bg-[rgba(237,237,240)]  rounded-full p-2 blurey font-semibold backdrop-blur-xl hover:bg-apple-light ${!showLang&&"-mr-40 opacity-0 pointer-events-none lg:-ml-0 lg:opacity-100"}`}
+                     className={`text-apple-dark shadow-lg  bg-[rgba(237,237,240)]  rounded-full p-2 blurey font-semibold backdrop-blur-xl hover:bg-apple-light ${!showLang&&"-mr-64 opacity-0 pointer-events-none lg:-ml-0 lg:opacity-100"}`}
                  >
  {                 {
   fr: "Postuler",

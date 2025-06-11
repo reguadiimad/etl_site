@@ -14,11 +14,14 @@
       "en": "Discover a high school cycle where each student is supported in their academic journey, with optimal preparation for the Baccalaureate",
       "ar": "اكتشف مرحلة الثانوية حيث يتم دعم كل طالب في مساره الأكاديمي، مع تحضير مثالي للبكالوريا"
     },
-    "explication": {
-      "fr": "Le cycle Lycée est une étape décisive dans la vie scolaire de votre enfant. C’est ici que les bases de leur avenir académique et professionnel se construisent. Nous mettons tout en œuvre pour offrir à votre enfant un environnement propice à la réussite, avec un accompagnement renforcé pour réussir le Baccalauréat.",
-      "en": "The high school cycle is a decisive stage in your child’s academic life. This is where the foundations of their academic and professional future are laid. We do everything possible to provide your child with an environment conducive to success, with enhanced support to excel in the Baccalaureate.",
-      "ar": "المرحلة الثانوية هي مرحلة حاسمة في حياة طفلك الدراسية. حيث تُبنى أسس مستقبله الأكاديمي والمهني. نحرص على توفير بيئة تعليمية تساعد على النجاح، مع تقديم دعم إضافي لضمان التفوق في امتحانات البكالوريا."
-    },
+   "explication": {
+  "fr": "Le cycle Lycée est une étape décisive dans la vie scolaire de votre enfant. C’est ici que les bases de leur avenir académique et professionnel se construisent. Nous mettons tout en œuvre pour offrir à votre enfant un environnement propice à la réussite, avec un accompagnement renforcé pour réussir le Baccalauréat. Nous proposons désormais la filière Baccalauréat Sciences Mathématiques, pour les élèves souhaitant s’orienter vers des études scientifiques de haut niveau.",
+  
+  "en": "The high school cycle is a decisive stage in your child’s academic life. This is where the foundations of their academic and professional future are laid. We do everything possible to provide your child with an environment conducive to success, with enhanced support to excel in the Baccalaureate. We now offer the Baccalaureate in Mathematical Sciences for students aiming for high-level scientific studies.",
+  
+  "ar": "المرحلة الثانوية هي مرحلة حاسمة في حياة طفلك الدراسية، حيث تُبنى أسس مستقبله الأكاديمي والمهني. نحرص على توفير بيئة تعليمية تساعد على النجاح، مع تقديم دعم إضافي لضمان التفوق في امتحانات البكالوريا. نقدم الآن شعبة البكالوريا شعبة العلوم الرياضية، لفائدة التلاميذ الراغبين في متابعة دراسات علمية عالية المستوى."
+}
+,
     "benefit1": {
       "title": {
         "fr": "Préparation Spécialisée au Baccalauréat",
@@ -64,7 +67,7 @@
       "description": {
         "fr": "À Écoles La Tour Eiffel, nous offrons un cadre éducatif rigoureux mais bienveillant, où chaque élève reçoit l'attention nécessaire pour réussir son Baccalauréat. Grâce à des cours spécialisés, des révisions intensives et un suivi personnalisé, nos élèves sont prêts à affronter les défis de leurs examens et à ouvrir les portes de l’avenir.",
         "en": "At Écoles La Tour Eiffel, we provide a rigorous yet caring educational environment where every student receives the necessary attention to succeed in their Baccalaureate. With specialized courses, intensive revision, and personalized monitoring, our students are ready to face the challenges of their exams and open the doors to their future.",
-        "ar": "في مدارس لا تور إيفل، نوفر بيئة تعليمية صارمة ولكن مليئة بالرعاية، حيث يتلقى كل طالب الدعم اللازم للنجاح في البكالوريا. بفضل الدروس المتخصصة، والمراجعات المكثفة، والمتابعة الشخصية، يكون طلابنا مستعدين لمواجهة تحديات امتحاناتهم وفتح أبواب المستقبل."
+        "ar": "في مدارس برج إيفّل، نوفر بيئة تعليمية صارمة ولكن مليئة بالرعاية، حيث يتلقى كل طالب الدعم اللازم للنجاح في البكالوريا. بفضل الدروس المتخصصة، والمراجعات المكثفة، والمتابعة الشخصية، يكون طلابنا مستعدين لمواجهة تحديات امتحاناتهم وفتح أبواب المستقبل."
       },
       "sub_description": {
         "fr": "Un cadre éducatif pour exceller et réussir",

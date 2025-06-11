@@ -8,13 +8,26 @@ export function InscStep4({
   values,
   onSubmit,
   onBackToStep,
-  showValidateModal
+  showValidateModal,
+  serverError,
+  isSubmitting,
+  clearErr,
+  onOtherKid
 }) {
   const { language } = useSelector((state) => state.presntion);
   const t = translations[language];
 
   const responsable = values.responsable;
   const eleve = values.eleve;
+  const modalMsg = serverError
+    ? // if the server returned its own FR-only text, we can still override it:
+      // or simply display it in FR: serverError
+      ({
+        fr: serverError,
+        en: errorMessage.en,
+        ar: errorMessage.ar
+      }[language])
+    : thankYouMessage[language]
 
   return (
     <div dir={language==="ar"&&"rtl"} 
@@ -124,15 +137,15 @@ export function InscStep4({
           <div className="w-full flex items-center justify-center mt-6">
             <div
               onClick={onSubmit}
-              className="bg-blue-500 cursor-pointer px-6 py-2 rounded-lg text-white font-semibold"
+              className={`bg-blue-500 ${isSubmitting?" opacity-40 cursor-not-allowed":""}  cursor-pointer px-6 py-2 rounded-lg text-white font-semibold`}
             >
-              {t.btnSubmit}
+              {isSubmitting?t.btnSubmitLoading:t.btnSubmit}
             </div>
           </div>
         </div>
       </div>
 
-      <ValidateModal msg={thankYouMessage[language]} isVisible={showValidateModal} />
+      <ValidateModal msg={modalMsg} ui={true} isErr={serverError} isVisible={showValidateModal} onClose={()=>window.location.reload()} onOtherKid={onOtherKid} onErrClick={()=>{onBackToStep(2);clearErr()}} />
     </div>
   );
 }
@@ -141,4 +154,9 @@ const thankYouMessage = {
   fr: "Merci d'avoir complété l'inscription de votre enfant.",
   en: "Thank you for completing your child’s registration.",
   ar: "شكراً لإتمام تسجيل طفلكم."
-};
+}
+const errorMessage = {
+  fr: "L'élève que vous avez saisi est déjà inscrit pour cette année scolaire. Vous pouvez modifier son inscription, enregistrer un autre enfant, ou fermer.",
+  en: "The student you entered is already registered for this school year. You can modify their registration, register another child, or close.",
+  ar: "الطالب الذي أدخلته مسجل بالفعل لهذه السنة الدراسية. يمكنك تعديل تسجيله، أو تسجيل طفل آخر، أو إغلاق."
+}

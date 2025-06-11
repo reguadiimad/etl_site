@@ -33,12 +33,12 @@
     "description": {
       "fr": "Notre école, La Tour Eiffel, est fière de lancer une application moderne qui simplifie la gestion des devoirs et renforce le lien entre les parents, les élèves et l'école.",
       "en": "Our school, La Tour Eiffel, is proud to launch a modern application that simplifies homework management and strengthens the bond between parents, students, and the school.",
-      "ar": "تفتخر مدرستنا، لا تور إيفل، بإطلاق تطبيق حديث يسهل إدارة الواجبات المنزلية ويعزز الروابط بين الآباء والطلاب والمدرسة."
+      "ar": "تفتخر مدرستنا، برج إيفّل، بإطلاق تطبيق حديث يسهل إدارة الواجبات المنزلية ويعزز الروابط بين الآباء والطلاب والمدرسة."
     },
     "real_time_connect": {
       "fr": "Connectez-vous à La Tour Eiffel en temps réel",
       "en": "Connect to La Tour Eiffel in real-time",
-      "ar": "اتصلوا بـ لا تور إيفل في الوقت الحقيقي"
+      "ar": "اتصلوا بـ برج إيفّل في الوقت الحقيقي"
     },
     "free_header": {
       "fr": "Gratuitement",
@@ -88,7 +88,7 @@
     "school_name": {
       "fr": "le Groupe Scolaire La Tour Eiffel",
       "en": "La Tour Eiffel School Group",
-      "ar": "مجموعة مدارس لا تور إيفل"
+      "ar": "مجموعة مدارس برج إيفّل"
     },
     "read_more": {
       "fr": "Lire plus",

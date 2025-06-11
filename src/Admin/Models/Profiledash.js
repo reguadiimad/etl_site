@@ -45,7 +45,7 @@ export default function ProfileDash() {
   e.preventDefault();
   try {
     // Make the PUT request and get the updated admin data in the response
-    const response = await axios.put(`http://localhost:8000/api/update/${admin.admin_id}/`, formData);
+    const response = await axios.put(`http://macbook-pro-2.local:8000/api/update/${admin.admin_id}/`, formData);
 
     // Dispatch the updated admin data to Redux and update localStorage
     dispatch(updateAdminData(response.data));  // Assuming the response contains the updated admin data
@@ -86,7 +86,7 @@ const handleChangePassword = async (e) => {
     };
 
     const res = await axios.put(
-      `http://localhost:8000/api/change-password/${admin.admin_id}/`,
+      `http://macbook-pro-2.local:8000/api/change-password/${admin.admin_id}/`,
       payload
     );
 

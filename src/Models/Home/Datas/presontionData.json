@@ -1,9 +1,10 @@
 {
-    "heading": {
-      "fr": "Aidons nos élèves à s'élever vers le ciel, comme la TourEiffel",
-      "en": "Let's help our students soar to the sky, like the Eiffel Tower",
-      "ar": "نُساعد طلاَّبنا على النمو داخلنا ويرتقوا في السماء مثل برج إيفل"
-    },
+   "heading": {
+  "fr": "la main dans la main, nous irons plus loin.",
+  "en": "Hand in hand, we’ll go further.",
+  "ar": "يداً بيدٍ، سنصل إلى أبعِد حَد "
+}
+,
     "paragraph": {
       "fr": "Découvrez nos parcours éducatifs adaptés à chaque étape du développement de vos enfants.",
       "en": "Discover our educational paths tailored to each stage of your children's development.",
@@ -48,7 +49,7 @@
     }, "videoTitle": {
         "fr": "Présentation des Écoles La Tour Eiffel",
         "en": "Presentation of La Tour Eiffel Schools",
-        "ar": "عرض مدارس لا تور إيفل"
+        "ar": "عرض مدارس برج إيفّل"
       }
   }
   

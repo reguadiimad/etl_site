@@ -59,6 +59,10 @@ const Panneau = () => {
                     <p className="text-neutral-900/55 mt-4 xl:text-xl md:text-lg tiny">{currentText.isoCertificationText}</p>
                 </motion.div>
 
+               
+
+                
+
                 
             </div>
         </section>

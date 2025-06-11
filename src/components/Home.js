@@ -14,12 +14,17 @@ import { useEffect } from 'react';
 import { useSelector } from 'react-redux';
 import { setPageIndex } from '../redux(toolKit)/slices/pageIndexSlice';
 import PresontationPhone from '../Models/Home/PresnetionPhone';
+import { fetchLatestNews } from '../redux(toolKit)/slices/latestNewsSlice';
+
 
 
 
 
 export default function Home() {
   const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(fetchLatestNews());
+  }, [dispatch]);
   useEffect(() => {
     dispatch(setIsHome(true));
   }, [dispatch]);

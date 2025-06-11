@@ -3,7 +3,7 @@ import { AnimatePresence, motion } from "framer-motion"
 import { ConfirmationModal, TheInput, TheSelect } from "./InsCard"
 import { useSelector } from "react-redux"
 
-export function InscStep2({ isActive, refProp,onNext,onDataChange }) {
+export function InscStep2({ isActive, refProp,onNext,onDataChange,otherKid }) {
     const [eleveFName, setEleveFName] = useState("")
     const [eleveLName, setEleveLName] = useState("")
     const [eleveYear,setEleveYear] = useState("");
@@ -18,7 +18,17 @@ export function InscStep2({ isActive, refProp,onNext,onDataChange }) {
     const { language } = useSelector((state) => state.presntion); 
     const t = translations[language];
 
-
+    useEffect(() => { 
+      if(otherKid){
+        setEleveFName("");
+        setEleveLName("");
+        setEleveYear("");
+        setEleveMonth("");
+        setEleveDay("");
+        setNivSco("");
+        setClassActual("");
+        setInstitut("");}
+     },[otherKid])
 
     const currentYear = new Date().getFullYear();
     const yearData = Array.from({ length: 25 }, (_, i) => (currentYear - 1) - i);
@@ -35,7 +45,7 @@ export function InscStep2({ isActive, refProp,onNext,onDataChange }) {
     const nivScoDataa = {
       fr: ["Pas Encore", "Maternelle", "Élemontaire", "Collège", "Lycée"],
       en: ["Not Yet", "Preschool", "Elementary", "Middle School", "High School"],
-      ar: ["ليس بعد", "الروضة", "الابتدائي", "الإعدادي", "الثانوي"]
+      ar: ["ليس بعد", "الروض ", "الابتدائي", "الإعدادي", "الثانوي"]
     };
 
     const classActualDataa = {
@@ -69,9 +79,9 @@ export function InscStep2({ isActive, refProp,onNext,onDataChange }) {
     
       const monthIndex = typeof month === "string"
         ? monthsFr.findIndex(m => m === month)
-        : month - 1; // if you're using numeric months
+        : month - 1; 
     
-      // JS month is 0-indexed; adding 1 to get the next month and setting day = 0 gives the last day of the selected month
+     
       const daysInMonth = new Date(year, monthIndex + 1, 0).getDate();
     
       return Array.from({ length: daysInMonth }, (_, i) => i + 1);
@@ -86,7 +96,7 @@ export function InscStep2({ isActive, refProp,onNext,onDataChange }) {
         case "Pas Encore":
           return classActualData[0]; 
         case "Maternelle":
-          return classActualData[1]; // Empty
+          return classActualData[1];
         case "Élemontaire":
           return classActualData[2];
         case "Collège":
@@ -122,11 +132,11 @@ export function InscStep2({ isActive, refProp,onNext,onDataChange }) {
           if (isNaN(value) || value < minYear || value > maxYear) {
             return msgs.yearInvalid({ min: minYear, max: maxYear });
           }
-          return "";
+          return ""; 
     
         case "month":
           if (value.trim() === "") return msgs.monthRequired;
-          if (!monthsFr.includes(value.toLowerCase())) return msgs.monthInvalid;
+         
           return "";
     
         case "day":
@@ -309,7 +319,7 @@ export function InscStep2({ isActive, refProp,onNext,onDataChange }) {
               <TheSelect name={t.year} value={eleveYear} data={yearData} onValueChange={(val) => handleChange("year", val)} error={errors.year} />
             </div>
             <div className="flex-1">
-              <TheSelect name={t.month} value={eleveMonth} data={monthsFr} displayed={monthss[language]} disabled={eleveYear === ""} onValueChange={(val) => handleChange("month", val)} error={errors.month} />
+              <TheSelect name={t.month} value={eleveMonth} data={monthsFr} displayed={monthss[language]} disabled={eleveYear === ""} onValueChange={(val) => handleChange("month", val)} error={errors.month} isMonth={true} />
             </div>
             <div className="flex-1">
               <TheSelect name={t.day} value={eleveDay} data={daysData} disabled={eleveMonth === ""} onValueChange={(val) => handleChange("day", val)} error={errors.day} />
@@ -325,7 +335,7 @@ export function InscStep2({ isActive, refProp,onNext,onDataChange }) {
               <TheSelect name={t.schoolLevel} value={nivSco} displayed={nivScoDataa[language]}  data={nivScoData} onValueChange={(val) => handleChange("nivSco", val)} error={errors.nivSco} />
             </div>
             <div className="flex-1">
-              <TheSelect name={t.class} value={classActual} displayed={classActualDataa[language][nivSco]}  data={getClassOptions(nivSco)} disabled={nivSco === "" || nivSco === nivScoData[0]} onValueChange={(val) => handleChange("classAct", val)} error={touched.classAct ? errors.classAct : ""} />
+              <TheSelect   name={t.class} value={classActual} displayed={classActualDataa[language][nivSco]}  data={getClassOptions(nivSco)} disabled={nivSco === "" || nivSco === nivScoData[0]} onValueChange={(val) => handleChange("classAct", val)} error={touched.classAct ? errors.classAct : ""} />
             </div>
           </div>
     

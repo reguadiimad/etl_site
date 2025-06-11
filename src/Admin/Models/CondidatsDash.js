@@ -4,13 +4,32 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 import condidats from "./data/condidats.json";
+import axios from "axios";
+import { useEffect } from "react";
 
 export default function CondidatsDash() {
   const [fullInscriptions, setFullInscription] = useState(null);
   const [filterYear, setFilterYear] = useState("all");
   const navigate = useNavigate();
 
- 
+ const [condidats, setCondidats] = useState([]);
+const [loading, setLoading] = useState(true);
+const [error, setError] = useState(null);
+useEffect(() => {
+  const fetchCondidats = async () => {
+    try {
+      const response = await axios.get("http://macbook-pro-2.local:8000/api/condidats/");
+      setCondidats(response.data);
+    } catch (err) {
+      setError("Failed to load condidats");
+      console.error(err);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  fetchCondidats();
+}, []);
   return (
     <div className="w-full min-h-screen p-6 bg-apple-light/20 rounded-3xl text-apple-dark">
       <h1 className="font-bold text-3xl text-center md:text-4xl apple-title mt-6 text-blue-500">
@@ -36,7 +55,11 @@ export default function CondidatsDash() {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
-        {condidats.map((condidat) => (
+        {loading ? (
+  <p>Loading...</p>
+) : error ? (
+  <p>{error}</p>
+) : (condidats.map((condidat) => (
           <motion.div
             key={condidat.id}
             layoutId={`card-${condidat.id}`}
@@ -49,7 +72,7 @@ export default function CondidatsDash() {
             <p className="text-sm text-gray-500">{condidat.dateApply}</p>
             <p className="text-sm mt-2">Téléphone: {condidat.telephone}</p>
           </motion.div>
-        ))}
+        )))}
       </div>
 
       <AnimatePresence>

@@ -82,12 +82,12 @@ const { language } = useSelector((state) => state.presntion);
           }}
       />
       <img
-        className=" xl:h-[45%] w-auto theBoy -left-[7%] absolute bottom-20 scale-125"
+        className="lg:h-[53%] xl:h-[58%] w-auto theBoy left-[5%] absolute bottom-20 scale-125"
         alt="boy"
         src={process.env.PUBLIC_URL + '/parallex/boy.webp'}
         style={{
             transform: `translateY(${mousePosition.y * 0.01}px)`,
-            scale:'125%'
+            scale: '125%'
           }}
       />
     </motion.div>

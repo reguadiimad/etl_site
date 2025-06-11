@@ -138,7 +138,7 @@ const FirstInterface = () => {
                 <motion.div {...rightAnimation(0.33)}  className={`flex-1 flex flex-row-reverse `}>
                     <img
                         src={process.env.PUBLIC_URL + "/images/prtb.webp"}
-                        className={`w-full h-24 md:my-2 md:h-20 object-cover opacity-90`}
+                        className={`w-full h-24 md:my-2 md:h-24 object-cover opacity-90`}
                     ></img> 
                 </motion.div>
             </div>

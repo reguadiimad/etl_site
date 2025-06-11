@@ -8,6 +8,9 @@ import showLangSlice from './slices/showLang';
 import showMenuSlice from './slices/showMenu';
 import showTopMenu from './slices/showTopMenu'
 import adminReducer from "./slices/adminSlice"; 
+import ipSlice from './slices/ipSlice';
+import latestNews from './slices/latestNewsSlice';
+import newsReducer from './slices/newsSlice';
 const store = configureStore({
   reducer: {
     presntion: contentReducer,
@@ -19,6 +22,9 @@ const store = configureStore({
     showMenu:showMenuSlice,
     showTopMenu,showTopMenu,
     admin: adminReducer,
+    ipAddress: ipSlice,
+    latestNews: latestNews,
+    news: newsReducer,
 
   },
 });

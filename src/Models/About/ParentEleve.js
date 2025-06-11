@@ -18,7 +18,7 @@ const ParentEleve = ({ id }) => {
     const parent = texts.parentSection;
     const dispatch = useDispatch();
     const scrollValue = useSelector((state) => state.scrollVal);
-    const { ref: motherRef, inView } = useInView({ threshold: 0.5 });
+    const { ref: motherRef, inView } = useInView({ threshold: 0.2 });
 
     useEffect(() => {
         if (inView) {

@@ -2,33 +2,51 @@ import { faCirclePlus, faEnvelope, faPhone } from "@fortawesome/free-solid-svg-i
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { motion, AnimatePresence } from "framer-motion";
 import { useNavigate } from "react-router-dom";
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import axios from 'axios';
+import { useSelector } from 'react-redux';
 
 
 export default function InscriptionDash() {
   const [fullInscriptions, setFullInscription] = useState(null);
-  const [filterYear, setFilterYear] = useState("all");
+  const [filterYear, setFilterYear] = useState("tout");
   const [inscriptions, setInscriptions] = useState([]);
+  const [schoolYears, setSchoolYears] = useState([]);
+  const admin = useSelector(state => state.admin.admin);
+  
 
   useEffect(() => {
-    axios.get('http://localhost:8000/api/inscriptions/')
+    axios.get('http://macbook-pro-2.local:8000/api/inscriptions/')
       .then(response => {
         setInscriptions(response.data);
+          const uniqueYears = [
+        ...new Set(response.data.map(item => item.school_year).filter(Boolean).sort((a, b) => new Date(b.date) - new Date(a.date)))
+      ];
+      setSchoolYears(uniqueYears);
       })
       .catch(error => {
         console.error('Failed to fetch inscriptions:', error);
       });
-  }, []);
+  }, [fullInscriptions]);
   const navigate = useNavigate();
   const handleClick = () => {
     window.location.href = '/registration';
   };
 
-  const filtered =
-    filterYear === "all"
-      ? inscriptions
-      : inscriptions.filter((i) => i.schoolYear === filterYear);
+const filtered = (filterYear === "tout"
+  ? inscriptions
+  : inscriptions.filter(insc => insc.school_year === filterYear)
+);
+
+const sorted = filtered.sort((a, b) => {
+  // First sort by confirmed (false before true)
+  if (a.confirmed !== b.confirmed) {
+    return a.confirmed ? 1 : -1;
+  }
+
+  // Then sort by date descending (latest first)
+  return new Date(b.date) - new Date(a.date);
+});
 
   return (
     <div className="w-full min-h-screen p-6 bg-apple-light/20 rounded-3xl text-apple-dark">
@@ -46,8 +64,8 @@ export default function InscriptionDash() {
         </div>
       </div>
 
-      <div className="flex justify-center gap-4 mt-4">
-        {['all','2024/2025','2025/2026'].map((year) => (
+      <div className=" justify-center gap-4 max-w-full mt-4 flex flex-wrap">
+        {['tout',...schoolYears].map((year) => (
           <button
             key={year}
             onClick={() => setFilterYear(year)}
@@ -63,13 +81,13 @@ export default function InscriptionDash() {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
-        {filtered.map((insc) => (
+        {sorted.map((insc) => (
           <motion.div
             key={insc.id}
             transition={{ type: "spring" }}
             layoutId={`card-${insc.id}`}
             onClick={() => setFullInscription(insc)}
-            className="p-4 bg-apple-light rounded-2xl cursor-pointer hover:shadow-lg hover:scale-105 transition-transform"
+            className={`p-4 bg-apple-light rounded-2xl cursor-pointer hover:shadow-lg hover:scale-105 transition-transform ${insc.confirmed ? "bg-apple-dark/40 opacity-80" : "bg-apple-light"}`}
           >
             <p className="font-semibold apple-title">
               {insc.eleve.prenom} {insc.eleve.nom}
@@ -89,7 +107,41 @@ export default function InscriptionDash() {
   );
 }
 
+
 const FullInscriptions = ({ fullInscriptions, onClose }) => {
+  const admin = useSelector(state => state.admin.admin);
+const handleConfirm = async (inscriptionId) => {
+  try {
+    const response = await fetch(`http://macbook-pro-2.local:8000/api/inscriptions/${inscriptionId}/update/`, {
+      method: 'PATCH',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        confirmed: true,
+        confirmed_by: admin.prenom + " " + admin.nom,
+      }),
+      
+    });
+
+    if (!response.ok) {
+      const errorData = await response.json();
+      console.error('Server error details:', errorData);
+      throw new Error('Failed to confirm inscription');
+    }
+
+    const updatedInscription = await response.json();
+    console.log('Inscription confirmed:', updatedInscription);
+    onClose();
+
+    
+  } catch (error) {
+    console.error('Error:', error.message);
+    alert('An error occurred while confirming the inscription.');
+  }
+};
+
+
   return (
     <motion.div
       className="fixed inset-0 bg-black bg-opacity-10 backdrop-blur-lg blurey flex items-center justify-center z-50 px-2 overflow-y-auto"
@@ -150,10 +202,21 @@ const FullInscriptions = ({ fullInscriptions, onClose }) => {
               <p>Niveau scolaire actuel : <b>{fullInscriptions.eleve.niveauScolaire}</b></p>
               <p>Classe : <b>{fullInscriptions.eleve.classe}</b></p>
               <p>Institut : <b>{fullInscriptions.eleve.institut}</b></p>
+
             </div>
           </div>
         </div>
-        <button onClick={onClose} className="text-right w-full mt-4 md:mt-10">Fermer</button>
+        <div className="flex justify-between items-center mt-10">
+        <button onClick={onClose} className="text-left w-full">Fermer</button>
+        {
+          fullInscriptions.confirmed ? (
+            <p className="text-apple-dark/80 text-xs w-full  text-right  ">Inscription confirmée par <b>{fullInscriptions.confirmed_by}</b></p>
+          ) : (
+            <button onClick={() => handleConfirm(fullInscriptions.id)} className="bg-blue-500 px-4 py-2 rounded-2xl text-white mt-4 md:mt-10">Confirmer</button>
+          )
+        }
+
+        </div>
       </motion.div>
     </motion.div>
   );

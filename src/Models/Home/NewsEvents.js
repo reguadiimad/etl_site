@@ -1,4 +1,5 @@
-import { faArrowLeft, faArrowRight,faPaintBrush, faFutbol, faLandmark, faBookOpen, faMountain,faUtensils,faMousePointer } from "@fortawesome/free-solid-svg-icons";
+import { faArrowLeft, faArrowRight, faMountain,faMousePointer, faPlusCircle, } from "@fortawesome/free-solid-svg-icons";
+import { faFutbol, faInfoCircle, faHeartbeat, faFlask, faGraduationCap, faPalette, faMicrochip, faCalendarAlt, faPuzzlePiece, faSchool, faCompass, faBriefcase, faHandHoldingUsd, faHandsHelping, faTrophy, faMedal, faBusAlt, faLeaf, faUsers, faAtom, faBookOpen, faPaintBrush, faMusic, faTheaterMasks, faLanguage, faLandmark, faArchway, faChalkboardTeacher, faPencilRuler, faProjectDiagram, faUtensils, faSpa, faComments, faShieldAlt, faGavel, faUserFriends, faNetworkWired, faDesktop, faUniversalAccess, faGlobe, faHandshake, faDollarSign, faSitemap, faUserGraduate, faFileSignature, faClipboardCheck, faCalendarDay, faUmbrellaBeach, faBullhorn, faBell, faCommentDots, faUserTie, faChartLine, faStar, faBalanceScale, faGamepad, faBicycle, faBrain, faCalculator, faVial, faDna, faBook, faChartPie, faMapMarkedAlt, faRobot, faCode, faMicrophoneAlt, faCameraRetro, faFilm, faLightbulb, faCarrot, faRecycle, faGlobeAmericas, faExchangeAlt, faNewspaper, faBookReader, faCertificate, faUserPlus, faBus, faConciergeBell, faTicketAlt, faTools, faPiggyBank, faBalanceScaleRight, faCogs, faSearch, faRocket, faGlassMartiniAlt, faHiking, faTasks, faPhotoVideo, faShareAlt, faUserShield, faTrafficLight, faSeedling, faMicrophone, faEquals, faIdBadge, faHandHoldingHeart, faUserSecret, faCloudSunRain, faMapMarkerAlt, faFeatherAlt, faBlender, faMedkit, faPlaneDeparture, faVoteYea, faFistRaised, faMonument, faMoon, faEllipsisH } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useRef, useState,useEffect} from "react";
 import {motion,AnimatePresence} from "framer-motion";
@@ -7,6 +8,10 @@ import slides from './Datas/slides.json'
 import { useSelector } from "react-redux";
 import PopUp from "./PopUp";
 import { useInView } from "react-intersection-observer";
+import { faAccessibleIcon } from "@fortawesome/free-brands-svg-icons";
+import FullNews from "../News/FullNews";
+import { useNavigate } from "react-router-dom";
+
 
 const iconMap = {
   faMountain,
@@ -16,14 +21,57 @@ const iconMap = {
   faFutbol,
   faUtensils
 };
-
+const allImportedIconObjects = [
+  // Solid Icons
+  faFutbol, faInfoCircle, faHeartbeat, faFlask, faGraduationCap, faPalette, faMicrochip,
+  faCalendarAlt, faPuzzlePiece, faSchool, faCompass, faBriefcase, faHandHoldingUsd,
+  faHandsHelping, faTrophy, faMedal, faBusAlt, faLeaf, faUsers, faAtom, faBookOpen,
+  faPaintBrush, faMusic, faTheaterMasks, faLanguage, faLandmark, faArchway,
+  faChalkboardTeacher, faPencilRuler, faProjectDiagram, faUtensils, faSpa, faComments,
+  faShieldAlt, faGavel, faUserFriends, faNetworkWired, faDesktop, faUniversalAccess,
+  faGlobe, faHandshake, faDollarSign, faSitemap, faUserGraduate, faFileSignature,
+  faClipboardCheck, faCalendarDay, faUmbrellaBeach, faBullhorn, faBell, faCommentDots,
+  faUserTie, faChartLine, faStar, faBalanceScale, faGamepad, faBicycle, faBrain,
+  faCalculator, faVial, faDna, faBook, faChartPie, faMapMarkedAlt, faRobot, faCode,
+  faMicrophoneAlt, faCameraRetro, faFilm, faLightbulb, faCarrot, faRecycle,
+  faGlobeAmericas, faExchangeAlt, faNewspaper, faBookReader, faCertificate, faUserPlus,
+  faBus, faConciergeBell, faTicketAlt, faTools, faPiggyBank, faBalanceScaleRight,
+  faCogs, faSearch, faRocket, faGlassMartiniAlt, faHiking, faTasks, faPhotoVideo,
+  faShareAlt, faUserShield, faTrafficLight, faSeedling, faMicrophone, faEquals,
+  faIdBadge, faHandHoldingHeart, faUserSecret, faCloudSunRain, faMapMarkerAlt,
+  faFeatherAlt, faBlender, faMedkit, faPlaneDeparture, faVoteYea, faFistRaised,
+  faMonument, faMoon, faEllipsisH,faPlusCircle
+  // Brand Icons
+  // Add all other unique icons here after importing them
+];
 const NewsEvents = () => {
   const { language } = useSelector((state) => state.presntion); 
+  const { latest, status, error } = useSelector((state) => state.latestNews);
   const [currentIndex, setCurrentIndex] = useState(0);
   const containerRef = useRef(null);
   const currentDate = new Date();
   const [selectedCategory, setSelectedCategory] = useState("Tous");
   const [popupVisible, setPopupVisible] = useState(false);
+  const isNewNews = newsDate => (new Date() - new Date(newsDate)) < 3 * 24 * 60 * 60 * 1000;
+  const [curntNews,setCurrentNews] = useState(false);
+  const [isFullNewsOpen, setIsFullNewsOpen] = useState(false);
+
+  const handelFullNewsOpen  = (news) => {
+    setCurrentNews(news);
+    setIsFullNewsOpen(true);
+  }
+  const handelFullNewsClose = () => {setIsFullNewsOpen(false);}
+  
+
+
+
+  const genres = ['Sport', 'Général', 'Santé', 'Science', 'Éducation', 'Culture', 'Technologie', 'Événements', 'Parascolaire', 'Vie Scolaire', 'Orientation', 'Carrières', 'Bourses', 'Aides', 'Concours', 'Olympiades', 'Sorties', 'Environnement', 'Citoyenneté', 'Sciences', 'Littérature', 'ArtsPlastiques', 'Musique', 'Théâtre', 'Langues', 'Histoire', 'Patrimoine', 'Pédagogie', 'TravauxÉlèves', 'Projets', 'Alimentation', 'Cantine', 'BienÊtre', 'Conseils', 'Sécurité', 'Règlement', 'ParentsÉcole', 'TIC', 'Numérique', 'Inclusion', 'Diversité', 'Handicap', 'Partenariats', 'Sponsors', 'Clubs', 'Associations', 'VieÉtudiante', 'Examens', 'Évaluations', 'Calendrier', 'Vacances', 'AnnoncesAdmin', 'Alertes', 'Témoignages', 'Alumni', 'DéveloppementPerso', 'LeadershipÉtudiant', 'Civisme', 'JusticeScolaire', 'Jeux', 'Loisirs', 'Psychologie', 'Maths', 'Physique', 'Chimie', 'Biologie', 'Philo', 'Éco', 'Géo', 'Robotique', 'Codage', 'Débats', 'Photo', 'Cinéma', 'Danse', 'Entrepreneuriat', 'Bénévolat', 'SantéMentale', 'Nutrition', 'Écologie', 'International', 'Échanges', 'Journalisme', 'Bibliothèque', 'Diplômes', 'Inscriptions', 'Transport', 'Restauration', 'Réunions', 'Festivals', 'Conférences', 'Ateliers', 'Finances', 'PolitiqueScolaire', 'Éthique', 'Technique', 'Formation', 'Recherche', 'Innovation', 'Gala', 'Excursions', 'Mentorat', 'Compétences', 'Multimédia', 'RéseauxSociaux', 'HarcèlementPrévention', 'SécuritéRoutière', 'Solidarité', 'DéveloppementDurable', 'ArtOratoire', 'Égalité', 'Laïcité', 'MédiasÉducation', 'Stages', 'Philanthropie', 'CyberSécurité', 'Climat', 'PatrimoineLocal', 'Poésie', 'Cuisine', 'Jardinage', 'PremiersSecours', 'OrientationPro', 'VoyagesScolaires', 'EngagementCivique', 'DroitsHumains', 'Musée', 'Astronomie', 'ThéâtreForum', 'Autre'];
+function getGenreIndex(genre) {
+  return genres.indexOf(genre);
+}
+const navigate = useNavigate();
+
+
 
     const { ref: motherRef, inView } = useInView({
       threshold: 0.6, // Trigger when 50% of the component is visible
@@ -148,48 +196,14 @@ const nextSlide = () => {
         </div>
         <div className="w-full flex gap-1 md:gap-3 -mt-2 dots">
   
-        {texts.categories[language].map((category,i) => (
-          <motion.button
-          {...custumAnimation(0,'-100%',0,0.15*i)}
-            key={category}
-            onClick={() => {
-              setSelectedCategory(category);
-              setCurrentIndex(0);
-            }}
-            className={
-              selectedCategory === category
-                ? "py-2 px-2 md:py-3 rounded-xl md:px-8 border-2 border-blue-500 text-white bg-blue-500 text-center md:rounded-3xl font-semibold"
-                : "py-2 px-2 md:py-3 rounded-xl md:px-8 border-2 border-blue-500 text-blue-500 text-center md:rounded-3xl font-semibold"
-            }
-          >
-            {category}
-          </motion.button>
-        ))}
+      
           
         </div>
         <motion.div {...custumAnimation(0)} ref={containerRef} className="cards relative h-[660px]   w-full flex items-center dots overflow-x-scroll scrollbar-hide">
-
-          {
-            upcomingEvents.map((slide, index=0) => <Card language={language} id={slide.id}  isNew={true} isActive={index === currentIndex} title={slide.title} description={slide.description} category={slide.category} image={slide.image} icon={slide.icon} date={slide.date} readMore={texts.read_more[language]} onClick={()=>setCurrentIndex(index)}/>)
+ {
+            latest.map((news, index) =><Card onClick={()=>setCurrentIndex(index)} onOpen={()=>handelFullNewsOpen(news)} category={news.tag[language]} language={language} id={news.id} isActive={index===currentIndex} image={news.imgSrc} title={news.title[language]} isNew={isNewNews(news.news_date)} description={news.description[language]} readMore={texts.read_more[language]} date={news.news_date} icon={allImportedIconObjects[getGenreIndex(news.tag["fr"])]} />)
           }
-
-          <div className={`h-[600px] flex items-center justify-center flex-col -mx-8 text-neutral-300 text-sm ${pastEvents.length>0?'scale-1':'opacity-0 scale-50'}`}>
-            <span className="w-[2px] h-[20%] rounded-full bg-neutral-300 mb-2"></span>
-            <FontAwesomeIcon icon={faArrowRight}/>
-            <span className="  my-10  -rotate-90">récemment</span>
-            <span className=" mb-7 mt-5  -rotate-90">Survenu</span>
-            <FontAwesomeIcon  icon={faArrowRight}/>
-            <span className="w-[2px] h-[20%] mt-2 rounded-full bg-neutral-300"></span>
-          </div>
-
-          {
-            pastEvents.map((slide, index) => {
-              const adjustedIndex = index + upcomingEvents.length; 
-              return <Card language={language} i={index} id={slide.id}  isActive={adjustedIndex === currentIndex} title={slide.title} description={slide.description} category={slide.category} image={slide.image} icon={slide.icon} date={slide.date} readMore={texts.read_more[language]} onClick={() => setCurrentIndex(adjustedIndex)}/>  
-            })
-          }
-
-          <div onClick={()=>setCurrentIndex(totalSlides-1)} key="static-final" className={`relative cursor-pointer w-[300px] dots dotds h-[90%] flex-shrink-0 flex items-center justify-center rounded-[40px] overflow-hidden ${currentIndex !== totalSlides - 1 ? "scale-90 scale-y-85 opacity-80" : ""}`}>
+          <div onClick={()=>{setCurrentIndex(totalSlides-1);navigate('/news')}} key="static-final" className={`relative cursor-pointer w-[300px] dots dotds h-[90%] flex-shrink-0 flex items-center justify-center rounded-[40px] overflow-hidden ${currentIndex !== totalSlides - 1 ? "scale-90 scale-y-85 opacity-80" : ""}`}>
             <img alt='img' src={process.env.PUBLIC_URL + "/images/madrasa.webp"} className="w-full h-full object-cover" />
             <div className="absolute top-0 left-0 w-full h-full bg-black/5 blurey backdrop-blur-md flex items-center justify-center flex-col text-white/80 text-base">
             <FontAwesomeIcon className={`text-6xl text-white ${ currentIndex === totalSlides - 1 ? "scale-1" : "scale-50 opacity-10"}`} icon={faMousePointer}/>
@@ -207,17 +221,24 @@ const nextSlide = () => {
      {
        popupVisible&&<PopUp ar={language==="ar"} navTo={'/news'} text={texts.popUp[language]}/>
      }
-     </AnimatePresence></>
+     </AnimatePresence>
+
+     {isFullNewsOpen&& <FullNews content={curntNews} onClose={handelFullNewsClose} />}
+     
+     
+     </>
+
+
        
   );
 };
 
-const Card = ({id, isActive, title, description, category, image, icon, date, onClick, isNew=false,i,language,readMore }) => {
+const Card = ({id, isActive, title, description, category, image, icon, date, onClick, isNew=false,i,language,readMore,onOpen,onClose }) => {
   const icn=iconMap[icon];
   
   return (
 
-      <motion.div  key={id}  onClick={onClick} className={` w-[300px] h-[90%] dots cursor-pointer ${ isActive ? "opacity-100 shadow-xl  bg-red-500 text-white" : " bg-black/10 text-black scale-90 scale-y-85 opacity-80 shadow-sm blur-[0.1px]"} flex-shrink-0 rounded-[40px]  relative overflow-hidden `}>
+      <motion.div  key={id}  onClick={()=>{onClick();onOpen()}} className={` w-[300px] h-[90%] dots cursor-pointer ${ isActive ? "opacity-100 shadow-xl  bg-red-500 text-white" : " bg-black/10 text-black scale-90 scale-y-85 opacity-80 shadow-sm blur-[0.1px]"} flex-shrink-0 rounded-[40px]  relative overflow-hidden `}>
 
       <span className={`absolute ${isNew?'top-9':'top-7'}  left-7 rounded-full text-neutral-600 h-10 px-4 bg-white text-sm flex items-center justify-center font-semibold`}>
         {category}
@@ -226,13 +247,13 @@ const Card = ({id, isActive, title, description, category, image, icon, date, on
       { isNew && <span className="absolute top-1.5 left-0 w-full text-center animate-pulse text-sm font-semibold">{texts.new[language]}</span>}
 
       <span className={`absolute ${isNew?'top-9':'top-7'} right-7 rounded-full text-neutral-600 h-10 w-10 flex items-center justify-center bg-white text-sm font-semibold`}>
-        <FontAwesomeIcon icon={icn} />
+        <FontAwesomeIcon icon={icon} />
       </span>
 
       <div className={`w-full h-[48%] ${isNew?'pt-24':'pt-20'}  px-7`}>
         <p className={`msc text-sm  ${isActive?'text-white/70':'text-neutral-900/70'} mt-2 opacity-70 `}>{date}</p>
-        <h1 className="msc text-4xl  "><b>{title}</b></h1>
-        <p className="msc text-sm mt-3   opacity-70">{description}</p>
+        <h1 className={`msc ${language==="ar"?"text-2xl":"text-xl "} `}><b>{title}</b></h1>
+        <p className="msc text-xs mt-3   opacity-70">{description}</p>
       </div>
 
       <img src={process.env.PUBLIC_URL + image} className={`w-full h-[52%] bottom-0 left-0 absolute object-cover rounded-[40px] ${!isActive&&'blur-[0.5px]'} `} alt={title} />

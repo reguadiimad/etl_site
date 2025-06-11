@@ -9,7 +9,10 @@
     "languagesCount": "3",
     "languagesText": "Langues+ Espagnol",
     "isoCertification": "Première école obtenir",
-    "isoCertificationText": "au Maroc"
+    "isoCertificationText": "au Maroc",
+    "new":"Nouveau",
+    "newText":"Sc.Maths",
+    "newText2":"Baccalauréate"
   },
   "en": {
     "students": "More than",
@@ -21,7 +24,11 @@
     "languagesCount": "3",
     "languagesText": "Languages+ Spanish",
     "isoCertification": "First school in Morocco to obtain",
-    "isoCertificationText": "2015 quality certification"
+    "isoCertificationText": "2015 quality certification",
+    "new":"New",
+    "newText":"Sc.Maths",
+    "newText2":"Baccalaureate"
+    
   },
   "ar": {
     "students": "أكثر من",
@@ -33,6 +40,9 @@
     "languagesCount": "3",
     "languagesText": "لغات+ إسباني",
     "isoCertification": "أول مدرسة في المغرب تحصل على",
-    "isoCertificationText": " للجودة 2015"
+    "isoCertificationText": " للجودة 2015",
+    "new":"جديد",
+    "newText":"علوم رياضية",
+    "newText2":"بكالوريا"
   }
 }

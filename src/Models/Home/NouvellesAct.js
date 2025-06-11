@@ -122,7 +122,7 @@ const NouvellesAct = () => {
           </motion.div>
       </div>
 
-      <motion.div {...costumeAnimtion('0%','100%',100,10)} ref={ref} className="w-full flex flex-col md:flex-row overflow-hidden md:bg-neutral-100  py-12 rounded-[50px] -mt-20 md:mt-2 text-center md:text-left ez relative">
+      <motion.div {...costumeAnimtion('0%','50%',100,10)} ref={ref} className="w-full flex flex-col md:flex-row overflow-hidden md:bg-neutral-100  py-12 rounded-[50px] -mt-20 md:mt-2 text-center md:text-left ez relative">
           <div className=" w-full h-full absolute top-0 left-0 z-0 flex items-center justify-center md:hidden">
               <img alt='img' className={` h-80 transition-all ease-in-out duration-200  ${activestyle.image}`} src={process.env.PUBLIC_URL+lesServices[activeIndex].images}></img>
           </div>

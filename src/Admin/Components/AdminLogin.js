@@ -7,6 +7,7 @@ import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import { useDispatch,useSelector } from "react-redux";
 import { loginAdmin, logoutAdmin } from "../../redux(toolKit)/slices/adminSlice";
+import { fetchIpAddress } from "../../redux(toolKit)/slices/ipSlice";
 
 
 
@@ -16,6 +17,9 @@ const AdminLogin = () => {
     const navigate = useNavigate();
     const [error, setError] = useState(""); 
     const dispatch = useDispatch();
+    useEffect(() => {
+    dispatch(fetchIpAddress())
+    }, [dispatch])
     const admin = useSelector(state => state.admin.admin);
     useEffect (()=>{dispatch(logoutAdmin()); localStorage.removeItem("access_token");
       localStorage.removeItem("refresh_token");
@@ -38,7 +42,7 @@ const AdminLogin = () => {
     const handleLogin = async () => {
       setError("");  
       try {
-        const response = await axios.post("http://localhost:8000/api/login/", {
+        const response = await axios.post("http://macbook-pro-2.local:8000/api/login/", {
           email: adminEmail,
           password: adminPassword,
         });
@@ -132,7 +136,7 @@ const ForgottenPassword = ({ onClose }) => {
   setIsSubmitting(true); // prevent multiple submits
 
   try {
-    await axios.post("http://localhost:8000/api/forgot-password/", {
+    await axios.post("http://macbook-pro-2.local:8000/api/forgot-password/", {
       email: email,
     });
     setSubmitted(true);

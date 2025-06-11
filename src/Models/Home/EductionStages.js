@@ -46,6 +46,7 @@ export default function EducationStages() {
     
     return (
      <>
+    
       <motion.div ref={motherRef} initial={{opacity:0}} whileInView={{opacity:1}} transition={{ type: 'spring' }} className='w-[90%] relative flex items-center flex-col  py-5 md:py-28 mb-10  bg-red-500 rounded-[50px] roundedd'>
       <div className='w-full flex p-3 items-center flex-col'>
           <motion.h1 className='text-lg md:text-2xl text-blue-500' {...animationProps(0.1)}>
@@ -71,7 +72,7 @@ export default function EducationStages() {
             <img className='object-cover h-full w-full' src={process.env.PUBLIC_URL + '/images/imk1.webp'} alt='Maternelle' />
             <div  className='w-[90%] py-4 lg:py-0 lg:h-[40%] absolute bottom-4 left-[5%] bg-white/50 blurey backdrop-blur-lg rounded-3xl z-20 flex items-center justify-center flex-col boxy'>
               <span className='px-4 py-1 bg-black/10 rounded-3xl text-white'>{texts.texts.stages[0].name[language]}</span>
-              <h1 className='lg:text-5xl md:text-4xl text-3xl text-blue-500 md:my-2 font-semibold flex flex-col justify-center items-center'>2-5<p className='lg:text-xl text-lg -mt-2 font-bold text-white'>{texts.texts.stages[0].age[language]}</p></h1>
+              <h1 className='lg:text-5xl md:text-4xl text-3xl text-blue-500 md:my-2 font-semibold flex flex-col justify-center items-center'>3-5<p className='lg:text-xl text-lg -mt-2 font-bold text-white'>{texts.texts.stages[0].age[language]}</p></h1>
               <p className='w-[90%] hidden lg:block  text-center  xl:text-base'>
               {texts.texts.stages[0].goal[language]}
               </p>
@@ -116,7 +117,9 @@ export default function EducationStages() {
             <div className='w-[90%] py-4 lg:py-0 lg:h-[40%] absolute bottom-3 lg:bottom-4 left-[5%] bg-white/50 blurey backdrop-blur-lg rounded-3xl z-20 flex items-center justify-center flex-col boxy'>
               <span className='px-4 py-1 bg-black/10 rounded-3xl text-white'>{texts.texts.stages[3].name[language]}</span>
               <h1 className='lg:text-5xl md:text-4xl text-3xl text-blue-500 my-2 font-semibold flex flex-col justify-center items-center'>15-18<p className='md:text-xl text-lg -mt-2 text-white font-bold'>{texts.texts.stages[0].age[language]}</p></h1>
-              <p className='w-[90%] hidden lg:block text-center text-neutral-900/50 text-base'>
+              <span className='text-center text-xs font-bold animate-pulse text-white'>Nouveau!!</span>
+
+              <p className='w-[90%]  block text-center text-neutral-900/50 lg:text-base text-[9px] sm:text-xs'>
               {texts.texts.stages[3].goal[language]}
 
               </p>

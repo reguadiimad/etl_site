@@ -14,6 +14,8 @@ const Presontation = () => {
     const [prsntation, setPresention] = useState(false);
     const dispatch = useDispatch();
     const navigate = useNavigate();
+    
+    
 
     useEffect(() => {
         if(prsntation){
@@ -43,7 +45,7 @@ const Presontation = () => {
             <div className={`w-full pt-10 md:pt-0 hidden lg:w-[60%] lg:flex items-center justify-center ${language==='ar'&&'arabic'}` }>
                 <div className="md:w-[90%] text-center lg:text-left">
                     {/* Title */}
-                    <motion.h1 {...customAnimation(0, '-70%', 0)} className={`  text-neutral-900 md:text-5xl lg:text-5xl  font-semibold  mb-5 ${language==='ar'?'xl:text-8xl text-5xl ':'xl:text-5xl 2xl:text-7xl text-4xl '}`}>
+                    <motion.h1 {...customAnimation(0, '-70%', 0)} className={`  text-neutral-900 md:text-5xl lg:text-5xl  font-semibold  mb-5 ${language==='ar'?'xl:text-8xl text-5xl ':'xl:text-6xl 2xl:text-8xl text-4xl '}`}>
                         <b>{content?.heading?.[language] || 'Loading...'}</b>
                     </motion.h1>
 

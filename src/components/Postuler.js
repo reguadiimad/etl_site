@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import { setIsHome } from "../redux(toolKit)/slices/isHomeSlice";
 import { useDispatch, useSelector } from "react-redux";
 import { setPageIndex } from "../redux(toolKit)/slices/pageIndexSlice";
+import axios from "axios";
+import dayjs from "dayjs";
 import {
   TheInput,
   TheSelect,
@@ -111,37 +113,51 @@ const Postuler = () => {
       cvUrl: "",
     });
   };
-  const handleSubmit = () => {
-    const phoneRegex = /^(05|06|07)\d{8}$/;
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-  
-    const newErrors = {
-      prenom: prenom.trim() === "" ? "Prénom requis" : "",
-      nom: nom.trim() === "" ? "Nom requis" : "",
-      email:
-        email.trim() === ""
-          ? "Email requis"
-          : !emailRegex.test(email.trim())
-          ? "Format d'email invalide"
-          : "",
-      phone:
-        phone.trim() === ""
-          ? "Téléphone requis"
-          : !phoneRegex.test(phone.trim())
-          ? "Téléphone invalide (ex: 0612345678)"
-          : "",
-      cvUrl: cvUrl.trim() === "" ? "URL du CV requis" : "",
-    };
-  
-    setErrors(newErrors);
-  
-    const hasError = Object.values(newErrors).some((e) => e !== "");
-    if (hasError) return;
-    
-  
-    // Submit logic here
-    setIsSend(true);
+const handleSubmit = async () => {
+  const phoneRegex = /^(05|06|07)\d{8}$/;
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+  const newErrors = {
+    prenom: prenom.trim() === "" ? "Prénom requis" : "",
+    nom: nom.trim() === "" ? "Nom requis" : "",
+    email:
+      email.trim() === ""
+        ? "Email requis"
+        : !emailRegex.test(email.trim())
+        ? "Format d'email invalide"
+        : "",
+    phone:
+      phone.trim() === ""
+        ? "Téléphone requis"
+        : !phoneRegex.test(phone.trim())
+        ? "Téléphone invalide (ex: 0612345678)"
+        : "",
+    cvUrl: cvUrl.trim() === "" ? "URL du CV requis" : "",
   };
+
+  setErrors(newErrors);
+
+  const hasError = Object.values(newErrors).some((e) => e !== "");
+  if (hasError) return;
+
+  // 🟢 Send data with `dateApply`
+  const payload = {
+    prenom,
+    nom,
+    telephone: phone,
+    email,
+    cvLink: cvUrl,
+    dateApply: new Date().toISOString().split("T")[0], // format: YYYY-MM-DD
+  };
+
+  try {
+    await axios.post("http://macbook-pro-2.local:8000/api/condidats/", payload);
+    setIsSend(true);
+    handleClear();
+  } catch (error) {
+    console.error("POST failed:", error.response?.data || error.message);
+  }
+};
   
   return (
 <form className="w-screen relative flex flex-col items-center justify-center py-32 text-apple-dark bg-gradient-to-b text-center">
@@ -228,7 +244,7 @@ const Postuler = () => {
 
   </div>
 
-  <ValidateModal isVisible={isSend} msg={t.modalMsg} />
+  <ValidateModal isVisible={isSend} msg={t.modalMsg} onClose={()=>setIsSend(false)} />
 
 </form>
   );

@@ -99,11 +99,12 @@
             "fr": "ans",
             "en": "years"
           },
-          "goal": {
-            "ar": "التحضير لنجاحات أكاديمية ودائمة",
-            "fr": "Pr\u00e9parer \u00e0 des r\u00e9ussites sup\u00e9rieures et durables.",
-            "en": "Prepare for superior and lasting achievements."
-          },
+         "goal": {
+  "ar": "باك علوم رياضية واقتصاد متوفرة الآن.",
+  "fr": "Bac Sc. Math et Sc. Économiques maintenant offerts.",
+  "en": "Bac Math & Eco now available."
+},
+
           "more": {
             "ar": "إطار منظم لدعم الطلاب في طموحاتهم الأكاديمية والشخصية.",
             "fr": "Un cadre structuré pour accompagner les \u00e9l\u00e8ves dans leurs ambitions scolaires et personnelles.",

@@ -13,7 +13,7 @@ const Education = ({ id=2 }) => {
     const dispatch = useDispatch();
     const scrollValue = useSelector((state) => state.scrollVal); // Assuming this is correctly defined in your Redux store
     const { ref: motherRef, inView } = useInView({
-      threshold: 0.5, // Trigger when 50% of the component is visible
+      threshold: 0.2, // Trigger when 50% of the component is visible
     });
    
     const { language } = useSelector((state) => state.presntion); 
@@ -155,7 +155,7 @@ const Education = ({ id=2 }) => {
                     <div className={`absolute hhy w-full h-full flex flex-col lg:flex-row ${language === "ar" && 'flex-row-reverse text-right'}`}>
                         <div className={`flex-1 px-5 sm:px-12 py-6 sm:py-12 flex justify-center flex-col gap-y-4 sm:gap-y-10`}>
                             <motion.p {...bottomAnimation(0.1)} className={`text-red-500 text-sm sm:text-lg`}>{texts.tagline[language]}</motion.p>
-                            <motion.h1 {...bottomAnimation(0.2)} className={`${language === "ar" ? 'text-4xl sm:text-8xl' : 'text-3xl sm:text-7xl'} text-white`}><b>{texts.main_heading[language]}</b></motion.h1>
+                            <motion.h1 {...bottomAnimation(0.2)} className={`${language === "ar" ? 'text-4xl sm:text-8xl' : 'text-3xl sm:text-3xl md:text-5xl'} text-white`}><b>{texts.main_heading[language]}</b></motion.h1>
                             <motion.p {...bottomAnimation()} className={`text-white text-sm sm:text-base`}>{texts.section1[language]}</motion.p>
                             
                         </div>

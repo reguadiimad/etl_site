@@ -10,7 +10,7 @@
       "en": "Our Cycles"
     },
     "button_labels": {
-      "ar": ["الروضة", "الابتدائي", "الإعدادي", "الثانوي"],
+      "ar": ["الروض ", "الابتدائي", "الإعدادي", "الثانوي"],
       "fr": ["Maternelle", "Primaire", "Collège", "Lycée"],
       "en": ["Kindergarten", "Primary", "Middle School", "High School"]
     }

@@ -8,7 +8,7 @@ import Navbar from './components/Navbar';
 
 
 import BottomPage from './components/BottomPage'
-import { useSelector } from 'react-redux'
+import { useSelector,useDispatch } from 'react-redux'
 import './resources/style/home.scss'
 import Cycles from './components/Cycles';
 import Services from './components/Services';
@@ -18,6 +18,8 @@ import News from './components/News';
 import Inscription from './components/Inscription';
 import { useEffect } from 'react';
 import Postuler from './components/Postuler';
+import { fetchLatestNews } from './redux(toolKit)/slices/latestNewsSlice';
+import { fetchNews } from './redux(toolKit)/slices/newsSlice';
 
 
 
@@ -25,10 +27,19 @@ import Postuler from './components/Postuler';
 function App() {
   const { language } = useSelector((state) => state.presntion);
   const {pageIndex}=useSelector((state)=>state.pageIndex);
-  
+  const dispatch = useDispatch();
   useEffect(() => {
-    window.scrollTo(0, 0); // 👈 Scroll to top left corner
-  },[pageIndex])
+    dispatch(fetchLatestNews());
+  }, [dispatch]);
+
+
+
+  useEffect(() => {
+    dispatch(fetchNews());
+  }, [dispatch]);
+
+  
+ 
   
   return (
     <div  className={`overflow-hidden  ${language==='ar'?'arabic text-sm md:text-base lg:text-sm xl:text-xl 3xl:text-3xl':'text-xs md:text-sm lg:text-sm xl:text-lg 3xl:text-2xl'}`}>

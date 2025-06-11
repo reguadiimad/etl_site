@@ -1,14 +1,24 @@
 import { faUserTie, faChalkboardTeacher, faBook, faUserFriends } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState,useEffect } from "react";
-import { useSelector } from "react-redux";
+import { useSelector,useDispatch } from "react-redux";
+import { setShowLang } from "../../redux(toolKit)/slices/showLang";
 
 import { AnimatePresence,motion } from "framer-motion";
 
 const Navigation = ({menuList}) => {
 
     const scrollValue = useSelector((state) => state.scrollVal);
+    const show = window.innerWidth < 768 && scrollValue !== null ;
 
+const dispatch = useDispatch();
+    useEffect(() => {
+        if(show){
+            dispatch(setShowLang(false))
+        }else{
+            dispatch(setShowLang(true))
+        }
+    },[show])
 
     const [linked, setlinked] = useState(0);
     useEffect(() => {
@@ -77,18 +87,18 @@ const Navigation = ({menuList}) => {
                
            {
             scrollValue !== null && 
-            <motion.div  initial={{y:50}} animate={{opacity:1,y:0}}exit={{y:50}} transition={{type:'spring'}} className="w-[70%] flex p-5 -bottom-3 fixed items-center justify-center  md:flex z-50 cursor-pointer ">
+            <motion.div  initial={{y:50}} animate={{opacity:1,y:0}}exit={{y:50}} transition={{type:'spring'}} className="w-full bg-gradient-to-t from-white to-transparent flex p-5 -bottom-3 fixed items-center justify-center  md:flex z-50 cursor-pointer ">
                 <motion.div  initial={{opacity:0}} animate={{opacity:1}}exit={{opacity:0}} transition={{type:'spring'}} className="w-full scale-x-110 h-20 bg-black/90 blur-3xl fixed -bottom-14 z-50"></motion.div>
                 {menuList[language].map((text, index) => (
                     <motion.div
                         key={index}
-                        className={` flex h-16 cursor-pointer pops rounded-full border items-center justify-center  border-transparent bg-transparent  ${linked == index ? ' rounded-full p-2  lg:px-3 lg:py-3 bg-white/5  blurey backdrop-blur-xl border  border-white/10 shadow-xl' : 'py-2 mt-3 px-2 scale-90'} z-50 gap-x-2`}
+                        className={` flex h-16 cursor-pointer pops rounded-full border items-center justify-center  border-transparent bg-transparent  ${linked == index ? ' rounded-full px-2 py-0  lg:px-3 lg:py-3 bg-white/5  blurey backdrop-blur-xl border  border-white/10 shadow-xl' : ' mt-3 px-2 scale-90'} z-50 gap-x-2`}
                         onClick={() => {handleScroll(index);}}
                         initial={{y:50}} animate={{y:0}}exit={{y:50}} transition={{type:'spring',delay:0.09*index}}
                         
                     >
 
-                        <div className={`items-center mix-blend-difference ${language==="ar"&&'text-xl'}  flex items-center justify-center ease-in-out duration-200 text-[10px] md:text-base lg:text-lg lg:px-2 ${linked == index ? 'text-white/90 font-semibold ' : 'text-white/60 hover:animate-pulse hidden '}`}>
+                        <div className={`items-center mix-blend-difference  flex  justify-center ease-in-out duration-200 text-xs ${language==="ar"&& "font-black"} md:text-base lg:text-lg lg:px-2 ${linked == index ? 'text-white/90 font-semibold ' : 'text-white/60 hover:animate-pulse hidden '}`}>
                             {text} 
                         </div>
                         

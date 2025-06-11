@@ -16,7 +16,8 @@
     "eleveNiveau": "المستوى الدراسي",
     "eleveClasse": "الفصل الحالي",
     "eleveInstitut": "المؤسسة الحالية",
-    "btnSubmit": "إرسال"
+    "btnSubmit": "إرسال",
+    "btnSubmitLoading": "جاري الإرسال..."
   },
   "fr": {
     "heading": "Votre inscription prête pour envoi",
@@ -35,7 +36,8 @@
     "eleveNiveau": "Niveau scolaire",
     "eleveClasse": "Classe actuelle",
     "eleveInstitut": "Établissement actuel",
-    "btnSubmit": "Envoyer"
+    "btnSubmit": "Envoyer",
+    "btnSubmitLoading": "Envoi en cours..."
   },
   "en": {
     "heading": "Your registration is ready to submit",
@@ -54,6 +56,7 @@
     "eleveNiveau": "School Level",
     "eleveClasse": "Current Class",
     "eleveInstitut": "Current Institution",
-    "btnSubmit": "Submit"
+    "btnSubmit": "Submit",
+    "btnSubmitLoading": "Submitting..."
   }
 }

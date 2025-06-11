@@ -1,17 +1,17 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useSelector } from "react-redux";
 import { useState } from "react";
-import { faThumbTack } from "@fortawesome/free-solid-svg-icons";
 import conetnt from "./NewsData/LatestNewsENtryData.json";
 import NewsCard from "./NewsCard";
-import newsDetails from "./NewsData/LatestNewsData.json"
-import FullNews from "./FullNews";
 import MoreNews from "./MoreNews";
 import {motion,AnimatePresence} from "framer-motion"
+import { categoryColorMap,getTailwindColor } from "react";
+
 
 
 export default function Latestnews() {
   const language = useSelector((state) => state.presntion.language);
+  const { latest, status, error } = useSelector((state) => state.latestNews);
+
   const t = conetnt[language];
 
   const currentDate = new Date();
@@ -34,23 +34,23 @@ export default function Latestnews() {
       </div>
 
       <div className="w-[90%] md:w-[85%] 2xl:w-[60%]  flex  flex-col mt-10 mb-[20px]">
-          <NewsCard  size={"xl"} content={newsDetails.news[0]} />
+          <NewsCard  size={"xl"} content={latest[0]} />
       </div>
       <div className="w-[90%] md:w-[85%] 2xl:w-[60%] flex flex-col sm:flex-row gap-[20px]">
           <div className="w-full ">
-            <NewsCard size={"lg"} content={newsDetails.news[1]} />
+            <NewsCard size={"lg"} content={latest[1]} />
 
           </div>
           <div className="w-full flex flex-col gap-[20px]">
-            <NewsCard size={"sm"} content={newsDetails.news[2]} />
-            <NewsCard size={"sm"} content={newsDetails.news[3]} />
+            <NewsCard size={"sm"} content={latest[2]} />
+            <NewsCard size={"sm"} content={latest[3]} />
           </div>
       </div>
 
       <div className="w-[90%] md:w-[85%] 2xl:w-[60%] flex flex-col  sm:flex-row gap-[20px] mt-[20px]">
-        <div className="flex-1"><NewsCard size={"sm"} content={newsDetails.news[4]}  /></div>
-        <div className="flex-1"><NewsCard size={"sm"} content={newsDetails.news[5]} dealy={0.2} /></div>
-        <div className="flex-1"><NewsCard size={"sm"} content={newsDetails.news[6]} dealy={0.4} /></div>
+        <div className="flex-1"><NewsCard size={"sm"} content={latest[4]}  /></div>
+        <div className="flex-1"><NewsCard size={"sm"} content={latest[5]} dealy={0.2} /></div>
+        <div className="flex-1"><NewsCard size={"sm"} content={latest[6]} dealy={0.4} /></div>
       </div>
 
      
