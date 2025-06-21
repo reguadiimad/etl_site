@@ -1,17 +1,19 @@
 import { useEffect, useState } from "react";
 import { AnimatePresence,motion } from "framer-motion";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faClipboardList, faClose, faHome, faLock, faNewspaper, faUser, faUserGraduate, faUsers } from "@fortawesome/free-solid-svg-icons";
+import { faClipboardList, faClose, faEnvelope, faHome, faLock, faNewspaper, faUser, faUserGraduate, faUsers } from "@fortawesome/free-solid-svg-icons";
 import HomeDash from "../Models/HomeDash";
 import NewsDash from "../Models/NewsDash";
 import InscriptionDash from "../Models/InscreptionDash";
 import CondidatsDash from "../Models/CondidatsDash";
 import ProfileDash from "../Models/Profiledash";
 import AdminsDash from "../Models/AdminsDash";
+import MessagesDash from "../Models/MessgesDash";
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { logoutAdmin } from "../../redux(toolKit)/slices/adminSlice";
+import GlobeNotification from "../../Models/Globe/GlobeNotifcation";
 
 const AdminHome = () => {
     const navigate = useNavigate();
@@ -42,7 +44,7 @@ const AdminHomeChiled = () => {
     const [selectedIndex, setSelectedIndex] = useState(0);
     const [showMobDash, setShowMobDash] = useState(false);
     const [addNw,setAddNw] = useState(false);
-    const Dashs = [<HomeDash onSelect={a=>setSelectedIndex(a)}  addNwToggle={p=>setAddNw(p)} />,<NewsDash addNw={addNw} />,<InscriptionDash/>,<CondidatsDash/>,<ProfileDash/>,<AdminsDash/>]
+    const Dashs = [<HomeDash onSelect={a=>setSelectedIndex(a)}  addNwToggle={p=>setAddNw(p)} />,<NewsDash addNw={addNw} />,<InscriptionDash/>,<CondidatsDash/>,<ProfileDash/>,<MessagesDash/>,<AdminsDash/>]
     const [now, setNow] = useState(new Date());
     const admin = useSelector(state => state.admin.admin);
 
@@ -110,11 +112,13 @@ else{setShowBanner(false);}
                 {showMobDash&&<MobDashControle selectedIndex={selectedIndex} setSelectedIndex={setSelectedIndex} onClose={()=>setShowMobDash(false)}/>}
             </AnimatePresence>
             <AnimatePresence>
-           {showBanner && (
-        <motion.div initial={{opacity:0,y:50}} animate={{opacity:1,y:0}} transition={{type:"spring"}} exit={{y:50,opacity:0}} className="fixed bottom-10 lg:right-10 p-4 rounded-3xl flex items-center justify-center bg-black/5 backdrop-blur-lg border border-white/20 shadow-lg">
-          <FontAwesomeIcon className="text-blue-500 text-2xl lg:text-4xl mr-6" icon={faLock} />
+        
+       {
+        showBanner && (
+           <motion.div initial={{opacity:0,y:50}} animate={{opacity:1,y:0}} transition={{type:"spring"}} exit={{y:50,opacity:0}} className="fixed blurey bottom-10 w-[90%] sm:w-auto lg:right-10 p-4 rounded-3xl flex items-center justify-center bg-black/5 backdrop-blur-lg border border-white/20 shadow-lg">
+          <FontAwesomeIcon className="text-blue-500 text-2xl lg:text-4xl mr-6 " icon={faLock} />
           <div>
-            <h1 className="text-lg lg:text-xl text-blue-500 font-bold">
+            <h1 className="text-base lg:text-xl text-blue-500 font-bold">
               Changement de mot de passe
             </h1>
             <p className="max-w-96 text-apple-dark text-xs">
@@ -129,7 +133,9 @@ else{setShowBanner(false);}
           </div>
         </motion.div>
 
-      )}
+        )
+       }
+
       </AnimatePresence>
     </div>
   
@@ -147,11 +153,24 @@ const menuItems = [
     { label: 'Inscriptions', icon: faClipboardList },
     { label: 'Candidats', icon: faUserGraduate },
     { label: 'Mon Profil', icon: faUser },
+    { label: 'Messages', icon: faEnvelope},
     { label: 'Admins ETL', icon: faUsers },
 ];
 
 const MobDashControle = ({selectedIndex,setSelectedIndex,onClose}) => {
     const admin = useSelector(state => state.admin.admin);
+    const [wannaLogout, setWannaLogout] = useState(false);
+
+    const navigate = useNavigate();
+     const handleLogout = () => {
+    const confirmed = window.confirm("Êtes-vous sûr de vouloir vous déconnecter ?");
+    if (confirmed) {
+      // Clear Redux and localStorage
+    
+      // Redirect to login
+      navigate("/adminETL");
+    }
+  };
 
     return (
         <>
@@ -189,30 +208,29 @@ const MobDashControle = ({selectedIndex,setSelectedIndex,onClose}) => {
                         ))}
                     </div>
 
-                <p className="underline opacity-55 my-4">Déconixion</p>
+                <p onClick={()=>setWannaLogout(true)} className="underline opacity-55 mt-2  mb-10">Déconixion</p>
+
             </motion.div>
+
             </motion.div>
+            <AnimatePresence>
+              {wannaLogout && <GlobeNotification onConfirme={()=>navigate("/adminETL")} onClose={()=>setWannaLogout(false)} msg={{"title":"Voulez Vraiment déconcter ETL Admin?","discrption":"Si vous cliquer sur déconncter button tous vous login data will erase from the app","btn":"Oui, Déconcter"}}/>}
+            </AnimatePresence>
         </>
 
     )
 }
 const SideControle = ({selectedIndex,setSelectedIndex}) => {
      const admin = useSelector(state => state.admin.admin);
+     const [wannaLogout, setWannaLogout] = useState(false);
 
    const dispatch = useDispatch();
   const navigate = useNavigate();
 
-  const handleLogout = () => {
-    const confirmed = window.confirm("Êtes-vous sûr de vouloir vous déconnecter ?");
-    if (confirmed) {
-      // Clear Redux and localStorage
-    
-      // Redirect to login
-      navigate("/adminETL");
-    }
-  };
+  
 
     return (
+      <>
         <div className="w-[26%] hidden sticky  bg-apple-light bg-opacity-80 h-[850px] rounded-[40px]  top-0 left-0 lg:flex flex-col items-center  p-4 text-apple-dark">
            <div className="w-40 h-40 flex flex-col relative items-center justify-end">
                 {admin.picture?<img src={admin.picture} className="w-40 h-40 bg-apple-dark rounded-full object-cover border-white border-4 shadow-xl"/>:<div className="w-28 h-28 bg-apple-dark rounded-[50px] flex items-center justify-center"><FontAwesomeIcon className="text-5xl text-apple-light" icon={faUser}/></div>}     
@@ -240,10 +258,15 @@ const SideControle = ({selectedIndex,setSelectedIndex}) => {
                 ))}
             </div>
 
-           <p onClick={()=>{handleLogout()}} className="underline opacity-55 cursor-pointer mb-4">Déconixion</p>
+           <p onClick={()=>setWannaLogout(true)} className="underline opacity-55 cursor-pointer mb-4">Déconixion</p>
 
-
+           
         </div>
+         <AnimatePresence>
+              {wannaLogout && <GlobeNotification onConfirme={()=>navigate("/adminETL")} onClose={()=>setWannaLogout(false)} msg={{"title":"Voulez Vraiment déconcter ETL Admin?","discrption":"Si vous cliquer sur déconncter button tous vous login data will erase from the app","btn":"Oui, Déconcter"}}/>}
+            </AnimatePresence>
+
+            </>
     )
 }
 

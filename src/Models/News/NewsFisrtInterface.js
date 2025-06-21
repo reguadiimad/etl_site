@@ -7,6 +7,9 @@ import { faFacebook, faInstagram, faXTwitter, faYoutube } from "@fortawesome/fre
 import content from "./NewsData/newsFeedData.json";
 
 
+
+
+
 export default function NewsFirstInterface() {
   const language = useSelector((state) => state.presntion.language);
   const lang = language || "fr";
@@ -50,6 +53,9 @@ export default function NewsFirstInterface() {
     <>
 
       <div className={`w-screen flex flex-col items-center justify-center relative mt-56 mb-10`}>
+
+        
+       
         <div className={`w-screen lg:w-[94%] flex flex-col items-center justify-center`}>
           <motion.p initial={{y:-40,opacity:0}} whileInView={{y:0,opacity:10}} transition={{type:"spring",delay:0}} className={`text-red-500`}>{contente.title}</motion.p>
           <motion.h1 initial={{y:-40,opacity:0}} whileInView={{y:0,opacity:10}} transition={{type:"spring",delay:0.1}} className={`text-4xl sm:text-4xl md:text-5xl lg:text-7xl xl:text-7xl 2xl:text-8xl text-neutral-900 text-center font-bold`}>{contente.headline1}</motion.h1>
@@ -78,6 +84,8 @@ export default function NewsFirstInterface() {
           </div>
         </div>
       </div>
+
+      
     </>
   );
 }

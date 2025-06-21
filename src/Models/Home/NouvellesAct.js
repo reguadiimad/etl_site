@@ -76,7 +76,7 @@ const NouvellesAct = () => {
       <>  <div ref={motherRef} className="w-[90%] md:-scroll-my-10 lg:my-20  flex-col flex  justify-center  text-neutral-900">
 
       <div className={`w-full lg:w-full lg:ml-0 flex flex-col lg:flex-row items-center mb-10`}>
-          <motion.div {...costumeAnimtion('-100%')} className={`flex-1 lg:w-[54%] lg:mr-[3%]  text-5xl md:text-[110px]  lg:text-7xl xl:text-8xl 2xl:text-9xl ${language==='ar'&&'text-right 2xl:text-[130px]'}`}>
+          <motion.div {...costumeAnimtion('-100%')} className={`flex-1 lg:w-[54%] lg:mr-[3%]  text-5xl md:text-[110px]  lg:text-7xl xl:text-8xl 2xl:text-9xl ${language==='ar'&&'text-right 2xl:text-[120px]'}`}>
               <span className={`flex ${language==='ar'&&'flex-row-reverse '}`}>
                   <h1 className="font-normal  m-0 p-0 md:mr-4 md:mb-2"><b>{texts.texts.header1[language]}</b></h1>
                   <motion.span {...costumeAnimtion('200%')} className=" text-center flex-1 flex items-center justify-center ">

@@ -117,7 +117,7 @@ export default function EducationStages() {
             <div className='w-[90%] py-4 lg:py-0 lg:h-[40%] absolute bottom-3 lg:bottom-4 left-[5%] bg-white/50 blurey backdrop-blur-lg rounded-3xl z-20 flex items-center justify-center flex-col boxy'>
               <span className='px-4 py-1 bg-black/10 rounded-3xl text-white'>{texts.texts.stages[3].name[language]}</span>
               <h1 className='lg:text-5xl md:text-4xl text-3xl text-blue-500 my-2 font-semibold flex flex-col justify-center items-center'>15-18<p className='md:text-xl text-lg -mt-2 text-white font-bold'>{texts.texts.stages[0].age[language]}</p></h1>
-              <span className='text-center text-xs font-bold animate-pulse text-white'>Nouveau!!</span>
+              <span className='text-center text-xs font-bold animate-pulse text-white'>{texts.texts.new[language]}</span>
 
               <p className='w-[90%]  block text-center text-neutral-900/50 lg:text-base text-[9px] sm:text-xs'>
               {texts.texts.stages[3].goal[language]}

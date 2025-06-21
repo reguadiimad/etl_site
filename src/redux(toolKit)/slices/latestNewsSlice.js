@@ -3,7 +3,7 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
 // Replace with your actual API endpoint
-const API_URL = 'http://127.0.0.1:8000/api/news/latest-translated/';
+const API_URL = 'http://macbook-pro-2.local:8000/api/news/latest-translated/';
 
 export const fetchLatestNews = createAsyncThunk(
   'news/fetchLatestNews',

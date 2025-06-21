@@ -202,7 +202,7 @@ const CyclInterface = ({handelSelect}) => {
                                 </div>
                                
                             </div>
-                        <img src={process.env.PUBLIC_URL+'/images/cc8.webp'} className="w-full z-0  object-cover absolute top-16 sm:top-8 lg:top-16 scale-95 scale-x-100 "></img>
+                        <img src={process.env.PUBLIC_URL+'/images/cc8.webp'} className="w-full z-0  object-cover absolute  sm:top-8 lg:top-16 scale-95 origin-bottom scale-x-100 bottom-0"></img>
 
                         </motion.div>
                        <div className="w-full h-[55%] flex  flex-col lg:flex-row  gap-6 lg:gap-2 2xl:gap-6">

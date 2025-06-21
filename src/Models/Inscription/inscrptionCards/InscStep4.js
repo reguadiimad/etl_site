@@ -124,6 +124,10 @@ export function InscStep4({
               <p>
                 {t.eleveInstitut}: <strong>{eleve.institut}</strong>
               </p>
+
+              <p>
+                {t.branch}: <strong>{eleve.branch}</strong>
+              </p>
               <div
                 onClick={() => onBackToStep(2)}
                 className="text-blue-500 underline cursor-pointer lg:text-sm mt-1"

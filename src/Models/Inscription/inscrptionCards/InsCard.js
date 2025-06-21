@@ -143,7 +143,7 @@ export const ValidateModal = ({
           animate={{ y: 0, scale: 1, opacity: 1 }}
           exit={{ y: 180, scale: 0, opacity: 0 }}
           transition={{ type: "spring" }}
-          className="absolute w-full h-full p-5 gap-5 bg-white/40 backdrop-blur-lg border flex-col rounded-3xl shadow-2xl flex items-center justify-center"
+          className="absolute w-full h-full p-5 gap-5 bg-white/40 backdrop-blur-lg blurey border flex-col rounded-3xl shadow-2xl flex items-center justify-center"
         >
           <p className="text-center">{msg}</p>
          {!isErr&& <FontAwesomeIcon icon={faCheck} className="text-blue-500 text-7xl py-5"/>}

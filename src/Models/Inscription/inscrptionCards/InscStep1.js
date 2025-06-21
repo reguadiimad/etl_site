@@ -17,7 +17,7 @@ export function InscStep1({ isActive, refProp, onNext, onDataChange }) {
   const [isModalVisible, setIsModalVisible] = useState(false)
 
   function validateField(field, value) {
-    const msgs = validationMessages[language];
+  const msgs = validationMessages[language];
 
   switch (field) {
     case "prenom":
@@ -27,9 +27,10 @@ export function InscStep1({ isActive, refProp, onNext, onDataChange }) {
       return value.trim() === "" ? msgs.nom : "";
 
     case "email":
-      if (value.trim() === "") return msgs.email;
-      if (!/^[\w-.]+@([\w-]+\.)+[\w-]{1,5}$/.test(value)) return msgs.emailInvalid;
-      return "";
+      if (value.trim() !== "" && !/^[\w-.]+@([\w-]+\.)+[\w-]{1,5}$/.test(value)) {
+        return msgs.emailInvalid;
+      }
+      return ""; // allow empty email
 
     case "phone":
       if (value.trim() === "") return msgs.phone;
@@ -39,8 +40,8 @@ export function InscStep1({ isActive, refProp, onNext, onDataChange }) {
     default:
       return "";
   }
+}
 
-  }
 
   const handleChange = (field, value) => {
     setErrors(prev => ({ ...prev, [field]: validateField(field, value) }))

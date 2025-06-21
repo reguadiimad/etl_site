@@ -53,7 +53,8 @@ export default function InscriptionSecondInterface() {
       eleveDay: "",
       nivSco: "",
       classActual: "",
-      institut: ""
+      institut: "",
+      branch: "",
     }
   });
   const handelOtherKid = () => {
@@ -69,7 +70,8 @@ export default function InscriptionSecondInterface() {
         eleveDay: "",
         nivSco: "",
         classActual: "",
-        institut: ""
+        institut: "",
+        branch: "",
       }
     }));
     setCurrentStep(2);
@@ -126,6 +128,7 @@ const submitInscription = async e => {
         niveauScolaire: formData.eleve.nivSco,
         classe:         formData.eleve.classActual,
         institut:       formData.eleve.institut,
+        branch:        formData.eleve.branch,
         province:       "Casablanca"
       }
     }
@@ -179,6 +182,7 @@ const submitInscription = async e => {
 
   return (
     <div className="w-full flex flex-col items-center text-apple-dark 2xl:py-20">
+      {formData.eleve.branch}
 <p className="flex text-center items-center justify-center gap-2">
   <span className={`w-2 h-2 rounded-full ${["bg-apple-light","bg-red-500","bg-the-gray","bg-blue-500"][currentStep-1]}`}></span>
   {getStepLabel()} {currentStep}

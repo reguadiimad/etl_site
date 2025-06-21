@@ -153,7 +153,7 @@ const Menu = ({ visible }) => {
                 <div className="fixed bottom-0  left-0 mx-w-52 max-h-52 blur-3xl scale-150 z-40">
                     <div className="w-28 h-28 lg:w-44 lg:h-44 rounded-full absolute -bottom-16 -left-32 scale-150"></div>
                 </div>
-                <div className={`w-[4%] scale-110 gap-y-2 pb-5 bottom-0 left-6 lg:left-1 fixed flex flex-col items-center language ease-in duration-200 z-50 ${!showLang&&" mt-24 lg:mt-0 lg:opacity-100"} `}>
+                <div className={`w-[4%] scale-110 gap-y-2 pb-5 bottom-0 left-6 lg:left-1 fixed flex flex-col items-center language ease-in duration-200 z-[999] ${!showLang&&" mt-24 lg:mt-0 lg:opacity-100"} `}>
                     <AnimatePresence>
                         {langClicked && (
                             <motion.div

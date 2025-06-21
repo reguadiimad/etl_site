@@ -68,6 +68,7 @@ const Maternelle = () => {
 
     return (
         <div className={`w-[90%] mt-8 md:mt-20 `}>
+            
             <div className={`w-full flex ${language=="ar"&&'flex-row-reverse text-right'} justify-center`}>
                 <div className={`w-[60%]`}>
                     <p className={`text-neutral-500`}>{content.subtitle[language]}</p>

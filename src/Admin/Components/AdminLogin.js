@@ -17,9 +17,7 @@ const AdminLogin = () => {
     const navigate = useNavigate();
     const [error, setError] = useState(""); 
     const dispatch = useDispatch();
-    useEffect(() => {
-    dispatch(fetchIpAddress())
-    }, [dispatch])
+   
     const admin = useSelector(state => state.admin.admin);
     useEffect (()=>{dispatch(logoutAdmin()); localStorage.removeItem("access_token");
       localStorage.removeItem("refresh_token");
@@ -91,9 +89,9 @@ const AdminLogin = () => {
         Connexion à votre compte <span className="text-blue-500 font-bold">ETL Admin</span>
         </motion.h1>
 
-        <div className="lg:w-[80%] w-[90%] mt-8 flex flex-col gap-3">
+        <div  className="lg:w-[80%] w-[90%] mt-8 flex flex-col gap-3">
 
-          <TheInput name={"Entrez votre email"} value={adminEmail} error={error} onValueChange={e => setAdminEmail(e)} />
+          <TheInput name={"Entrez votre email"} type="email" value={adminEmail} error={error} onValueChange={e => setAdminEmail(e)} />
           <TheInput name={"Entrez votre mot de passe"} value={adminPassword} error={error} onValueChange={e => setAdminPassword(e)} type="password" />
 
           <motion.div {...leftAnimation()} className="w-full flex justify-center items-center">

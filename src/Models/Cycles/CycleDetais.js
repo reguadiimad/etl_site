@@ -122,9 +122,9 @@ const CycleDetails = ({ content, cycImages, isBlue = true, coverImage }) => {
                 </div>
                 <div className={`w-[55%]  pl-20 relative hidden lg:flex items-center justify-center`}>
                     <motion.img {...bottomAnimation()} className={`absolute bottom-2 right-0 h-full scale-110 ${!isBlue&&'-scale-x-100 left-0'} `} src={process.env.PUBLIC_URL + coverImage.pc} alt="Maternelle" />
-                    <motion.div {...bottomAnimation(0.21)} className={`absolute  ${isBlue?'left-20':'right-20'} p-4 2xl:p-10 text-center border   border-white/60  rounded-[40px] shadow-xl w-[56%] hidden xl:block blurey backdrop-blur-3xl`}>
+                    <motion.div {...bottomAnimation(0.21)} className={`absolute  ${isBlue?'left-20':'right-20'} p-4 2xl:p-10 text-center border   border-white/60  rounded-[40px] shadow-xl w-[56%] hidden xl:block bg-apple-light/50 blurey backdrop-blur-3xl`}>
                         <h1 className={`2xl:${getTextSize("text-2xl", "text-3xl")} ${getTextSize("text-lg", "text-xl")} font-extrabold ${getColor("text-blue-500", "text-red-500")} mb-3 2xl:mb-10`}>{content.highlight.title[language]}</h1>
-                        <p className={`text-left ${getTextSize("text-sm", "text-base")} ${language === "ar" && ' text-right'} 2xl:${getTextSize("text-base", "text-lg")} text-neutral-900/40`}>
+                        <p className={`text-left ${getTextSize("text-sm", "text-base")} ${language === "ar" && ' text-right'} 2xl:${getTextSize("text-base", "text-lg")} text-apple-dark`}>
                             {content.highlight.description[language]}
                         </p>
                         <p className={`${getTextSize("text-sm", "text-base")} text-left text-neutral-900/50 font-bold mt-2`}>{content.highlight.sub_description[language]}</p>

@@ -16,6 +16,7 @@
     "eleveNiveau": "المستوى الدراسي",
     "eleveClasse": "الفصل الحالي",
     "eleveInstitut": "المؤسسة الحالية",
+    "branch": "شعبة",
     "btnSubmit": "إرسال",
     "btnSubmitLoading": "جاري الإرسال..."
   },
@@ -36,6 +37,7 @@
     "eleveNiveau": "Niveau scolaire",
     "eleveClasse": "Classe actuelle",
     "eleveInstitut": "Établissement actuel",
+    "branch": "Branche",
     "btnSubmit": "Envoyer",
     "btnSubmitLoading": "Envoi en cours..."
   },
@@ -57,6 +59,7 @@
     "eleveClasse": "Current Class",
     "eleveInstitut": "Current Institution",
     "btnSubmit": "Submit",
+    "branch": "Branch",
     "btnSubmitLoading": "Submitting..."
   }
 }

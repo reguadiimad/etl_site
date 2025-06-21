@@ -11,6 +11,7 @@ export function InscStep2({ isActive, refProp,onNext,onDataChange,otherKid }) {
     const [eleveDay,setEleveDay] = useState("");
     const [nivSco,setNivSco] = useState("");
     const [classActual,setClassActual] = useState("");
+    const [branch,setBranch] = useState("");
     const [institut,setInstitut] = useState("");
     const [errors, setErrors] = useState({ prenom: "", nom: "", year: 0, month: 0, day:0, nivSco:"", classAct:" ", institut:""})
     const [touched, setTouched] = useState({});
@@ -71,22 +72,23 @@ export function InscStep2({ isActive, refProp,onNext,onDataChange,otherKid }) {
         ["الجذع المشترك", "الأولى باكالوريا", "الثانية باكالوريا"]
       ]
     };
+    const branchData = {
+      fr:["Sciences Mathématiques","Sciences Physiques","Sciences Économiques","Autres"],
+      en:["Mathematical Sciences","Physical Sciences","Economic Sciences","Others"],
+      ar:["العلوم الرياضية","العلوم الفيزيائية","العلوم الاقتصادية","أخرى"]
+    }
     
     
 
-    const getDaysInMonth = (year, month) => {
-      if (!year || !month) return [];
-    
-      const monthIndex = typeof month === "string"
-        ? monthsFr.findIndex(m => m === month)
-        : month - 1; 
-    
-     
-      const daysInMonth = new Date(year, monthIndex + 1, 0).getDate();
-    
-      return Array.from({ length: daysInMonth }, (_, i) => i + 1);
-      
-    };
+   const getDaysInMonth = (year, month) => {
+  if (!year || !month) return [];
+
+  const monthIndex = month - 1; // JavaScript months are 0-based
+  const daysInMonth = new Date(year, monthIndex + 1, 0).getDate();
+
+  return Array.from({ length: daysInMonth }, (_, i) => i + 1);
+};
+
 
     const daysData = getDaysInMonth(eleveYear, eleveMonth);
     const nivScoData = ["Pas Encore","Maternelle","Élemontaire","Collège","Lycée"];
@@ -156,6 +158,11 @@ export function InscStep2({ isActive, refProp,onNext,onDataChange,otherKid }) {
           if (nivSco !== nivScoData[0] && value.trim() === "")
             return msgs.institutRequired;
           return "";
+
+
+        case "branch":
+      if (nivSco !== nivScoData[0] && value.trim() === "")
+          return msgs.classActRequired; 
     
         default:
           return "";
@@ -191,6 +198,8 @@ export function InscStep2({ isActive, refProp,onNext,onDataChange,otherKid }) {
         case "institut":
         setInstitut(value);
         break;
+        case "branch":
+        setBranch(value);
         default:
         break;
     }
@@ -212,7 +221,8 @@ export function InscStep2({ isActive, refProp,onNext,onDataChange,otherKid }) {
           day: validateField("day", eleveDay),
           nivSco: validateField("nivSco", nivSco),
           classAct: isNivScoFirst ? "" : validateField("classAct", classActual),
-          institut: isNivScoFirst ? "" : validateField("institut", institut)
+          institut: isNivScoFirst ? "" : validateField("institut", institut),
+          branch: isNivScoFirst ? "" : validateField("branch", branch)
         }
       
         setErrors(newErrors)
@@ -228,6 +238,7 @@ export function InscStep2({ isActive, refProp,onNext,onDataChange,otherKid }) {
     setNivSco("");
     setClassActual("");
     setInstitut("");
+    setBranch("");
     setErrors({
         prenom: "",
         nom: "",
@@ -250,6 +261,7 @@ export function InscStep2({ isActive, refProp,onNext,onDataChange,otherKid }) {
           eleveDay,
           nivSco,
           classActual,
+          branch,
           institut
         ];
       
@@ -281,9 +293,10 @@ export function InscStep2({ isActive, refProp,onNext,onDataChange,otherKid }) {
         eleveDay: eleveDay,
         nivSco,
         classActual,
-        institut
+        institut,
+        branch
       });
-    }, [eleveFName, eleveLName, eleveYear, eleveMonth, eleveDay, nivSco, classActual, institut]);
+    }, [eleveFName, eleveLName, eleveYear, eleveMonth, eleveDay, nivSco, classActual, institut, branch]);
                   
     
     
@@ -339,10 +352,18 @@ export function InscStep2({ isActive, refProp,onNext,onDataChange,otherKid }) {
             </div>
           </div>
     
-          <div className="w-full flex items-center justify-center lg:mt-5 gap-5">
+          <div className="w-full flex flex-col sm:flex-row items-center justify-center lg:mt-5 gap-5">
             <div className="flex-1">
               <TheInput name={t.institute} disabled={nivSco === nivScoData[0]} value={institut} onValueChange={(val) => handleChange("institut", val)} error={errors.institut} />
             </div>
+            <AnimatePresence>
+              {classActual === "1ère année Bac" || classActual === "2éme année Bac" ? (
+                 <motion.div initial={{x:-50,y:50,opacity:0,scale:"0%"}} animate={{x:0,y:0,opacity:1,scale:"100%"}} transition={{type:"spring"}}  className="flex-1">
+              
+              <TheSelect   name={t.branch} value={branch}  data={branchData[language]} disabled={nivSco === "" || nivSco === nivScoData[0]} onValueChange={(val) => handleChange("branch", val)} error={touched.branch ? errors.branch : ""} />
+            </motion.div>
+              ):("")}
+            </AnimatePresence>
           </div>
     
           <div className="flex absolute bottom-3 lg:-bottom-3 items-center justify-center gap-4 cursor-pointer">
@@ -373,6 +394,7 @@ const translations = {
     schoolLevel: "Niveau Scolaire",
     class: "Classe",
     institute: "Institut de Province",
+    branch:"Branche",
     clear: "Vider",
     continue: "Continuer",
     student: "Élève",
@@ -389,6 +411,7 @@ const translations = {
     level: "المستوى الدراسي الحالي",
     schoolLevel: "المستوى الدراسي",
     class: "القسم",
+    branch: "الشعبة",
     institute: "المؤسسة",
     clear: "مسح",
     continue: "متابعة",
@@ -406,6 +429,7 @@ const translations = {
     level: "Current School Level",
     schoolLevel: "School Level",
     class: "Class",
+    branch: "Branch",
     institute: "Institute",
     clear: "Clear",
     continue: "Continue",

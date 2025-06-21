@@ -200,8 +200,15 @@ const nextSlide = () => {
           
         </div>
         <motion.div {...custumAnimation(0)} ref={containerRef} className="cards relative h-[660px]   w-full flex items-center dots overflow-x-scroll scrollbar-hide">
- {
-            latest.map((news, index) =><Card onClick={()=>setCurrentIndex(index)} onOpen={()=>handelFullNewsOpen(news)} category={news.tag[language]} language={language} id={news.id} isActive={index===currentIndex} image={news.imgSrc} title={news.title[language]} isNew={isNewNews(news.news_date)} description={news.description[language]} readMore={texts.read_more[language]} date={news.news_date} icon={allImportedIconObjects[getGenreIndex(news.tag["fr"])]} />)
+          {
+            status === 'loading' ? (
+              Array.from({ length: 6 }, (_, i) => <EmptyCard key={i} />)
+            ) : status === 'succeeded' ? (
+                latest.map((news, index) =><Card onClick={()=>setCurrentIndex(index)} onOpen={()=>handelFullNewsOpen(news)} category={news.tag[language]} language={language} id={news.id} isActive={index===currentIndex} image={news.imgSrc} title={news.title[language]} isNew={isNewNews(news.news_date)} description={news.description[language]} readMore={texts.read_more[language]} date={news.news_date} icon={allImportedIconObjects[getGenreIndex(news.tag["fr"])]} />)
+
+            ) : (
+              <div className="text-red-500">{error}</div>
+            )
           }
           <div onClick={()=>{setCurrentIndex(totalSlides-1);navigate('/news')}} key="static-final" className={`relative cursor-pointer w-[300px] dots dotds h-[90%] flex-shrink-0 flex items-center justify-center rounded-[40px] overflow-hidden ${currentIndex !== totalSlides - 1 ? "scale-90 scale-y-85 opacity-80" : ""}`}>
             <img alt='img' src={process.env.PUBLIC_URL + "/images/madrasa.webp"} className="w-full h-full object-cover" />
@@ -232,6 +239,11 @@ const nextSlide = () => {
        
   );
 };
+const EmptyCard =()=> {
+  return(
+    <div className="w-[300px] h-[90%] dots cursor-pointer animate-pulse bg-black/10 text-black scale-90 scale-y-85 opacity-80 shadow-sm blur-[0.1px] flex-shrink-0 rounded-[40px] relative overflow-hidden"/>
+  )
+}
 
 const Card = ({id, isActive, title, description, category, image, icon, date, onClick, isNew=false,i,language,readMore,onOpen,onClose }) => {
   const icn=iconMap[icon];
@@ -252,8 +264,13 @@ const Card = ({id, isActive, title, description, category, image, icon, date, on
 
       <div className={`w-full h-[48%] ${isNew?'pt-24':'pt-20'}  px-7`}>
         <p className={`msc text-sm  ${isActive?'text-white/70':'text-neutral-900/70'} mt-2 opacity-70 `}>{date}</p>
-        <h1 className={`msc ${language==="ar"?"text-2xl":"text-xl "} `}><b>{title}</b></h1>
-        <p className="msc text-xs mt-3   opacity-70">{description}</p>
+        <h1 className={`msc ${title.length>40?`text-xl `:`text-2xl`} `}><b>{title}</b></h1>
+        <p className="msc text-xs mt-3 opacity-70">
+  {description.length > 80
+    ? `${description.slice(0,80).split(' ').slice(0, -1).join(' ')}...`
+    : description}
+</p>
+
       </div>
 
       <img src={process.env.PUBLIC_URL + image} className={`w-full h-[52%] bottom-0 left-0 absolute object-cover rounded-[40px] ${!isActive&&'blur-[0.5px]'} `} alt={title} />

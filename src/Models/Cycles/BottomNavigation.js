@@ -45,7 +45,7 @@ const BottomNavigation = memo(({ show, handelSelect, selected }) => {
                        onClick={() => handelSelect(index)}
                        className={`relative font-bold text-center my-5 text-lg cursor-pointer ease-in-out 
                            ${selected === index 
-                               ? "text-blue-500 bg-white/25 border-white/50 border backdrop-blur-xl shadow-2xl rounded-full text-xl p-6 py-3" 
+                               ? "text-blue-500 bg-white/25 border-white/50 border backdrop-blur-xl blurey shadow-2xl rounded-full text-xl p-6 py-3" 
                                : "text-white/80 rounded-2xl p-4 py-2"
                            }`}
                    >

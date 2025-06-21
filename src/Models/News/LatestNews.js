@@ -34,23 +34,23 @@ export default function Latestnews() {
       </div>
 
       <div className="w-[90%] md:w-[85%] 2xl:w-[60%]  flex  flex-col mt-10 mb-[20px]">
-          <NewsCard  size={"xl"} content={latest[0]} />
+          <NewsCard  size={"xl"} content={latest[0]} isLoading={status!=='loading'} />
       </div>
       <div className="w-[90%] md:w-[85%] 2xl:w-[60%] flex flex-col sm:flex-row gap-[20px]">
           <div className="w-full ">
-            <NewsCard size={"lg"} content={latest[1]} />
+            <NewsCard size={"lg"} content={latest[1]} isLoading={status!=='loading'} />
 
           </div>
           <div className="w-full flex flex-col gap-[20px]">
-            <NewsCard size={"sm"} content={latest[2]} />
-            <NewsCard size={"sm"} content={latest[3]} />
+            <NewsCard size={"sm"} content={latest[2]} isLoading={status!=='loading'} />
+            <NewsCard size={"sm"} content={latest[3]} isLoading={status!=='loading'} />
           </div>
       </div>
 
       <div className="w-[90%] md:w-[85%] 2xl:w-[60%] flex flex-col  sm:flex-row gap-[20px] mt-[20px]">
-        <div className="flex-1"><NewsCard size={"sm"} content={latest[4]}  /></div>
-        <div className="flex-1"><NewsCard size={"sm"} content={latest[5]} dealy={0.2} /></div>
-        <div className="flex-1"><NewsCard size={"sm"} content={latest[6]} dealy={0.4} /></div>
+        <div className="flex-1"><NewsCard size={"sm"} content={latest[4]} isLoading={status!=='loading'}  /></div>
+        <div className="flex-1"><NewsCard size={"sm"} content={latest[5]} isLoading={status!=='loading'} dealy={0.2} /></div>
+        <div className="flex-1"><NewsCard size={"sm"} content={latest[6]} isLoading={status!=='loading'} dealy={0.4} /></div>
       </div>
 
      

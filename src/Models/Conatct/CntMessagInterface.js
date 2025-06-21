@@ -7,6 +7,22 @@ import { setShowLang } from "../../redux(toolKit)/slices/showLang";
 import { faFacebook, faInstagram, faWhatsapp, faYoutube } from "@fortawesome/free-brands-svg-icons";
 import { faMailBulk, faPhone } from "@fortawesome/free-solid-svg-icons";
 import content from "./ConatctData/CntMsgInterfaceData.json";
+import axios from "axios";
+const lansgContent = {
+  messages: {
+    success: {
+      en: "Your message has been sent to us. Our team at Les Écoles La Tour Eiffel will contact you as soon as possible.",
+      fr: "Votre message a été envoyé. Notre équipe des Écoles La Tour Eiffel vous contactera dans les plus brefs délais.",
+      ar: "تم إرسال رسالتك بنجاح. سيتواصل معك فريق مدارس لا تور إيفل في أقرب وقت ممكن.",
+    },
+    error: {
+      en: "Failed to submit the form. Please try again.",
+      fr: "Échec de l'envoi du formulaire. Veuillez réessayer.",
+      ar: "فشل في إرسال النموذج. حاول مرة أخرى من فضلك.",
+    },
+  },
+};
+
 
 export default function CntMessageInterface() {
   const language = useSelector((state) => state.presntion.language);
@@ -16,6 +32,7 @@ export default function CntMessageInterface() {
 
   const [isParent, setIsParent] = useState(true);
   const [formData, setFormData] = useState({
+    isParent: true,
     name: "",
     surname: "",
     email: "",
@@ -63,6 +80,44 @@ const handleChange = (e) => {
   setErrors((prev) => ({ ...prev, [name]: errorMsg }));
 };
 
+
+
+
+const handleSubmit = async (e) => {
+  e.preventDefault();
+
+  // Final validation check
+  const newErrors = {};
+  Object.entries(formData).forEach(([key, value]) => {
+    const error = validateField(key, value);
+    if (error) newErrors[key] = error;
+  });
+
+  setErrors(newErrors);
+
+  if (Object.values(newErrors).some((error) => error)) return;
+
+  try {
+    const response = await axios.post("http://macbook-pro-2.local:8000/api/contact/submit/", formData, {
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
+
+    alert(lansgContent.messages.success[language] );
+    setFormData({
+      isParent: true,
+      name: "",
+      surname: "",
+      email: "",
+      phone: "",
+      message: ""
+    });
+  } catch (error) {
+    console.error("❌ Submission error:", error);
+    alert(lansgContent.messages.error[language] || "An error occurred while submitting the form. Please try again.");
+  }
+};
 
   
 const leftAnimation = (x = 0,d=0) => ({
@@ -238,6 +293,7 @@ const upAnimation = (x = 0,d=0) => ({
 
 
             <button
+              onClick={handleSubmit}
               className={`bg-blue-500 text-white px-4 py-2 rounded-full font-semibold mt-3 hover:bg-blue-600 transition`}
             >
               {langContent.send}

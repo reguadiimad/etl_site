@@ -121,9 +121,9 @@ const handleChangePassword = async (e) => {
 
   return (
     <div className="w-full min-h-full  bg-apple-light/20 rounded-b-3xl flex flex-col items-center rounded-t-[60px] text-apple-dark relative">
-        <img className={`w-full rounded-t-[60px] object-cover ${admin.picture?"h-[400px]":"h-[100px]"} bg-apple-light blur-xl`} src={admin.picture}/>
+        <img className={`w-full rounded-t-[60px] object-cover ${admin.picture?"h-[200px] lg:h-[400px]":"h-[100px]"} bg-apple-light blur-xl`} src={admin.picture}/>
         {admin.picture? 
-        <img className="w-[400px] h-[300px] rounded-[40px] object-cover  -mt-[23%] shadow-2xl z-30" src={admin.picture}/>
+        <img className="w-full h-[300px] rounded-[40px] object-cover  -mt-[23%] shadow-2xl z-30" src={admin.picture}/>
         :<FontAwesomeIcon className="text-9xl z-30  text-apple-dark/70" icon={faUser}/>}     
 
       <div className="w-[90%] mx-auto  rounded-2xl flex flex-col items-center overflow-hidden">

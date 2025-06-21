@@ -7,7 +7,7 @@ import FullNews from "./FullNews";
 import { setShowTopMenu } from "../../redux(toolKit)/slices/showTopMenu";
 import { getTailwindColor } from "../News/MoreNews"; 
 
-export default function NewsCard({size,content,dealy=0}) {
+export default function NewsCard({size,content,dealy=0,isLoading}) {
   const language = useSelector((state) => state.presntion.language);
   const [isFull, setIsFull] = useState(false);
   const dispatch = useDispatch();
@@ -42,7 +42,15 @@ export default function NewsCard({size,content,dealy=0}) {
       "ar": "مثبت"
   }
 
-
+if(!isLoading){
+  return(
+  
+    <motion.div initial={{y:40,opacity:0}} whileInView={{y:0,opacity:10}} transition={{type:"spring",delay:dealy}}  onClick={()=>setIsFull(true)} className={`w-full ${styleSize[size].container} shadow-md bg-apple-light animate-pulse  rounded-3xl  lg:rounded-[40px] fd overflow-hidden cursor-pointer relative ${language=="ar"&&"text-right"}`}>
+     
+    </motion.div>
+   
+  )
+}
   
    return (
     <>

@@ -40,7 +40,9 @@ function App() {
 
   
  
-  
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth'});
+   }, [pageIndex]);
   return (
     <div  className={`overflow-hidden  ${language==='ar'?'arabic text-sm md:text-base lg:text-sm xl:text-xl 3xl:text-3xl':'text-xs md:text-sm lg:text-sm xl:text-lg 3xl:text-2xl'}`}>
       <Router>

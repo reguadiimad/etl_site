@@ -99,9 +99,9 @@ const SerrvicesShorts = ({ selectedService, onSelect, theY }) => {
                 key={index}
                 layout
                 transition={{ type: "ease", duration: 0.14 }}
-                className={`cursor-pointer flex w-full items-center h-[20%] gap-x-2 ${
+                className={`cursor-pointer flex w-full items-center h-[20%] gap-x-2  ${
                   selectedService === index
-                    ? `shadow-2xl  blurey bg-white/90 w-[110%] -ml-[10%] backdrop-blur-lg lg:text-lg 2xl:${textXl} gap-x-4 rounded-r-none rounded-3xl text-blue-500 p-10`
+                    ? `shadow-2xl  blurey bg-white/90 w-[130%] -ml-[10%] backdrop-blur-lg lg:text-lg 2xl:${textXl} gap-x-4  rounded-3xl text-blue-500 p-10`
                     : "mx-10"
                 }`}
               >

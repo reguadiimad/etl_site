@@ -67,7 +67,7 @@ function estimateReadingTime(text, wordsPerMinute = 200, language) {
     <motion.div initial={{opacity:0}} animate={{opacity:1}} exit={{opacity:0}} onClick={onClose} transition={{ease:"circInOut"}} className="w-screen h-screen bg-white/25 backdrop-blur-xl blurey fixed top-0 left-0 flex flex-col justify-end items-center z-50">
       
         <motion.div onClick={(e) => e.stopPropagation()} initial={{y:'90%',scale:0.5}}  animate={{y:0,scale:1}} exit={{y:'100%'}} transition={{type:"spring",bounce:0.14}} className="w-[95%] 2xl:w-[50%] sss h-[89%] lg:h-[94%] bg-white/95 rounded-t-3xl relative overflow-y-scroll p-[20px] pb-0 z-50">  
-            <div onClick={()=>onClose()}  className="top-0 sticky bg-[#EDEDF0] text-[#6E6E73] w-8 h-8 flex items-center justify-center   z-50 backdrop-blur-3xl rounded-full  cursor-pointer ease-in-out duration-500   hover:scale-105 hover:text-black/70  focus:scale-90">
+            <div onClick={()=>onClose()}  className="top-1  sticky ml-[92%] bg-[#EDEDF0] text-[#6E6E73] w-8 h-8 flex items-center justify-center   z-50 backdrop-blur-3xl rounded-full  cursor-pointer ease-in-out duration-500   hover:scale-105 hover:text-black/70  focus:scale-90">
                 <FontAwesomeIcon icon={faClose}/>
             </div> 
   

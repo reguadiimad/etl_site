@@ -396,7 +396,7 @@ export default function MoreNews({dash=false,onModify,refresh}) {
                   {content.news_date[language]}
                 </p>
               </div>
-              {dash && <p onClick={()=>onModify(content)} className="underline pr-2">Modifier</p>}
+              {dash && <p onClick={()=>{onModify(content);setIsFull(false)}} className="underline pr-2">Modifier</p>}
             </motion.div>
           </AnimatePresence>
           <div className="w-[95%] mx-auto h-[1.5px] my-2 bg-apple-light overflow-y-scroll"></div>

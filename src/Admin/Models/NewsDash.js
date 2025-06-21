@@ -167,8 +167,8 @@ const handleDelete = async () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
     >
-      <div className="w-[90%] bg-white/90 rounded-[70px] flex items-center justify-between mb-6 pr-4">
-        <div className="p-4 rounded-[70px] flex items-center justify-center gap-2 font-bold">
+      <div className="w-full lg:w-[90%] bg-white/90 rounded-[70px] flex items-center justify-between mb-3 lg:mb-6 pr-2 lg:pr-4">
+        <div className="lg:p-4 p-2 rounded-[70px] flex items-center justify-center gap-2 font-bold">
           <img
             className="w-14 bg-apple-light p-2 rounded-[40px]"
             src={`${process.env.PUBLIC_URL}/images/mgcNews.png`}
@@ -187,16 +187,16 @@ const handleDelete = async () => {
       </div>
 
       <motion.div
-        className="p-[40px] rounded-[70px] bg-white/90 w-[90%]"
+        className="lg:p-[40px] p-[10px] rounded-[40px] lg:rounded-[70px] bg-white/90 w-full lg:w-[90%]"
         initial={{ y: 100, opacity: 0, scale: 0.8 }}
         animate={{ y: 0, opacity: 1, scale: 1 }}
         exit={{ y: 100, opacity: 0, scale: 0.8 }}
       >
-        <div className="flex items-center gap-4">
+        <div className="flex flex-col lg:flex-row items-center gap-4">
           <div className="w-full items-center justify-center">
-            <div className="w-full flex items-stretch gap-6 h-auto">
-              <div className="w-[40%] h-full">
-                <div className="w-full rounded-[30px] h-[460px] bg-apple-light mb-6 flex items-center justify-center overflow-hidden">
+            <div className="w-full flex flex-col lg:flex-row  items-stretch gap-6 h-auto">
+              <div className="lg:w-[40%] w-full lg:h-full">
+                <div className="w-full rounded-[30px] h-[200px] lg:h-[460px] bg-apple-light mb-6 flex items-center justify-center overflow-hidden">
                   {form.img_url ? (
                     <img
                       className="max-h-full w-full h-full object-cover"
@@ -217,11 +217,11 @@ const handleDelete = async () => {
                 />
               </div>
 
-              <div className="w-[60%] flex flex-col items-stretch flex-grow gap-6">
+              <div className="lg:w-[60%] w-full flex flex-col items-stretch flex-grow gap-6">
                 <h1 className="text-xl font-bold text-apple-dark">
                   Identifier l'annonce
                 </h1>
-                <div className="w-full flex items-center justify-center gap-6">
+                <div className="w-full flex flex-col lg:flex-row items-center justify-center gap-6">
                   <TheSelect
                     name="Genre de l'annonce"
                     data={genres}
@@ -264,13 +264,19 @@ const handleDelete = async () => {
           </div>
         </div>
       </motion.div>
+
+
+
+
+
+
       <AnimatePresence>
         {/* Assuming this outer div also animates in. If not, remove AnimatePresence here or adjust */}
-      <div className={`flex  items-center justify-between ${modifiedNews&&"w-[90%]"}`}>
+      <div className={`flex flex-col-reverse lg:flex-row  items-center justify-between ${modifiedNews&&"w-[90%]"}`}>
         {
           modifiedNews && (
               <motion.div
-          className={`bg-white/90 rounded-[70px] flex items-center justify-between mt-6 p-4 gap-4`}
+          className={`bg-white/90 rounded-[70px] flex items-center justify-between mt-6 p-2 lg:p-4 gap-4`}
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: 20 }}
@@ -279,7 +285,7 @@ const handleDelete = async () => {
          
           <AnimatePresence>
 
-         <div onClick={handleDelete} className="flex items-center p-4 text-apple-dark bg-apple-light rounded-full cursor-pointer gap-2">
+         <div onClick={handleDelete} className="flex items-center p-2 lg:p-4 text-apple-dark bg-apple-light rounded-full cursor-pointer gap-2">
           <FontAwesomeIcon icon={faTrash}/>
           <p className=" font-bold">Supprimer l'annonce</p>
          </div>

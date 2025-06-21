@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 
 
-import { useSelector } from 'react-redux'
+import { useSelector,useDispatch } from 'react-redux'
 import './resources/style/home.scss'
 
 import { useEffect } from 'react';
@@ -14,13 +14,19 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEllipsis } from '@fortawesome/free-solid-svg-icons';
 import {AnimatePresence, motion} from "framer-motion";
 import AdminHome from './Admin/Components/AdminHome';
+import { fetchNews } from './redux(toolKit)/slices/newsSlice';
+
 
 
 
 
 
 function AppAdmin() {
-  const { language } = useSelector((state) => state.presntion);    
+  const { language } = useSelector((state) => state.presntion);
+  const dispatch = useDispatch();
+    useEffect(() => {
+      dispatch(fetchNews);
+    }, [dispatch]);    
   return (
     <div  className={`overflow-hidden   min-h-screen lg:h-auto relative mb-0 pb-0 ${language==='ar'?'arabic text-sm md:text-base lg:text-sm xl:text-xl 3xl:text-3xl':'text-xs md:text-sm lg:text-sm xl:text-lg 3xl:text-2xl'}`}>
       <Header/>

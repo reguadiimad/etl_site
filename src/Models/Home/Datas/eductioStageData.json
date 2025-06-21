@@ -20,7 +20,12 @@
       "fr": "Cette vision met en avant une approche unique et inspirante pour l'épanouissement des élèves.",
       "en": "This vision highlights a unique and inspiring approach for the development of students."
     },
-    
+    "new":{
+      "ar": "جديد",
+      "fr": "Nouveau",
+      "en": "New"
+    }
+    ,
       "stages": [
         {
           "name": {
