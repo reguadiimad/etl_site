@@ -91,8 +91,8 @@ const SerrvicesShorts = ({ selectedService, onSelect, theY }) => {
       </motion.h1>
 
       <div className="hidden w-full lg:flex  2xl:py-20 ">
-        <div className="xl:w-[55%] lg:w-[60%] lg:h-[550px] 2xl:h-[650px] flex items-center justify-center p-4 z-10">
-          <div className="w-[32%] bg-white/40 blurey backdrop-blur-3xl h-[80%] border-2 border-white/80 border-r-0 rounded-[50px] rounded-r-none text-neutral-900/60 flex flex-col py-10">
+        <div className="xl:w-[55%] lg:w-[60%] lg:h-[550px] 2xl:h-[650px] flex  items-center justify-center p-4 z-10">
+          <div className="w-[32%] bg-white/40  blurey backdrop-blur-3xl h-[80%] border-2 border-white/80 border-r-0 rounded-[50px] rounded-r-none text-neutral-900/60 flex flex-col py-10">
             {services.map((service, index) => (
               <motion.div
                 onClick={() => onSelect(index)}
